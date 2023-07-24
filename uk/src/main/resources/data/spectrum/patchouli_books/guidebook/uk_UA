@@ -1,25 +1,17 @@
 {
-  "name": "Tech Reborn",
-  "icon": "techreborn:grinder",
-  "flag": "mod:techreborn",
+  "name": "Terralith",
+  "icon": "minecraft:grass_block",
+  "flag": "mod:terralith",
   "advancement": "spectrum:place_pedestal",
   "category": "spectrum:mod_integration_category",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "There is this new thing, called $(italic)Electricity$(), you should check that out.$(br2)The factory must grow."
+      "text": "So your lands have especially intriguing terrain, congrats!$(br)Sadly, with the way Terralith modifies terrain and replaces biomes, it makes some of Spectrum's worldgen near-impossible to generate. The terrain does not have the required layout anymore."
     },
     {
-      "type": "patchouli:spotlight",
-      "item": "spectrum:amethyst_ore",
-      "advancement": "spectrum:break_gemstone_ore",
-      "text": "Most of Spectrums Ores can be processed in the Grinder / Industrial Grinder to extract resources."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:amethyst_shard",
-      "advancement": "spectrum:spectrum",
-      "text": "Of course you can also grind down Shards, too!"
+      "type": "patchouli:text",
+      "text": "Rest assured, you will not be locked out of anything. If your book calls for you to look out for $(thing)Swamps$(), just look for $(thing)Mangrove Swamps$() only. There is also another way to get that resource, once you require it."
     }
   ]
 }
