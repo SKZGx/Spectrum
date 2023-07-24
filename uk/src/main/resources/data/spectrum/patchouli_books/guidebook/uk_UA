@@ -1,32 +1,35 @@
 {
-  "name": "Intro",
-  "icon": "spectrum:pedestal_basic_amethyst",
+  "name": "The Perfect Compound?",
+  "icon": "spectrum:midnight_aberration",
+  "sortnum": 13,
+  "advancement": "spectrum:midgame/collect_neolith",
   "category": "spectrum:general_category",
-  "sortnum": 0,
+  "turnin": "spectrum:midgame/create_midnight_aberration",
+  "extra_recipe_mappings": {
+    "spectrum:midnight_aberration": 0
+  },
   "pages": [
     {
-      "type": "patchouli:image",
-      "title": "Welcome to Spectrum!",
-      "images": [
-        "spectrum:textures/gui/guidebook/spectrum.png"
-      ],
-      "border": true,
-      "text": "Spectrum is a progression- and exploration-driven magic mod where you combine colors."
+      "type": "patchouli:text",
+      "text": "Your latest findings of your $(l:creating_life/failing)last experiment$() make you strive for more and more: to squeeze every last ounce of energy out of your Gemstones.$(br2)$(l:creating_life/failing#neolith)Neolith$() is the key! With such strength and power, it will combine the powers of all the gemstones into one. This relic will be the capstone to your creation, alone for you and ONLY for you, master of Pigment!"
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "Fusion Recipe",
+      "recipe": "spectrum:fusion_shrine/midnight_aberration",
+      "text": "The fusion of these magical energies will try your Shrine like nothing before - with a display to match. Best to make sure your shrine and the blocks around it are fortified.$(br)Requires daytime and a clear sky."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "spectrum:midnight_aberration",
+      "advancement": "spectrum:midgame/create_midnight_aberration",
+      "title": "Midnight Aberration",
+      "text": "$(italic)This abomination of a Gemstone radiates an eerie aura.$()$(br2)It looks loosely connected at best. No wonder it falls apart in your hands in no time. Total failure."
     },
     {
       "type": "patchouli:text",
-      "text": "Its color mixing of the subtractive color system (CMYK). Subtractive color mixing may be familiar to you from painting with watercolors or printing.$(br2)Spectrum's main colors are represented by gemstones, found in geodes scattered around the world, with the vanilla Amethyst representing the Magenta part of the spectrum."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Progression System",
-      "text": "Spectrum comes with a complex progression system where you unlock new things as you progress.$(br)As you delve deeper, you will notice changes in the world. Differences only you can perceive.$(br2)Everything you learn will bring you closer to your final destination: Finding out what is waiting for you beneath the impenetrable bedrock floor."
-    },
-    {
-      "type": "patchouli:link",
-      "text": "No idea on how to progress? Take a look at this book or your advancements. These give a lot of hints on what to do next. Press the bottom center arrow to get started!$(br2)Spectrum is still in development. If you find a bug or have a suggestion, visit Spectrum's Discord or report them on GitHub.$(br)Have fun!        - DaFuqs",
-      "url": "https://discord.com/invite/EXU9XFXT8a",
-      "link_text": "Spectrum's Discord"
+      "advancement": "spectrum:midgame/create_midnight_aberration",
+      "text": "While the chaos that ensued $(italic)definitely$() was not the outcome you craved for, the result still does hold immense power.$(br)So much in fact, that if not used quick it crumbles into dust.$(br2)And then there is that aggressive blackish fluid that manifested in the process. Because of its color you named it $(l:magical_blocks/midnight_solution)Midnight Solution$(/l)."
     }
   ]
 }
