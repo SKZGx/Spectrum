@@ -1,24 +1,22 @@
 {
-  "name": "Jade Petal Blocks",
-  "advancement": "spectrum:hidden/collect_jade_vine_petals",
-  "icon": "spectrum:jade_vine_petal_block",
+  "name": "Particle Spawner",
+  "advancement": "spectrum:unlocks/blocks/particle_spawner",
+  "icon": "spectrum:particle_spawner",
   "category": "spectrum:decoration_category",
   "extra_recipe_mappings": {
-    "spectrum:jade_vine_petal_block": 0,
-    "spectrum:jade_vine_petal_carpet": 0
+    "spectrum:particle_spawner": 0,
+    "spectrum:creative_particle_spawner": 0
   },
   "pages": [
     {
-      "type": "patchouli:crafting",
-      "title": "Jade Petal Blocks",
-      "recipe": "spectrum:crafting_table/jade_vines/jade_vine_petal_block",
-      "text": "From the petals harvested from $(l:resources/jade_vines)Jade Vines$(/l) you created a small range of decoration blocks."
+      "type": "patchouli:text",
+      "text": "The $(l:resources/stargazing)Shooting Star$() you picked up left a fantastic shower of particles on their way to the ground. You created the Particle Spawner to replicate this spectacle - and lots of others - yourself.$()$(br2)A chimney? Rocket launching particles? Atmospheric particle rain for your Pedestal? The Particle Spawner got you covered."
     },
     {
-      "type": "patchouli:crafting",
-      "title": "Carpet",
-      "recipe": "spectrum:crafting_table/jade_vines/jade_vine_petal_carpet",
-      "text": ""
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "recipe": "spectrum:pedestal/tier2/particle_spawner",
+      "text": "Use the GUI to configure the particles to your liking. Apply a $(thing)redstone signal$() to start the fantastic display. You will unlock more particles as you progress."
     }
   ]
 }
