@@ -1,18 +1,19 @@
 {
-  "name": "Scarred",
-  "advancement": "spectrum:hidden/status_effects/scarred",
-  "icon": "minecraft:fire_charge",
+  "name": "Swiftness / Stiffness",
+  "advancement": "spectrum:hidden/status_effects/swiftness_stiffness",
+  "icon": "minecraft:iron_sword",
   "category": "spectrum:brewing_category",
   "extra_recipe_mappings": {},
   "pages": [
     {
       "type": "spectrum:status_effect",
-      "status_effect_id": "spectrum:scarred",
-      "text": "$(italic)If you are wounded, it only makes you more vulnerable. A vicious cycle.$()$(br2)Prevents you from regenerating health by natural means and prevents you from sprinting."
+      "status_effect_id": "spectrum:swiftness",
+      "text": "$(thing)Increases your attack speed$() with every level.$(br)Allows you to repeatedly attack at lightning speed without giving your opponents a chance to attack you."
     },
     {
-      "type": "patchouli:text",
-      "text": ""
+      "type": "spectrum:status_effect",
+      "status_effect_id": "spectrum:stiffness",
+      "text": "$(thing)Decreases your attack speed$() with every level instead."
     }
   ]
 }
