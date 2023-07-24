@@ -1,21 +1,29 @@
 {
-  "name": "Guardian Turrets",
-  "icon": "spectrum:guardian_turret_head",
-  "advancement": "spectrum:hidden/entity_interact/guardian_turret",
-  "category": "spectrum:creating_life_category",
+  "name": "Hummingstone",
+  "advancement": "spectrum:hidden/collect_hummingstone",
+  "icon": "spectrum:hummingstone",
+  "category": "spectrum:dimension_category",
   "extra_recipe_mappings": {
-    "spectrum:guardian_turret_head": 0
+    "spectrum:hummingstone": 0,
+    "spectrum:hummingstone_glass": 0,
+    "spectrum:resonance_shard": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Guardian Turrets",
-      "text": "High-tech machines, crafted from a reinforced shell of basalt and calcite, powered by an unknown energy source that gently pulsates in the center of these contraptions.$(br)Ready to poke holes in you at any time if you make your presence known."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:hummingstone_glass",
+      "text": "This very sturdy, very blast resistant glass is scattered all around the $(l:dimension/crystal_gardens)Crystal Gardens$(/l)."
     },
     {
-      "type": "patchouli:entity",
-      "entity": "spectrum:guardian_turret",
-      "text": "$(italic)True engineering excellence. But boy does it hurt."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:hummingstone",
+      "text": "Between this glass you find these pretty stones that emit a pleasant hum when triggered. You fittingly called those $(italic)Hummingstones$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "spectrum:lategame/strike_up_hummingstone_hymn",
+      "item": "spectrum:resonance_shard",
+      "text": "It turns out that the pretty sounds of the Hummingstones can build each other up until they shatter in one final anthem.$(br)The shattered remains never seem to stop vibrating, as if they retain some form of inherent energy."
     }
   ]
 }
