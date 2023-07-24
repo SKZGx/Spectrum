@@ -1,55 +1,38 @@
 {
-  "name": "Gemstone Blocks",
-  "advancement": "spectrum:spectrum",
-  "icon": "spectrum:citrine_storage_block",
+  "name": "Glowblocks",
+  "advancement": "spectrum:unlocks/glowblocks/any_glowblock",
+  "icon": "spectrum:orange_glowblock",
   "category": "spectrum:decoration_category",
   "extra_recipe_mappings": {
-    "spectrum:topaz_storage_block": 0,
-    "spectrum:amethyst_storage_block": 0,
-    "spectrum:citrine_storage_block": 0,
-    "spectrum:onyx_storage_block": 0,
-    "spectrum:moonstone_storage_block": 0
+    "spectrum:black_glowblock": 0,
+    "spectrum:blue_glowblock": 0,
+    "spectrum:brown_glowblock": 0,
+    "spectrum:cyan_glowblock": 0,
+    "spectrum:gray_glowblock": 0,
+    "spectrum:green_glowblock": 0,
+    "spectrum:light_blue_glowblock": 0,
+    "spectrum:light_gray_glowblock": 0,
+    "spectrum:lime_glowblock": 0,
+    "spectrum:magenta_glowblock": 0,
+    "spectrum:orange_glowblock": 0,
+    "spectrum:pink_glowblock": 0,
+    "spectrum:purple_glowblock": 0,
+    "spectrum:red_glowblock": 0,
+    "spectrum:white_glowblock": 0,
+    "spectrum:yellow_glowblock": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Gemstone Blocks",
-      "text": "The gems have an exceptionally beautiful appearance.$(br)The look of the raw gems, as you know them from the geodes, seems a little too natural for your edgier buildings. With enough resources, however, this should not be a problem.$(br2)And if you run out of gems at some point, the decoration can easily be broken up again.$()"
+      "type": "patchouli:spotlight",
+      "item": "spectrum:orange_glowblock",
+      "title": "Glowblocks",
+      "text": "You have color as pure as can be. So why not create blocks with color as pure as can be!$(br2)You thought about calling them $(thing)Antiblocks$(), but since they are indeed blocks that would be silly, right?"
     },
     {
-      "type": "patchouli:crafting",
-      "title": "Polished Topaz",
-      "advancement": "spectrum:hidden/collect_shards/collect_topaz_shard",
-      "recipe": "spectrum:crafting_table/storage_blocks/topaz_storage_block",
-      "recipe2": "spectrum:crafting_table/storage_blocks/topaz_shards_from_topaz_storage_block"
-    },
-    {
-      "type": "patchouli:crafting",
-      "title": "Polished Amethyst",
-      "advancement": "spectrum:hidden/collect_shards/collect_amethyst_shard",
-      "recipe": "spectrum:crafting_table/storage_blocks/amethyst_storage_block",
-      "recipe2": "spectrum:crafting_table/storage_blocks/amethyst_shards_from_amethyst_storage_block"
-    },
-    {
-      "type": "patchouli:crafting",
-      "title": "Polished Citrine",
-      "advancement": "spectrum:hidden/collect_shards/collect_citrine_shard",
-      "recipe": "spectrum:crafting_table/storage_blocks/citrine_storage_block",
-      "recipe2": "spectrum:crafting_table/storage_blocks/citrine_shards_from_citrine_storage_block"
-    },
-    {
-      "type": "patchouli:crafting",
-      "title": "Polished Onyx",
-      "advancement": "spectrum:create_onyx_shard",
-      "recipe": "spectrum:crafting_table/storage_blocks/onyx_storage_block",
-      "recipe2": "spectrum:crafting_table/storage_blocks/onyx_shards_from_onyx_storage_block"
-    },
-    {
-      "type": "patchouli:crafting",
-      "title": "Polished Moonstone",
-      "advancement": "spectrum:lategame/collect_moonstone_shard",
-      "recipe": "spectrum:crafting_table/storage_blocks/moonstone_storage_block",
-      "recipe2": "spectrum:crafting_table/storage_blocks/moonstone_shards_from_moonstone_storage_block"
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "recipe": "spectrum:pedestal/tier3/glowblocks/orange_glowblock",
+      "text": "Glowblocks come in all colors and always look the same, no matter how much light falls on their surface."
     }
   ]
 }
