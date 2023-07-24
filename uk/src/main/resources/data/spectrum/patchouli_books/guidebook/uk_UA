@@ -1,23 +1,23 @@
 {
-  "name": "A new Resource",
+  "name": "Experiment #1",
   "category": "spectrum:hints_category",
   "icon": "minecraft:writable_book",
-  "advancement": "spectrum:midgame/build_enchanting_structure",
+  "advancement": "spectrum:craft_bottle_of_fading",
   "read_by_default": true,
-  "turnin": "spectrum:collect_four_leaf_clover",
+  "turnin": "spectrum:collect_vegetal",
   "pages": [
     {
       "type": "spectrum:hint",
-      "title": "Where to look",
-      "completion_advancement": "spectrum:collect_four_leaf_clover",
-      "cost": "spectrum:vegetal#16",
-      "text": "Search for a Plains biome. Maybe you get lucky!"
+      "title": "Small Clue",
+      "completion_advancement": "spectrum:collect_vegetal",
+      "cost": "spectrum:shimmerstone_gem#16",
+      "text": "Fading, as a small and weak organism, feeds on organic blocks placed next to it."
     },
     {
       "type": "spectrum:hint",
       "title": "Concise Instructions",
-      "cost": "spectrum:vegetal#48",
-      "text": "In Plains biomes, you will find Clover growing in small patches, most of them with three, but some with four leaves. You can immediately notice a Four-Leaved Clover in its block form already and distinguish it from a three-leaved one. Break to harvest, Bonemeal/Nature's Staff to spread."
+      "cost": "spectrum:shimmerstone_gem#48",
+      "text": "Place organic blocks like Leaves, Pumpkins or Melons next to a Block of Fading and wait a while. The block will get consumed and replaced with a different looking variant. Break those converted blocks to get a new resource."
     }
   ]
 }
