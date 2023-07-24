@@ -1,21 +1,21 @@
 {
-  "name": "Reprise",
-  "advancement": "spectrum:unlocks/food/reprise",
-  "icon": "spectrum:reprise",
+  "name": "Restoration Tea",
+  "advancement": "spectrum:unlocks/food/restoration_tea",
+  "icon": "spectrum:restoration_tea",
   "category": "spectrum:cuisine_category",
   "extra_recipe_mappings": {
-    "spectrum:reprise": 0
+    "spectrum:restoration_tea": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This beverage, brewed from $(item)Chorus Fruit$(), takes over - and amplifies - not only the special taste, but also the unique property of the plant.$(br2)When ingested, this drink randomly teleports you over great distances. The higher the alcohol content, the further."
+      "text": "Is there anything cozier than sitting by your homemade fireplace on a rainy evening, sipping a cup of tea?$(br)Surely: killing a boss beforehand.$(br2)This tea, brewed from the petals of $(l:resources/jade_vines)Jade Vines$(/l) is both good for relaxing and protecting you from the deadly effect of the Wither. $(italic)Convenient$()."
     },
     {
-      "type": "spectrum:titration_barrel_fermenting",
-      "title": "Titration Recipe",
-      "recipe": "spectrum:titration_barrel/reprise",
-      "text": "$(italic)Tastes like raspberry, but there are none in it at all. Strange."
+      "type": "spectrum:potion_workshop_crafting",
+      "title": "Workshop Recipe",
+      "recipe": "spectrum:potion_workshop_crafting/restoration_tea",
+      "text": "$(italic)Don't even think about drinking that with $(item)Milk$()!"
     }
   ]
 }
