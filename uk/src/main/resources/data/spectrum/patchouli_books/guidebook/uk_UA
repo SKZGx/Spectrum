@@ -1,26 +1,23 @@
 {
-  "name": "Decostones",
-  "icon": "spectrum:amethyst_decostone",
-  "advancement": "spectrum:unlocks/decostones/any_decostone",
+  "name": "Ethereal Platform",
+  "advancement": "spectrum:unlocks/blocks/ethereal_platform",
+  "icon": "spectrum:ethereal_platform",
   "category": "spectrum:decoration_category",
   "extra_recipe_mappings": {
-    "spectrum:topaz_decostone": 0,
-    "spectrum:amethyst_decostone": 0,
-    "spectrum:citrine_decostone": 0,
-    "spectrum:onyx_decostone": 0,
-    "spectrum:moonstone_decostone": 0
+    "spectrum:ethereal_platform": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Decostones",
-      "text": "These two-block high decorative stones are a representation of your precious find.$(br2)They make quite an imposing impression."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:ethereal_platform",
+      "title": "Ethereal Platform",
+      "text": "In your search for a block that is passable for you but doesn't destroy the look of your buildings, $(l:resources/stargazing)Shooting Stars$() were a great help.$(br2)With the intensifying power of $(l:general/onyx_shards)Onyx$(), you were able to strengthen the particles to such an extent that they became solid."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/decostones/topaz_decostone",
-      "text": "Decostones come in all gemstone colors available to you."
+      "recipe": "spectrum:pedestal/tier3/ethereal_platform",
+      "text": "Another practical feature of Ethereal Platforms is that the platform reacts only to living creatures. Objects, such as items, simply pass through it."
     }
   ]
 }
