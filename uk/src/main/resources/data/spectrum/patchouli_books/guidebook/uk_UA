@@ -1,20 +1,21 @@
 {
-  "name": "Brewers Handbook",
-  "icon": "spectrum:brewers_handbook",
-  "advancement": "spectrum:hidden/collect_cookbooks/brewers_handbook",
+  "name": "Freigeist",
+  "icon": "spectrum:freigeist",
+  "advancement": "spectrum:unlocks/food/freigeist",
   "category": "spectrum:cuisine_category",
   "extra_recipe_mappings": {
-    "spectrum:brewers_handbook": 0
+    "spectrum:freigeist": 0,
+    "spectrum:divination_heart": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "TODO"
+      "text": "As the first drop touched your lips, it already filled your body with immense might. Just the memory of it makes your hand $(italic)tremble$() of tension. That's no good.$(br)And yet you have never felt more powerful and alive than you did at this very moment.$(br)However, is it really worth emptying that vial? Should you die against all odds, the price will be immense."
     },
     {
       "type": "spectrum:titration_barrel_fermenting",
-      "recipe": "spectrum:titration_barrel/bristle_mead",
-      "text": ""
+      "recipe": "spectrum:titration_barrel/freigeist",
+      "text": "$(br)$(italic)Caress the one,$(br) the never-fading$(br)Rain in your heart,$(br) the tears of$(br) snow-white sorrow$(br)Caress the one,$(br) the hiding amaranth$(br)In a land of the daybreak"
     }
   ]
 }
