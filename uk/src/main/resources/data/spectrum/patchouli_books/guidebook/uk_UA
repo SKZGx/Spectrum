@@ -1,6 +1,6 @@
 {
-  "name": "Equipment",
-  "description": "Tools, Armor and Trinkets.$(br)Everything you can wield or equip to do fun stuff or increase your abilities.",
-  "icon": "spectrum:multitool",
-  "sortnum": 4
+  "name": "Your Journey",
+  "description": "A short overview of how to get started with Spectrum and your journey through the mod.",
+  "icon": "spectrum:pedestal_basic_amethyst",
+  "sortnum": 0
 }
