@@ -1,21 +1,21 @@
 {
-  "name": "Ink Flask",
-  "advancement": "spectrum:unlocks/blocks/ink_flask",
-  "icon": "spectrum:ink_flask",
+  "name": "Pigment Palette",
+  "advancement": "spectrum:unlocks/trinkets/pigment_palette",
+  "icon": "spectrum:pigment_palette",
   "category": "spectrum:magic_category",
   "extra_recipe_mappings": {
-    "spectrum:ink_flask": 0
+    "spectrum:pigment_palette": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The Ink Flask is able to hold a sizable amount of $(l:magic/ink)Ink$() of a single color."
+      "text": "Carrying around enough $(l:magic/ink)Ink$() with you to maintain your magical equipment has become both a chore and a space hog in your inventory.$(br)Now that you're familiar with $(l:magic/ink)Ink$(), it's time for a new creation: the Pigment Palette."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier2/ink_flask",
-      "text": "Fill it in the $(l:magic/color_picker)Color Picker$()."
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "Fusion Recipe",
+      "recipe": "spectrum:fusion_shrine/trinkets/pigment_palette",
+      "text": "Capable of storing sizable amounts of $(l:magic/ink)Ink$(), making you able to supply all your magical devices and equipment.$(br)$(italic)Now you are a true Artist of Color."
     }
   ]
 }
