@@ -1,33 +1,35 @@
 {
-  "name": "Item Crushing",
-  "icon": "minecraft:anvil",
-  "sortnum": 4,
-  "advancement": "spectrum:place_pedestal",
+  "name": "Color Mixing",
+  "icon": "minecraft:light_blue_dye",
+  "sortnum": 6,
+  "advancement": "spectrum:collect_vegetal",
   "category": "spectrum:general_category",
-  "turnin": "spectrum:collect_gemstone_powder",
+  "turnin": "spectrum:craft_colored_sapling",
   "pages": [
     {
       "type": "patchouli:image",
-      "title": "Item Crushing",
+      "title": "Color Mixing",
       "images": [
-        "spectrum:textures/gui/guidebook/anvil_crushing.png"
+        "spectrum:textures/gui/guidebook/color_mixing.png"
       ],
-      "border": true,
-      "text": "$(italic)\"To create something new$(br)you have to go the way of destruction\"      - someone"
+      "text": "By using the basic colours $(c_cyan)Cyan$(), $(c_magenta)Magenta$() and $(c_yellow)Yellow$() (almost) any colour can be created."
     },
     {
       "type": "patchouli:text",
-      "text": "Until now you primarily used your anvil to repair and upgrade your tools. Such a heavy object as an anvil can be of much more use, though! Why not use it to crush things into dust by sheer force? Like the skulls of your enemies... or items. Yeah, that's probably better.$(br2)You can use Item Crushing to crush $(l:general/shards)Gemstone Shards$() into $(l:general/gemstone_powder)powder$().$(br2)$(italic)Tip: The further the anvil falls, the better."
+      "text": "Your attempts to mix $(l:general/gemstone_powder)Gemstone Powder$(/l) directly have not been very successful. But now you have another idea:$(br)The closeness of your gemstones to nature suggests that $(italic)nature$() must be both the source and the answer!$(br2)You quickly scribble some notes, result being $(l:general/coloured_trees)a recipe$(), which looks very promising."
     },
     {
-      "type": "spectrum:anvil_crushing",
-      "recipe": "spectrum:anvil_crushing/vanilla_pulverising/gravel_from_cobblestone_anvil_crushing",
-      "text": "Dropping an $(item)Anvil$() on some items cracks them, or turns them into different ones altogether."
+      "type": "patchouli:text",
+      "advancement": "spectrum:collect_all_basic_pigments_besides_brown",
+      "title": "Brown Pigment?",
+      "text": "You have tried and tried, to no avail. You could not find a way to create $(c_brown)brown$() by mixing your gem powder. The closest you came was a washed-out orange - ugh.$(br)It can't be that hard. Like... $(c_brown)Dirt is brown$() and it's the most common stuff around.$(br2)There must be a way... $(br)and you're pretty sure $(c_black)Black$() is the answer."
     },
     {
-      "type": "spectrum:anvil_crushing",
-      "recipe": "spectrum:anvil_crushing/dye/blue_dye_from_cornflower",
-      "text": "You are also able to crush $(item)flowers$() into $(item)dye$(), $(item)Horse Armor$() into $(item)ingots$(), or increase your yield of $(item)Blaze Powder$()this way."
+      "type": "patchouli:link",
+      "advancement": "spectrum:collect_all_basic_pigments_besides_brown",
+      "text": "$(br2)$(br2)$(br2)$(br)$(italic)Seriously, look it up! The way we perceive brown is fascinating!$()",
+      "url": "https://www.youtube.com/watch?v=wh4aWZRtTwU",
+      "link_text": "Brown is weird"
     }
   ]
 }
