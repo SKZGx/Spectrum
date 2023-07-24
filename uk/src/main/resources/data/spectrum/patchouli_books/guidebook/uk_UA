@@ -1,23 +1,26 @@
 {
-  "name": "Ethereal Platform",
-  "advancement": "spectrum:unlocks/blocks/ethereal_platform",
-  "icon": "spectrum:ethereal_platform",
+  "name": "Gemstone Chimes",
+  "icon": "spectrum:amethyst_chime",
+  "advancement": "spectrum:unlocks/gemstone_chimes/any_chime",
   "category": "spectrum:decoration_category",
   "extra_recipe_mappings": {
-    "spectrum:ethereal_platform": 0
+    "spectrum:topaz_chime": 0,
+    "spectrum:amethyst_chime": 0,
+    "spectrum:citrine_chime": 0,
+    "spectrum:onyx_chime": 0,
+    "spectrum:moonstone_chime": 0
   },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "item": "spectrum:ethereal_platform",
-      "title": "Ethereal Platform",
-      "text": "In your search for a block that is passable for you but doesn't destroy the look of your buildings, $(l:resources/stargazing)Shooting Stars$() were a great help.$(br2)With the intensifying power of $(l:general/onyx_shards)Onyx$(), you were able to strengthen the particles to such an extent that they became solid."
+      "type": "patchouli:text",
+      "title": "Gemstone Chimes",
+      "text": "Having dealt with the gems long enough, you now find yourself able to shape these fragile resources in the finest of ways.$(br2)Slowly swaying in the wind, the chimes sounds remind you of the beginning of your journey - the first time you set foot in a geode."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/ethereal_platform",
-      "text": "Another practical feature of Ethereal Platforms is that the platform reacts only to living creatures. Objects, such as items, simply pass through it."
+      "recipe": "spectrum:pedestal/tier3/gemstone_chimes/topaz_chime",
+      "text": "Each chime emits the soothing sound of its corresponding gemstone."
     }
   ]
 }
