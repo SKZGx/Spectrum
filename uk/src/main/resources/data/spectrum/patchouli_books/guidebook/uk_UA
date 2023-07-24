@@ -1,21 +1,22 @@
 {
-  "name": "Molten Rod",
-  "advancement": "spectrum:unlocks/equipment/molten_rod",
-  "icon": "spectrum:molten_rod",
+  "name": "Multitool",
+  "advancement": "spectrum:build_basic_pedestal_structure",
+  "icon": "spectrum:multitool",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:molten_rod": 0
+    "spectrum:multitool": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "Orange, representing warmth, can be used to do the most interesting things.$(br2)Unlike a normal $(item)Fishing Rod$(), this one a lot more sturdy and is able to fish where a common rod fails.$(br)You wonder what you can bring to the surface?"
+      "type": "patchouli:spotlight",
+      "item": "spectrum:multitool",
+      "text": "Whenever you leave your home, you carry half a tool shed with you. Given the tons of stone you can carry around with you, that's almost nothing. Nevertheless, a universal tool that combines the abilities of a pickaxe, axe, shovel and hoe would suit you well."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/tools/molten_rod",
-      "text": "$(italic)Caution, hot!$()$(br)Its flaming fishing hook can not only burn your fingers..."
+      "recipe": "spectrum:pedestal/tier2/multitool",
+      "text": "$(italic)Not as efficient in the individual tasks, but much better than having to change tools every three seconds."
     }
   ]
 }
