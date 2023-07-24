@@ -1,6 +1,6 @@
 {
-  "name": "Decoration",
-  "description": "Fancy blocks to beautify your home and surroundings.",
-  "icon": "spectrum:chiseled_polished_calcite",
-  "sortnum": 3
+  "name": "Beneath the Bedrock",
+  "description": "Your personal journey to the origins of the world.",
+  "icon": "minecraft:bedrock",
+  "sortnum": 13
 }
