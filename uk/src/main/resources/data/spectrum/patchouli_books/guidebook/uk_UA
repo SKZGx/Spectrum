@@ -1,6 +1,6 @@
 {
-  "name": "Magical Blocks",
-  "description": "Devices which can perform numerous tasks with the help of your fancy magic gemstones.$(br2)Some of them need some form of energy to keep running.",
-  "icon": "spectrum:private_chest",
-  "sortnum": 6
+  "name": "Magical Items",
+  "description": "A number of fun devices you thought up to make your life easier.",
+  "icon": "spectrum:natures_staff",
+  "sortnum": 5
 }
