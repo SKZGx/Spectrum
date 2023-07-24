@@ -1,31 +1,31 @@
 {
-  "name": "Exuberance",
-  "icon": "spectrum:multitool",
-  "advancement": "spectrum:unlocks/enchantments/exuberance",
-  "flag": "spectrum:enchantment_exists_spectrum_exuberance",
+  "name": "First Strike",
+  "icon": "minecraft:iron_sword",
+  "advancement": "spectrum:unlocks/enchantments/first_strike",
+  "flag": "spectrum:enchantment_exists_spectrum_first_strike",
   "category": "spectrum:enchanting_category",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "That fancy book table of yours, while useful, more or less swallows every piece of experience, as soon as you acquire it. To satisfy its never diminishing hunger to supply your ever-growing list of enchanted tools.$(br2)Squeezing the last bit of experience out of your opponents will help a lot."
+      "text": "All it takes is a single well-considered hit... or so the saying must have gone.$(br2)Whatever.$(br)On a related note: you invented First Strike. It will be a great help especially against many weak opponents."
     },
     {
       "type": "patchouli:spotlight",
       "title": "Characteristics",
-      "item": "spectrum:multitool{Enchantments: [{id: \"spectrum:exuberance\", lvl: 5s}]}",
-      "text": "Increases dropped XP for mob kills.$(br2)Max Level: 5$(br)Applicable to melee weapons, mining tools and Spectrum's Fishing Rods."
+      "item": "minecraft:iron_sword{Enchantments: [{id: \"spectrum:first_strike\", lvl: 2s}]}",
+      "text": "Greatly increased damage if the target has full life.$(br2)Max Level: 2$(br)Applicable to melee weapons."
     },
     {
       "type": "spectrum:enchanter_crafting",
       "title": "Enchanter Recipe",
-      "recipe": "spectrum:enchanter/spectrum_books/book_exuberance",
-      "text": "You can infuse a $(item)common Book$() with Exuberance by surrounding your $(l:enchanting/enchanter)Enchanter$() with $(l:general/pigment)Pigment$() and the other required materials."
+      "recipe": "spectrum:enchanter/spectrum_books/book_first_strike",
+      "text": "You can infuse a $(item)common Book$() with First Strike by surrounding your $(l:enchanting/enchanter)Enchanter$() with $(l:general/pigment)Pigment$() and the other required materials."
     },
     {
       "type": "spectrum:enchanter_upgrading",
       "title": "Enchantment Upgrading",
-      "recipe": "spectrum:enchantment_upgrade/spectrum/exuberance_level_2",
-      "text": "Upgrading Exuberance from level 1 to level 2 is fairly cheap at first.$(br)This price will quickly increase to more and more $(l:general/pigment)Pigment$() and experience for each additional level."
+      "recipe": "spectrum:enchantment_upgrade/spectrum/first_strike_level_2",
+      "text": "Upgrading First Strike from level 1 to level 2 is fairly cheap at first.$(br)This price will quickly increase to more and more $(l:general/pigment)Pigment$() and experience for each additional level."
     }
   ]
 }
