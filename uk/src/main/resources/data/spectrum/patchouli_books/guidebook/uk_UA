@@ -1,23 +1,23 @@
 {
-  "name": "A new Resource",
+  "name": "Experiment #3",
   "category": "spectrum:hints_category",
   "icon": "minecraft:writable_book",
-  "advancement": "spectrum:midgame/build_advanced_pedestal_structure",
+  "advancement": "spectrum:midgame/craft_bottle_of_ruin",
   "read_by_default": true,
-  "turnin": "spectrum:get_radiating_ender",
+  "turnin": "spectrum:midgame/break_decayed_bedrock",
   "pages": [
     {
       "type": "spectrum:hint",
-      "title": "Where to find",
-      "completion_advancement": "spectrum:get_radiating_ender",
-      "cost": "minecraft:ender_pearl#4",
-      "text": "Not every block an Enderman carries is what it looks like at first glance."
+      "title": "Small Clue",
+      "completion_advancement": "spectrum:midgame/break_decayed_bedrock",
+      "cost": "spectrum:brown_pigment#8",
+      "text": "This absolutely aggressive variant called Ruin is able to consume the most resistant material there is. Even ones too resistant for you to ever break before."
     },
     {
       "type": "spectrum:hint",
-      "title": "Concise Instructions",
-      "cost": "minecraft:ender_pearl#12",
-      "text": "Some Endermen appear in the Overworld carrying blocks that could very well be small relics of the End itself. You can get a hold of one by killing an Endermen while it carries what looks like Cobblestone. Endermen holding these blocks can also be found in the End, albeit more rarely."
+      "title": "A Warning",
+      "cost": "spectrum:brown_pigment#24",
+      "text": "What could be more resistant than the unbreakable Bedrock itself? Better have a backup plan up your sleeve if anything goes wrong."
     }
   ]
 }
