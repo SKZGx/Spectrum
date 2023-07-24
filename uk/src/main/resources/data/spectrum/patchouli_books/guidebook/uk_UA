@@ -1,21 +1,52 @@
 {
-  "name": "Suspicious Brew",
-  "advancement": "spectrum:unlocks/food/suspicious_brew",
-  "icon": "spectrum:suspicious_brew",
+  "name": "Tarts",
+  "icon": "spectrum:ashen_tart",
+  "advancement": "spectrum:unlocks/food/tarts",
   "category": "spectrum:cuisine_category",
   "extra_recipe_mappings": {
-    "spectrum:suspicious_brew": 0
+    "spectrum:jaramel_tart": 0,
+    "spectrum:salted_jaramel_tart": 0,
+    "spectrum:ashen_tart": 0,
+    "spectrum:weeping_tart": 0,
+    "spectrum:whispy_tart": 0,
+    "spectrum:puff_tart": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Curiously, the combination of mushrooms and water is a perfect receptor for all forms of other bloomy notes, either rounding the taste, or creating... very peculiar ones.$(br2)Each flower has a specific effect, as if you would feed it to a $(thing)Brown Mooshroom$()."
+      "text": "Even though you are not the most proficient chef, even this rudimentary one tastes great! $(br2)You can garnish it with different toppings to grant you $(thing)defensive abilities$() for a short duration."
     },
     {
-      "type": "spectrum:titration_barrel_fermenting",
-      "title": "Titration Recipe",
-      "recipe": "spectrum:titration_barrel/special/suspicious_brew",
-      "text": "The fermentation process in colored wood makes the effect last quite a bit longer than $(item)Suspicious Stew$()."
+      "type": "spectrum:pedestal_crafting",
+      "title": "Jaramel Tart",
+      "recipe": "spectrum:pedestal/tier3/food/jaramel_tart",
+      "text": "The classic. The only thing that would make this one more delicious would be the tears of your enemies."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "advancement": "spectrum:craft_salted_jaramel_trifle_or_tart",
+      "recipe": "spectrum:pedestal/tier3/food/salted_jaramel_tart",
+      "text": "$(italic)Extra Salty"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/ashen_tart",
+      "text": "Makes you able to see & swim in Lava as were it Water.$(br)However, does NOT make you fire immune."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/weeping_tart",
+      "text": "Makes you able to swim at light speed and greatly increases your underwater mining rate."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/whispy_tart",
+      "text": "Makes you feel well rested, like after a good nights sleep. Scares away creatures of nightmares."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "recipe": "spectrum:pedestal/tier3/food/puff_tart",
+      "text": "Small chance for projectiles to simply deflect off of you."
     }
   ]
 }
