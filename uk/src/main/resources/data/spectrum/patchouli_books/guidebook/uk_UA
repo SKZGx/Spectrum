@@ -1,32 +1,22 @@
 {
-  "name": "Malachite",
-  "advancement": "spectrum:lategame/collect_malachite",
-  "icon": "spectrum:raw_malachite",
+  "name": "Mermaid's Gems",
+  "icon": "spectrum:mermaids_gem",
+  "advancement": "spectrum:collect_mermaids_gem",
   "category": "spectrum:resources_category",
-  "turnin": "spectrum:lategame/grow_malachite_in_crystallarieum",
   "extra_recipe_mappings": {
-    "spectrum:malachite_ore": 0,
-    "spectrum:deepslate_malachite_ore": 0,
-    "spectrum:blackslag_malachite_ore": 0,
-    "spectrum:raw_malachite": 0,
-    "spectrum:malachite_block": 0,
-    "spectrum:small_malachite_bud": 0,
-    "spectrum:large_malachite_bud": 0,
-    "spectrum:malachite_cluster": 0,
-    "spectrum:malachite_crystal": 0
+    "spectrum:mermaids_gem": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Malachite",
-      "text": "A pristine material, that sparkles in a deep green hue. It seems to have strong magical properties, almost like a Deeper Down analog of $(l:resources/azurite)Azurite$(). In another similarity to $(l:resources/azurite)Azurite$(), Malachite also needs to be refined. The small fragments you obtain must first grow into full, usable crystals - though you're not sure you'll see them finished in your lifetime."
+      "title": "Mermaid's Brushes",
+      "text": "This inconspicuous plant grows in the deepest depths of the oceans, forever untouched by human influence.$(br)They grow a single blossom, which slowly develops into a filigree shaped seed.$()$(br2)Mermaid's Brushes can be harvested using shears."
     },
     {
-      "type": "spectrum:crystallarieum_growing",
-      "advancement": "spectrum:unlocks/blocks/crystallarieum",
-      "title": "Refining Malachite",
-      "recipe": "spectrum:crystallarieum/malachite",
-      "text": "The Crystallarieum seems to be the only way for you to grow Malachite in a reasonable timeframe, by speeding up its growth significantly. $(l:general/moonstone_shards)Moonstone$() is required to create a suitable environment, mimicking the Deeper Down."
+      "type": "patchouli:spotlight",
+      "title": "Mermaid's Gems",
+      "item": "spectrum:mermaids_gem",
+      "text": "Fully grown, these hollow seeds float to the surface of the sea to be carried away by the soft waves.$(br2)Mermaid's Gems have a strong bond with water - obviously."
     }
   ]
 }
