@@ -1,23 +1,23 @@
 {
-  "name": "Experiment #2",
+  "name": "A new Ore",
   "category": "spectrum:hints_category",
   "icon": "minecraft:writable_book",
-  "advancement": "spectrum:midgame/craft_bottle_of_failing",
+  "advancement": "spectrum:milestones/reveal_malachite",
   "read_by_default": true,
-  "turnin": "spectrum:midgame/collect_neolith",
+  "turnin": "spectrum:lategame/collect_malachite",
   "pages": [
     {
       "type": "spectrum:hint",
-      "title": "Small Clue",
-      "completion_advancement": "spectrum:midgame/collect_neolith",
-      "cost": "spectrum:stratine_fragments#8",
-      "text": "Just like Fading, they prefer a specific block placed next to them. This time a lot more strong, though. 'I hate mining this'-strong, to be precise."
+      "title": "Where to find",
+      "completion_advancement": "spectrum:lategame/collect_malachite",
+      "cost": "spectrum:bismuth_crystal#8",
+      "text": "There is a new ore that can be found in the Deeper Down."
     },
     {
       "type": "spectrum:hint",
       "title": "Concise Instructions",
-      "cost": "spectrum:stratine_fragments#24",
-      "text": "The preferred food is Obsidian. Watch out for their insatiable hunger, though. They will eat quite a lot, if given the chance..."
+      "cost": "spectrum:bismuth_crystal#24",
+      "text": "It is bright green and is found in the deepest parts of Deeper Down. It's not often found exposed to the air, so the best way to get it is by branch mining."
     }
   ]
 }
