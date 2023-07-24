@@ -1,38 +1,32 @@
 {
-  "name": "Crystallization",
-  "advancement": "spectrum:hidden/collect_any_crystallized_block",
-  "icon": "spectrum:liquid_crystal_bucket",
+  "name": "Malachite",
+  "advancement": "spectrum:lategame/collect_malachite",
+  "icon": "spectrum:raw_malachite",
   "category": "spectrum:resources_category",
+  "turnin": "spectrum:lategame/grow_malachite_in_crystallarieum",
   "extra_recipe_mappings": {
-    "spectrum:blazing_crystal": 0,
-    "spectrum:fiery_powder": 0,
-    "spectrum:frostbite_crystal": 0,
-    "spectrum:blizzard_powder": 0
+    "spectrum:malachite_ore": 0,
+    "spectrum:deepslate_malachite_ore": 0,
+    "spectrum:blackslag_malachite_ore": 0,
+    "spectrum:raw_malachite": 0,
+    "spectrum:malachite_block": 0,
+    "spectrum:small_malachite_bud": 0,
+    "spectrum:large_malachite_bud": 0,
+    "spectrum:malachite_cluster": 0,
+    "spectrum:malachite_crystal": 0
   },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "advancement": "spectrum:hidden/collect_blazing_crystal",
-      "item": "spectrum:blazing_crystal",
-      "text": "Letting a full block of $(l:magical_blocks/liquid_crystal)Liquid Crystal$() absorb the immense heat of $(item)Lava$() resulted in this.$(br)Almost feels like a $(item)Magma Block$(), albeit way hotter."
+      "type": "patchouli:text",
+      "title": "Malachite",
+      "text": "A pristine material, that sparkles in a deep green hue. It seems to have strong magical properties, almost like a Deeper Down analog of $(l:resources/azurite)Azurite$(). In another similarity to $(l:resources/azurite)Azurite$(), Malachite also needs to be refined. The small fragments you obtain must first grow into full, usable crystals - though you're not sure you'll see them finished in your lifetime."
     },
     {
-      "type": "spectrum:anvil_crushing",
-      "advancement": "spectrum:hidden/collect_blazing_crystal",
-      "recipe": "spectrum:anvil_crushing/fiery_powder_from_blazing_crystal",
-      "text": "Crushing Blazing Crystal with an $(item)Anvil$(), you get this burning hot powder that almost sets your hand on fire when you touch it. Crushing $(item)Magma Blocks$() seems to work, too, albeit with far less yield."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "advancement": "spectrum:hidden/collect_frostbite_crystal",
-      "item": "spectrum:frostbite_crystal",
-      "text": "As $(item)Water$() tried to touch a full block of $(l:magical_blocks/liquid_crystal)Liquid Crystal$(), the crystal turned solid.$(br)Since even a light touch is enough to give you a cold shiver, you called it Frostbite Crystal."
-    },
-    {
-      "type": "spectrum:anvil_crushing",
-      "advancement": "spectrum:hidden/collect_frostbite_crystal",
-      "recipe": "spectrum:anvil_crushing/blizzard_powder_from_frostbite_crystal",
-      "text": "Crushing $(item)Frostbite Crystal$() with an $(item)Anvil$() gave you this ice cold powder, which almost makes your hand freeze just by holding it. Crushing $(item)Ice$() seems to work, too, albeit with far less yield."
+      "type": "spectrum:crystallarieum_growing",
+      "advancement": "spectrum:unlocks/blocks/crystallarieum",
+      "title": "Refining Malachite",
+      "recipe": "spectrum:crystallarieum/malachite",
+      "text": "The Crystallarieum seems to be the only way for you to grow Malachite in a reasonable timeframe, by speeding up its growth significantly. $(l:general/moonstone_shards)Moonstone$() is required to create a suitable environment, mimicking the Deeper Down."
     }
   ]
 }
