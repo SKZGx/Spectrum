@@ -1,6 +1,18 @@
 {
-  "name": "Resources",
-  "description": "Scattered around the world are various plants and ores, just waiting to get discovered. If you notice them, that is.$(br)The more familiar you are with the magic that comes from the world, the more of them you are able to glimpse.",
-  "icon": "spectrum:shimmerstone_ore",
-  "sortnum": 1
+  "name": "Another Roll",
+  "advancement": "spectrum:hidden/status_effects/another_roll",
+  "icon": "spectrum:four_leaf_clover",
+  "category": "spectrum:brewing_category",
+  "extra_recipe_mappings": {},
+  "pages": [
+    {
+      "type": "spectrum:status_effect",
+      "status_effect_id": "spectrum:another_roll",
+      "text": "Influences the drops when using $(thing)Fortune$() to mine ores, $(thing)Looting$() to kill mobs, or other luck-based enchantments.$(br)Each level of Another Roll will increase your chances of getting the highest amount possible."
+    },
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
 }
