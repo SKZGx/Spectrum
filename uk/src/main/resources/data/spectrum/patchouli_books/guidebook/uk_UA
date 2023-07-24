@@ -1,6 +1,6 @@
 {
-  "name": "Painter's Cuisine",
-  "description": "Fortunately, you're not a starving artist.$(br)On the contrary, a lot of the things you've stumbled across on your journey just taste magical.",
-  "icon": "spectrum:lucky_roll",
-  "sortnum": 7
+  "name": "Decoration",
+  "description": "Fancy blocks to beautify your home and surroundings.",
+  "icon": "spectrum:chiseled_polished_calcite",
+  "sortnum": 3
 }
