@@ -1,22 +1,22 @@
 {
-  "name": "Player Detector",
-  "advancement": "spectrum:unlocks/redstone/player_detector",
-  "icon": "spectrum:player_detector",
+  "name": "Redstone Calculator",
+  "advancement": "spectrum:unlocks/redstone/redstone_calculator",
+  "icon": "spectrum:redstone_calculator",
   "category": "spectrum:redstone_category",
   "extra_recipe_mappings": {
-    "spectrum:player_detector": 0
+    "spectrum:redstone_calculator": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Player Detector",
-      "text": "You know people who build gigantic constructions out of $(item)Redstone$() just to open an oversized door. And then they trigger it with an unsightly $(item)Pressure Plate$().$(br)The Player Detector, on the other hand, is able to sense your presence - or that of other players - at a distance and sends out a corresponding $(thing)redstone signal$().$(br)Much better."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:redstone_calculator",
+      "text": "With the red math dust from the underground, you've built gigantic constructions several times, just to emulate a parrot's ability to calculate. When you look at these, your breath literally stops (and the rest of the world, too, multiple times a second). The energy laden $(l:general/shards#citrine)Citrine$(/l) seems like a perfect match for basic arithmetic logic."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/detectors/player_detector",
-      "text": "Range: 10 blocks.$(br)Emits a full strength signal, if the player who placed it is detected, otherwise 8."
+      "recipe": "spectrum:pedestal/tier1/redstone_calculator",
+      "text": "Available modes: Addition, Subtraction, Multiplication, Division, Modulo, Min and Max. First input is the back, second the highest signal on the sides."
     }
   ]
 }
