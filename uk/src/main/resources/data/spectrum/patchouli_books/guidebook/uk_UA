@@ -1,38 +1,24 @@
 {
-  "name": "Node Coloring",
-  "icon": "minecraft:red_dye",
-  "advancement": "spectrum:unlocks/milestones/__todo_unlock_pastel_node_coloring",
+  "name": "The Pastel Network",
+  "icon": "spectrum:provider_node",
+  "advancement": "spectrum:unlocks/blocks/pastel_network",
   "category": "spectrum:pastel_network_category",
   "priority": true,
-  "sortnum": 2,
-  "secret": true,
+  "sortnum": 0,
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "title": "Node Coloring",
-      "item": "spectrum:purple_pigment",
-      "text": "Using $(l:general/pigment)Pigment$(/l) on Pastel Network Nodes dyes them.$(br2)Each node will only be able to transfer items to nodes of the same color or ones it composites into, but not the other way around: ($(c_cyan)Cyan$() nodes will transfer to $(c_blue)Blue$() ones, but not $(c_blue)Blue$() nodes to $(c_cyan)Cyan$())"
+      "type": "patchouli:text",
+      "title": "Pastel Network",
+      "text": "Your primitive ways of item transport like $(thing)Hopper Arrays$() do not compare to the $(thing)Pastel Network$() - this is what you named clusters of Azurite-based nodes.$(br)Placed in close proximity, nodes will connect wirelessly to one another and form an item transfer network."
     },
     {
       "type": "patchouli:image",
-      "title": "",
+      "title": "Transfer Routes",
       "images": [
-        "spectrum:textures/gui/guidebook/composite_colors.png"
+        "spectrum:textures/gui/guidebook/pastel_travel.png"
       ],
-      "border": true,
-      "text": "You can finely adjust which Nodes are able to interact with others, allowing you to build complex transfer chains. $(bold)White$() nodes are only able to connect to other Whites."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "title": "Spectral Colored Nodes",
-      "item": "spectrum:spectral_shard",
-      "text": "Nodes colored with spectral pigment are able to interact with all nodes, regardless of their color."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "title": "",
-      "item": "spectrum:purple_pigment",
-      "text": "Using a $(l:resources/mermaids_brush)Mermaid's Gem$(/l) on a Node will change it to a Fluid Node.$(br)It will transfer liquid instead of items."
+      "border": false,
+      "text": "The way nodes can interact with one another. They do not require line of sight."
     }
   ]
 }
