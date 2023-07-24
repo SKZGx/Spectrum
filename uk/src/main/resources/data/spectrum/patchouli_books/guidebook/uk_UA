@@ -1,22 +1,22 @@
 {
-  "name": "Item Detector",
-  "advancement": "spectrum:unlocks/redstone/item_detector",
+  "name": "Light Level Detector",
+  "advancement": "spectrum:unlocks/redstone/light_level_detector",
   "icon": "spectrum:player_detector",
   "category": "spectrum:redstone_category",
   "extra_recipe_mappings": {
-    "spectrum:item_detector": 0
+    "spectrum:light_level_detector": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Item Detector",
-      "text": "The Item Detector is used to count the items lying on the ground within a 10 block radius of it.$(br2)The strength of the $(thing)redstone signal$() depends on how many items are lying around."
+      "title": "Block Light Detector",
+      "text": "$(item)Daylight Detectors$() are imprecise when it comes to measuring light: the $(item)Nether Quartz$() used is so crudely processed that only sunlight can trigger the detector reliably.$(br)Amethyst, shaped by a Pigment Pedestal, is much more sensitive when it comes to measuring light. Even the dim glow of a $(item)Torch$() is sufficient to output decent strength."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/detectors/item_detector",
-      "text": "64 items result in a signal with maximum strength."
+      "recipe": "spectrum:pedestal/tier1/detectors/light_level_detector",
+      "text": "The Light Level Detector does not only react to sunlight, but is also able to pick up other light sources, like light emitting blocks."
     }
   ]
 }
