@@ -1,27 +1,28 @@
 {
-  "name": "Knowledge Gem",
-  "advancement": "spectrum:unlocks/items/knowledge_gem",
-  "icon": "spectrum:knowledge_gem{stored_experience:500}",
+  "name": "Nature's Staff",
+  "advancement": "spectrum:unlocks/items/natures_staff",
+  "icon": "spectrum:natures_staff",
   "category": "spectrum:magical_items_category",
   "extra_recipe_mappings": {
-    "spectrum:knowledge_gem": 0
+    "spectrum:natures_staff": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Whenever you pick up one of those little green orbs that appear whenever you kill an enemy, you get smarter - supposedly.$(br2)However, the inevitable death by clumsiness means that you always lose this experience quickly. Crystallized and safely stored in your chests, however, they will be as safe as can be.$()"
+      "text": "Using the magic elements of $(c_brown)Nature$() and $(c_lime)Fertility$(), you have come up with this stroke of genius.$(br)Bonemeal is a joke when compared to your new gadget."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/knowledge_gem",
-      "text": "A Gem holds up to 10,000 experience. $(l:enchanting/enchanting_items)Enchanting$() it with $(thing)Efficiency$() increases that limit, $(thing)Quick Charge$() boosts the pushing/pulling of XP."
+      "recipe": "spectrum:pedestal/tier2/natures_staff",
+      "text": "$(italic)Point at something you want to see blossom"
     },
     {
-      "type": "patchouli:text",
-      "title": "XP Orb Absorption",
-      "advancement": "spectrum:unlocks/blocks/black_hole_chest",
-      "text": "Putting a Knowledge Gem into a $(l:magical_blocks/black_hole_chest)Black Hole Chest$() allows it to absorb XP orbs, putting the experience into the Gem."
+      "type": "patchouli:spotlight",
+      "advancement": "spectrum:midgame/build_enchanting_structure",
+      "title": "Enchanting - Efficiency",
+      "item": "spectrum:natures_staff{Enchantments: [{id: \"minecraft:efficiency\", lvl: 5s}]}",
+      "text": "Enchanting the Nature's Staff with Efficiency by using the $(l:enchanting/enchanting_items)Enchanter$(/l) decreases the chance of $(l:creating_life/fading#vegetal)Vegetal$(/l) to get consumed for each level."
     }
   ]
 }
