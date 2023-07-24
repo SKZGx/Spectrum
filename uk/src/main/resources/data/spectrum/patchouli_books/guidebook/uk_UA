@@ -1,21 +1,20 @@
 {
-  "name": "Cotton Cloud Boots",
-  "advancement": "spectrum:unlocks/trinkets/cotton_cloud_boots",
-  "icon": "spectrum:cotton_cloud_boots",
+  "name": "Dreamflayer",
+  "advancement": "spectrum:unlocks/equipment/dreamflayer",
+  "icon": "spectrum:dreamflayer",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:cotton_cloud_boots": 0
+    "spectrum:dreamflayer": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "To be able to fly like the birds has always been the dream of many people, including you.$(br2)Now you got those boots. The freedom is almost overwhelming. You didn't get it quite right without a catch, but what can you do."
+      "text": "A truly exceptional weapon, it embodies the definition of \"offense is a good defense.\"$(br)It is the nature of the Dreamflayer to balance forces:$(br)The more armored your opponent is compared to you, the more damage it will do."
     },
     {
       "type": "spectrum:fusion_shrine_crafting",
-      "title": "Fusion Recipe",
-      "recipe": "spectrum:fusion_shrine/trinkets/cotton_cloud_boots",
-      "text": "Small clouds form under your feet as soon as you start sprinting. Those clouds are too fuzzy to jump on, but safely levitate you in the air.$(br2)There's just one kicker:$(br)$(italic)you better not stop sprinting high in the air$()."
+      "recipe": "spectrum:fusion_shrine/dreamflayer",
+      "text": "$(italic)If you ever needed a reason to go rampage lightly clad, here it is.$()$(br2)$(k:sneak) + $(k:use) to empower it, allowing it to slice even through the strongest of armour while consuming $(c_red)Red Ink$() at an alarming rate."
     }
   ]
 }
