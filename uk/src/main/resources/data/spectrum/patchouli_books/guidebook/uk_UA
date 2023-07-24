@@ -1,61 +1,51 @@
 {
-  "name": "Blackslag",
-  "advancement": "spectrum:hidden/collect_blackslag",
-  "icon": "spectrum:blackslag",
+  "name": "Crystal Gardens",
+  "advancement": "spectrum:hidden/visit_dd_biomes/crystal_gardens",
+  "icon": "spectrum:liquid_crystal_bucket",
   "category": "spectrum:dimension_category",
   "extra_recipe_mappings": {
-    "spectrum:blackslag": 0,
-    "spectrum:infested_blackslag": 0
+    "spectrum:overgrown_blackslag": 0,
+    "spectrum:nephrite_blossom_bulb": 0,
+    "spectrum:nephrite_blossom_leaves": 0,
+    "spectrum:nephrite_blossom_stem": 0,
+    "spectrum:jadeite_lotus_stem": 0,
+    "spectrum:jadeite_lotus_flower": 0,
+    "spectrum:jadeite_lotus_bulb": 0,
+    "spectrum:glass_peach": 0,
+    "spectrum:jadeite_petals": 0
   },
   "pages": [
     {
-      "type": "spectrum:collection",
-      "title": "Blackslag",
-      "items": [
-        "spectrum:cobbled_blackslag",
-        "spectrum:cobbled_blackslag_stairs",
-        "spectrum:cobbled_blackslag_slab",
-        "spectrum:cobbled_blackslag_wall",
-        "spectrum:polished_blackslag",
-        "spectrum:polished_blackslag_button",
-        "spectrum:polished_blackslag_pressure_plate",
-        "spectrum:polished_blackslag_stairs",
-        "spectrum:polished_blackslag_slab",
-        "spectrum:polished_blackslag_wall",
-        "spectrum:blackslag_tiles",
-        "spectrum:blackslag_tile_stairs",
-        "spectrum:blackslag_tile_slab",
-        "spectrum:blackslag_tile_wall",
-        "spectrum:blackslag_bricks",
-        "spectrum:blackslag_brick_stairs",
-        "spectrum:blackslag_brick_slab",
-        "spectrum:blackslag_brick_wall",
-        "spectrum:polished_blackslag_pillar",
-        "spectrum:chiseled_polished_blackslag",
-        "spectrum:ancient_chiseled_polished_blackslag",
-        "spectrum:cracked_blackslag_bricks",
-        "spectrum:cracked_blackslag_tiles"
+      "type": "patchouli:image",
+      "title": "Crystal Gardens",
+      "images": [
+        "spectrum:textures/gui/guidebook/dd_crystal_gardens.png"
       ],
-      "text": "A common, darkish and sturdy stone that constitutes a large part of the lower levels of the Deeper Down."
+      "border": true,
+      "text": ""
     },
     {
-      "type": "patchouli:smelting",
-      "title": "Polishing",
-      "recipe": "spectrum:smelting/cobbled_blackslag_to_blackslag",
-      "recipe2": "spectrum:smelting/blackslag_to_polished_blackslag",
-      "text": "The $(item)Blast Furnace$() smelts these stones even faster than a $(item)Furnace$()."
+      "type": "patchouli:text",
+      "text": "The many natural light sources in this biome allow plants to grow here that you might find on the surface, unlike most other biomes.$(br2)Lakes of $(l:magical_blocks/liquid_crystal)Liquid Crystal$() and giant $(l:dimension/hummingstone)crystalline structures$() define its look."
     },
     {
-      "type": "spectrum:anvil_crushing",
-      "title": "Cracking",
-      "recipe": "spectrum:anvil_crushing/spectrum_pulverising/cracked_blackslag_bricks",
-      "text": "Bricks & Tiles can get cracked."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:overgrown_blackslag",
+      "text": "Stone covered with a small layer of soil. Not much, but more than enough to be covered with a thick carpet of moss."
     },
     {
-      "type": "patchouli:smelting",
-      "title": "Smelting them back",
-      "recipe": "spectrum:smelting/polished_blackslag_unsmelting",
-      "text": "By applying heat, all blocks can be converted back to their polished variant again."
+      "type": "patchouli:spotlight",
+      "title": "Nephrite Blossoms",
+      "advancement": "spectrum:hidden/collect_glass_peach",
+      "item": "spectrum:glass_peach",
+      "text": "Small little trees, as big as they get down here. Actually it's more like a big bush.$(br)...or giant shrub.$(br2)Eeeeh, details.$(br)Anyways, they look pretty. No, their fruit are not made out of glass, but very much shimmer like they are. They are very much edible, and tasty, too.$(br)Eating one will give you a short burst of $(thing)Toughness$(), which will decrease the damage hard-hitting attacks deal to you. They can also be $(l:magical_items/infused_beverages)fermented$() and $(l:brewing/potion_workshop_brewing)used to brew Potions$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Jadeite Blossoms",
+      "advancement": "spectrum:hidden/collect_jadeite_petals",
+      "item": "spectrum:jadeite_petals",
+      "text": "Imposing vines are hanging from the high ceiling and break through the darkness with their light. Their petals can be used as a $(l:brewing/potion_workshop_reagents)Potion Reagent$()."
     }
   ]
 }
