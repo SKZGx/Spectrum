@@ -1,17 +1,25 @@
 {
-  "name": "Starry Skies",
-  "icon": "minecraft:packed_ice",
-  "flag": "mod:starry_skies",
+  "name": "Tech Reborn",
+  "icon": "techreborn:grinder",
+  "flag": "mod:techreborn",
   "advancement": "spectrum:place_pedestal",
   "category": "spectrum:mod_integration_category",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Above the hemisphere of the Overworld exists a completely different kind of dimension: filled with numerous spheres that float away like small planets.$(br2)You can reach them by building a portal from $(item)Packed Ice$() (if it hasn't been changed by your modpack)."
+      "text": "There is this new thing, called $(italic)Electricity$(), you should check that out.$(br2)The factory must grow."
     },
     {
-      "type": "patchouli:text",
-      "text": "Here you will find numerous resources that are always hard to locate on the normal Overworld: spheres of gemstone, Spectrum's ores, and anything else your heart desires - unless you fall off a planet and plummet to your certain death."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:amethyst_ore",
+      "advancement": "spectrum:break_gemstone_ore",
+      "text": "Most of Spectrums Ores can be processed in the Grinder / Industrial Grinder to extract resources."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:amethyst_shard",
+      "advancement": "spectrum:spectrum",
+      "text": "Of course you can also grind down Shards, too!"
     }
   ]
 }
