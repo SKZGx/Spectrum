@@ -1,27 +1,42 @@
 {
-  "name": "Geode+",
-  "icon": "geode:celestite_cluster",
-  "flag": "mod:geode",
+  "name": "Gobber",
+  "icon": "gobber2:gobber2_globette",
+  "flag": "mod:gobber2",
   "advancement": "spectrum:place_pedestal",
   "category": "spectrum:mod_integration_category",
+  "extra_recipe_mappings": {
+    "spectrum:small_globette_bud": 0,
+    "spectrum:large_globette_bud": 0,
+    "spectrum:globette_cluster": 0,
+    "spectrum:small_globette_end_bud": 0,
+    "spectrum:large_globette_end_bud": 0,
+    "spectrum:globette_end_cluster": 0,
+    "spectrum:small_globette_nether_bud": 0,
+    "spectrum:large_globette_nether_bud": 0,
+    "spectrum:globette_nether_cluster": 0
+  },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Scattered around the world you have discovered numerous geodes, which produce not only colored gems, but also valuable resources."
+      "text": "This material seems ridiculously powerful at first glance for how common it is. That's why you gave it such a funny name. Let's see what you can do with it."
     },
     {
-      "type": "patchouli:spotlight",
-      "title": "Auto-Harvesting",
-      "advancement": "spectrum:unlocks/blocks/crystal_apothecary",
-      "item": "spectrum:crystal_apothecary",
-      "text": "The $(l:magic/crystal_apothecary)Crystal Apothecary$() is able to harvest $(item)Crystals$() automatically - even if you are not near those geodes at all!"
+      "type": "spectrum:crystallarieum_growing",
+      "recipe": "spectrum:mod_integration/gobber/crystallarieum/globette",
+      "advancement": "spectrum:unlocks/blocks/crystallarieum",
+      "text": "It grows!"
     },
     {
-      "type": "patchouli:spotlight",
-      "title": "Moving Budding Blocks",
-      "advancement": "spectrum:unlocks/enchantments/resonance_usage",
-      "item": "spectrum:resonant_pickaxe",
-      "text": "Tools enchanted with $(l:enchantments/resonance)Resonance$() are able to harvest Budding Blocks."
+      "type": "spectrum:crystallarieum_growing",
+      "recipe": "spectrum:mod_integration/gobber/crystallarieum/globette_nether",
+      "advancement": "spectrum:unlocks/blocks/crystallarieum",
+      "text": "It also grows!"
+    },
+    {
+      "type": "spectrum:crystallarieum_growing",
+      "recipe": "spectrum:mod_integration/gobber/crystallarieum/globette_end",
+      "advancement": "spectrum:unlocks/blocks/crystallarieum",
+      "text": "You are not going to believe this."
     }
   ]
 }
