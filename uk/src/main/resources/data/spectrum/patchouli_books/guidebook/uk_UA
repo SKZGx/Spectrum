@@ -1,22 +1,26 @@
 {
-  "name": "Deep Dripstone Caves",
-  "advancement": "spectrum:hidden/visit_dd_biomes/deep_dripstone_caves",
-  "icon": "minecraft:dripstone_block",
+  "name": "Doomblooms",
+  "advancement": "spectrum:hidden/interact_with_doombloom",
+  "icon": "spectrum:doombloom",
   "category": "spectrum:dimension_category",
-  "extra_recipe_mappings": {},
+  "extra_recipe_mappings": {
+    "spectrum:doombloom": 0,
+    "spectrum:doombloom_seed": 0
+  },
   "pages": [
     {
-      "type": "patchouli:image",
-      "title": "Deep Dripstone Caves",
-      "images": [
-        "spectrum:textures/gui/guidebook/dd_deep_dripstone_caves.png"
-      ],
-      "border": true,
-      "text": "Same, but different."
+      "type": "patchouli:text",
+      "text": "This plant has a rather... unusual way to dispense its seed and scare away predators: Its blossom houses a capsule of explosive gas that pops, when disturbed. When not being cautious around this flower, be it touching it a bit too harshly, you risk converting your surroundings into a burning crater."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "spectrum:doombloom_seed",
+      "text": "When fully grown, interacting with it yields gunpowder. Harvesting it without blowing it up requires a Silk Touch tool."
     },
     {
       "type": "patchouli:text",
-      "text": "These caves must have existed since time began.$(br)You wonder how big the gigantic stalactites here can get. You've seen ones that span hundreds of blocks already.$(br)The ground is speckled in puddles of $(item)Water$()."
+      "title": "Primordial Fire",
+      "text": "Much more aggressive than common $(item)Fire$() started by $(item)Flint & Steel$(), the $(item)Primordial Fire$() started by Doomblooms seems to burn with insatiable blazing heat."
     }
   ]
 }
