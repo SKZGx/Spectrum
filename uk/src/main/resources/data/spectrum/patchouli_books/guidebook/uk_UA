@@ -1,6 +1,6 @@
 {
-  "name": "Ink Magic",
-  "description": "The elemental spirits are calling out to you.",
-  "icon": "spectrum:pigment_palette",
-  "sortnum": 14
+  "name": "Magical Blocks",
+  "description": "Devices which can perform numerous tasks with the help of your fancy magic gemstones.$(br2)Some of them need some form of energy to keep running.",
+  "icon": "spectrum:private_chest",
+  "sortnum": 6
 }
