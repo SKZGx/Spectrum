@@ -1,37 +1,35 @@
 {
-  "name": "Kindlings",
-  "icon": "spectrum:kindling_head",
-  "advancement": "spectrum:unlocks/blocks/kindling_memory",
+  "name": "Memories",
+  "icon": "spectrum:memory{EntityTag: {id: \"minecraft:fox\"}, TicksToManifest: 20}",
+  "advancement": "spectrum:unlocks/blocks/memories",
   "category": "spectrum:creating_life_category",
   "extra_recipe_mappings": {
-    "spectrum:kindling_head": 0
+    "spectrum:memory": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Kindlings",
-      "text": "Those grand skeletons that dot the depths... even in death, the dragons bear so much might and life to them, there must be some way to recreate their splendor via those $(l:dimension/dragonbone#dragonbone_chunks)Dragonbone Chunks$().$(br2)Maybe you will be the one to restore the age of divine dragons?"
+      "type": "patchouli:spotlight",
+      "title": "Memories",
+      "item": "spectrum:memory{EntityTag: {id: \"minecraft:fox\"}, TicksToManifest: 20}",
+      "text": "With the $(l:creating_life/spirit_instiller)Spirit Instiller$(/l), you are able to breathe new life into a once dead creature.$(br)It will materialise in the form of a $(italic)Memory$()."
     },
     {
       "type": "spectrum:spirit_instiller_crafting",
-      "title": "Remembering",
-      "recipe": "spectrum:spirit_instiller/memories/kindling_from_dragonbone",
-      "text": "$(italic)The wooly pigs worked so well, surely this must end similarly."
+      "title": "Spirit Inst. Recipe",
+      "recipe": "spectrum:spirit_instiller/memories/fox",
+      "text": "To remember the memories about a creature, you need its $(l:creating_life/mob_heads)Head$(/l), as well as its most beloved item and $(l:creating_life/fading#vegetal)Vegetal$(/l) as a bonding agent.$(br)Using $(l:creating_life/failing#neolith)Neolith$(/l) seems to completely overpower the energies of the creature, making the resulting Memory unrecognizable, until it manifests."
     },
     {
-      "type": "patchouli:entity",
-      "advancement": "spectrum:lategame/remember_kindling",
-      "entity": "spectrum:kindling",
-      "scale": "0.6",
-      "offset": "0.4",
-      "text": "$(italic)So much for your plans for a jurassic park. Maybe a petting zoo would be more suitable?"
+      "type": "patchouli:text",
+      "title": "Manifesting",
+      "text": "Memories need a certain amount of time to manifest, almost like an egg: you have to place them down and wait. Depending on the creature, it may be reasonably quick, or take forever.$(br2)$(italic)Placing them on top of certain blocks seems to speed up that process or stop it entirely."
     },
     {
       "type": "patchouli:spotlight",
-      "advancement": "spectrum:lategame/pluck_effulgent_feather",
-      "anchor": "effulgent_feather",
-      "item": "spectrum:effulgent_feather",
-      "text": "You really have to envy the Kindlings, spending their days covered in these fluffy, poofy things. The down of the dragon is beyond soft - luxurious both in feel and color, even with the $(c_yellow)golden liveliness$() that flows through them, you could see yourself falling asleep on a $(item)cushion$() made from these!"
+      "advancement": "spectrum:milestones/unlock_remembering_boss_memories",
+      "title": "Reviving Bosses",
+      "item": "minecraft:dragon_head",
+      "text": "With your vast knowledge, you are now even able to resurrect Ender Dragons, Withers and Wardens."
     }
   ]
 }
