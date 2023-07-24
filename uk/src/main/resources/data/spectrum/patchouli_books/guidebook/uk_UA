@@ -1,25 +1,31 @@
 {
-  "name": "Inventory Insertion",
-  "icon": "spectrum:multitool",
-  "advancement": "spectrum:unlocks/enchantments/inventory_insertion",
-  "flag": "spectrum:enchantment_exists_spectrum_inventory_insertion",
+  "name": "Overchanting",
+  "icon": "minecraft:enchanted_book",
+  "priority": true,
+  "secret": true,
+  "sortnum": 4,
+  "advancement": "spectrum:milestones/unlock_overenchanting_with_enchanter",
   "category": "spectrum:enchanting_category",
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "If you got a $(item)Dirt Block$() whenever you mined an ore and it fell right into $(item)Lava$(), you'd have a whole lot of $(item)Dirt$().$(br)No idea what you would do with that much $(item)Dirt$(). Maybe give it to a friend who has just arrived here and needs shelter on his first night?$(br)Anyway, the dropping stuff into $(item)Lava$() thing has to stop. Oh yeah, Lava! Same with every $(item)Ghast Tear$() dropping into it, too."
-    },
-    {
       "type": "patchouli:spotlight",
-      "title": "Characteristics",
-      "item": "spectrum:multitool{Enchantments: [{id: \"spectrum:inventory_insertion\", lvl: 1s}]}",
-      "text": "Puts broken blocks and mob drops directly into your inventory instead of dropping them onto the ground.$(br2)Max Level: 1$(br)Applicable to mining tools, shears, weapons, bows, crossbows, tridents and Spectrum's fishing rods."
+      "title": "Overchanting",
+      "item": "minecraft:enchanted_book{StoredEnchantments: [{id: \"minecraft:fortune\", lvl: 5s}]}",
+      "text": "Your familiarity with both magic and the $(l:enchanting/enchanter)Enchanter$() has opened new doors for you:$(br)$(thing)Overchanting$().$(br2)Packing so much magical energy into a single $(item)Enchanted Book$() will be expensive. $(italic)Very expensive$()."
     },
     {
-      "type": "spectrum:enchanter_crafting",
-      "title": "Enchanter Recipe",
-      "recipe": "spectrum:enchanter/spectrum_books/book_inventory_insertion",
-      "text": "You can infuse a $(item)common Book$() with Inventory Insertion by surrounding your $(l:enchanting/enchanter)Enchanter$() with $(l:general/pigment)Pigment$() and the other required materials."
+      "type": "patchouli:text",
+      "title": "Spectrum Enchantments",
+      "text": "$(li)Clovers' Favor: 3 => 6$(li)Disarming: 2 => 4$(li)Exuberance: 5 => 10$(li)First Strike: 2 => 5$(li)Improved Critical: 2 => 4$(li)Inertia: 2 => 5$(li)Tight Grip: 2 => 4$(li)Treasure Hunter: 3 => 5$(li)Sniper: 2 => 4"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Vanilla Enchantments",
+      "text": "$(li)Bane of Arthropods: 5 => 8$(li)Blast Protection: 4 => 8$(li)Depth Strider: 3 => 3$(li)Efficiency: 5 => 8$(li)Feather Falling: 4 => 6$(li)Fire Aspect: 2 => 4$(li)Fire Protection: 4 => 8$(li)Fortune: 3 => 5$(li)Frost Walker: 2 => 4$(li)Impaling: 5 => 8$(li)Knockback: 2 => 5$(li)Looting: 3 => 6$(li)Loyalty: 3 => 4$(li)Luck of the Sea: 3 => 5"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Lure: 3 => 5$(li)Piercing: 4 => 8$(li)Power: 5 => 8$(li)Proj. Protection: 4 => 8$(li)Protection: 4 => 8$(li)Punch: 2 => 5$(li)Quick Charge: 3 => 5$(li)Respiration: 3 => 6$(li)Riptide: 3 => 4$(li)Sharpness: 5 => 8$(li)Smite: 5 => 8$(li)Soul Speed: 3 => 4$(li)Sweeping Edge: 3 => 7$(li)Thorns: 3 => 6$(li)Unbreaking: 3 => 6"
     }
   ]
 }
