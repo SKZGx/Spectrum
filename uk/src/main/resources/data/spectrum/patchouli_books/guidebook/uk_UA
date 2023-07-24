@@ -1,44 +1,27 @@
 {
-  "name": "Present",
-  "advancement": "spectrum:unlocks/blocks/present",
-  "icon": "spectrum:present",
+  "name": "Heartbound Chest",
+  "advancement": "spectrum:unlocks/blocks/private_chest",
+  "icon": "spectrum:private_chest",
   "category": "spectrum:magical_blocks_category",
   "extra_recipe_mappings": {
-    "spectrum:present": 0
+    "spectrum:private_chest": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "The people around you have already helped you in one or the other dicey situation. It's time to give something back. A pinch of $(l:resources/shimmerstone)Shimmerstone$(/l) allows the package to explode in a colorful shower of particles.$(br)Click the Present onto the items you want to gift, wrap it in a $(item)Crafting Table$(), then all you have to do is place it down for the recipient to open it and watch them jump in joy."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:private_chest",
+      "text": "It happens again and again that you just quickly put down a box to store your belongings and as you come back find everything looted.$(br)To solve this issue you have developed this special chest, which can even help you to catch the thief in the act."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/present",
-      "text": "$(italic)(Or, you know, you can always gift your future self!)"
+      "recipe": "spectrum:pedestal/tier1/private_chest",
+      "text": "The Heartbound Chest can only be opened by its placer and provides the same space as two normal chests."
     },
     {
-      "type": "patchouli:crafting",
-      "recipe": "spectrum:crafting_table/special/wrap_present",
-      "title": "Customizing &",
-      "text": "$(li)Place a filled Present in a crafting grid to wrap it.$(li)Optional: add $(l:general/pigment)Pigment$() for a colorful particle shower$(li)Optional: add a special item to choose a wrapping paper:$(li2)Red Dye: Red$(li2)Blue Dye: Blue"
-    },
-    {
-      "type": "spectrum:collection",
-      "title": "Wrapping",
-      "items": [
-        "spectrum:present{Variant: \"red\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"blue\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"cyan\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"green\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"purple\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"cake\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"striped\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"starry\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"winter\", Wrapped: 1b}",
-        "spectrum:present{Variant: \"pride\", Wrapped: 1b}"
-      ],
-      "text": "$(li2)Cyan Dye: Cyan$(li2)Green Dye: Green$(li2)Purple Dye: Purple$(li2)Cake: Cake$(li2)Flower: Stripes$(li2)Firework Star: Starry$(li2)Snowball: Winter$(li2)Spore Blossom: Rainbow"
+      "type": "patchouli:text",
+      "title": "Redstone Component",
+      "text": "Similar to a Trapped Chest it also outputs a $(thing)redstone signal$().$(br)If you as the owner open it, the signal strength will be full, if a stranger wants to tamper with your belongings then only half."
     }
   ]
 }
