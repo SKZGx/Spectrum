@@ -1,19 +1,18 @@
 {
-  "name": "Frenzy (Stacking)",
-  "advancement": "spectrum:hidden/status_effects/frenzy",
-  "icon": "spectrum:blood_orchid_petal",
+  "name": "Immunity",
+  "advancement": "spectrum:hidden/status_effects/immunity",
+  "icon": "spectrum:germinated_jade_vine_seeds",
   "category": "spectrum:brewing_category",
   "extra_recipe_mappings": {},
   "pages": [
     {
       "type": "spectrum:status_effect",
-      "status_effect_id": "spectrum:frenzy",
-      "text": "Damage, attack speed, movement speed and knockback resistance are buffed with each kill. The higher the effects level, the higher the buff. Not scoring a kill in 10 seconds will debuff you instead."
+      "status_effect_id": "spectrum:immunity",
+      "text": "Removes all negative status effects, when applied. Also prevents you from getting any new ones, as long as Immunity is active"
     },
     {
       "type": "patchouli:text",
-      "title": "Stacking Effect",
-      "text": "Getting a level of Frenzy will instead stack additional Levels on top of existing ones, increasing the effects Potency instead of resetting it's duration."
+      "text": "Some effects seem to be powerful enough to resist your immunity."
     }
   ]
 }
