@@ -1,28 +1,24 @@
 {
-  "name": "Bloodstone",
-  "advancement": "spectrum:unlocks/resources/bloodstone",
-  "icon": "spectrum:refined_bloodstone",
+  "name": "Clover",
+  "advancement": "spectrum:hidden/collect_clover",
+  "icon": "spectrum:four_leaf_clover",
   "category": "spectrum:resources_category",
-  "turnin": "spectrum:lategame/grow_malachite_in_crystallarieum",
   "extra_recipe_mappings": {
-    "spectrum:small_bloodstone_bud": 0,
-    "spectrum:large_bloodstone_bud": 0,
-    "spectrum:bloodstone_cluster": 0,
-    "spectrum:bloodstone_block": 0
+    "spectrum:clover": 0,
+    "spectrum:four_leaf_clover": 0
   },
   "pages": [
     {
       "type": "patchouli:spotlight",
-      "title": "Bloodstone",
-      "item": "spectrum:effulgent_feather",
-      "text": "The rather $(l:creating_life/kindlings#effulgent_feather)Effulgent Feathers$() of the kindlings are notable, enough so to compel you to regularly give the little bumpkins coat trimmings.$(br2)However, you've noticed that, sadly quite frequently, drops of blood will come along with the feathers. The ichor dries quickly, leaving behind a sparkly, crystalline residue."
+      "title": "Clover",
+      "item": "spectrum:clover",
+      "text": "Plains and other green biomes are home to these lush green clovers, sprouting with life.$(br2)$(italic)Is today your lucky day?$()"
     },
     {
-      "type": "spectrum:crystallarieum_growing",
-      "advancement": "spectrum:unlocks/blocks/crystallarieum",
-      "title": "Refining Bloodstone",
-      "recipe": "spectrum:crystallarieum/bloodstone",
-      "text": "Set upon the crystallarieum and given a $(bold)$(italic)$(fuck)precarious$() amount of $(item)copper$(), the speck of dragonblood will grow and crystallize into a grand slab of glass, shining in stunning scarlet and bleeding with willful magic!"
+      "type": "patchouli:spotlight",
+      "item": "spectrum:four_leaf_clover",
+      "advancement": "spectrum:collect_four_leaf_clover",
+      "text": "Indeed it is!$(br)You are sure this tiny sign of luck could come in handy."
     }
   ]
 }
