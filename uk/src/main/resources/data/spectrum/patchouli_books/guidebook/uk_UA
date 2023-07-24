@@ -1,21 +1,21 @@
 {
-  "name": "Freigeist",
-  "icon": "spectrum:freigeist",
-  "advancement": "spectrum:unlocks/food/freigeist",
+  "name": "Glistering Jelly Tea",
+  "advancement": "spectrum:unlocks/food/glistering_jelly_tea",
+  "icon": "spectrum:glistering_jelly_tea",
   "category": "spectrum:cuisine_category",
   "extra_recipe_mappings": {
-    "spectrum:freigeist": 0,
-    "spectrum:divination_heart": 0
+    "spectrum:glistering_jelly_tea": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As the first drop touched your lips, it already filled your body with immense might. Just the memory of it makes your hand $(italic)tremble$() of tension. That's no good.$(br)And yet you have never felt more powerful and alive than you did at this very moment.$(br)However, is it really worth emptying that vial? Should you die against all odds, the price will be immense."
+      "text": "The $(l:resources/jade_vines)Jade Vine$() is known for its regenerative properties, similar to $(item)Glistering Melons$(). As it happens, mixed together unfolds exquisitely harmonious, sweet taste.$(br2)Temporarily grants you a small health boost."
     },
     {
-      "type": "spectrum:titration_barrel_fermenting",
-      "recipe": "spectrum:titration_barrel/freigeist",
-      "text": "$(br)$(italic)Caress the one,$(br) the never-fading$(br)Rain in your heart,$(br) the tears of$(br) snow-white sorrow$(br)Caress the one,$(br) the hiding amaranth$(br)In a land of the daybreak"
+      "type": "spectrum:potion_workshop_crafting",
+      "title": "Workshop Recipe",
+      "recipe": "spectrum:potion_workshop_crafting/glistering_jelly_tea",
+      "text": "$(italic)Don't even think about drinking that with milk!"
     }
   ]
 }
