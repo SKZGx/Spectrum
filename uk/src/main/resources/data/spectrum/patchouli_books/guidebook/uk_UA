@@ -1,41 +1,25 @@
 {
-  "name": "Myceylon",
-  "advancement": "spectrum:lategame/collect_myceylon",
-  "icon": "spectrum:myceylon",
+  "name": "Noxshroom Forest",
+  "advancement": "spectrum:hidden/visit_dd_biomes/noxshroom_forest",
+  "icon": "spectrum:shimmel",
   "category": "spectrum:dimension_category",
   "extra_recipe_mappings": {
-    "spectrum:myceylon": 0,
-    "spectrum:myceylon_apple_pie": 0,
-    "spectrum:myceylon_pumpkin_pie": 0,
-    "spectrum:myceylon_cookie": 0
+    "spectrum:shimmel": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Myceylon",
-      "text": "Using an $(item)Axe$() or $(l:equipment/multitool)Multitool$() you could strip small, but unexpectedly sturdy pieces off the $(l:dimension/noxshroom_forest)Noxshrooms$(). Those were both unexpectedly sturdy for a mushroom and... tasty."
+      "type": "patchouli:image",
+      "title": "Noxshroom Forest",
+      "images": [
+        "spectrum:textures/gui/guidebook/dd_noxshroom_forest.png"
+      ],
+      "border": true,
+      "text": "A $(l:dimension/noxwood)weird mix between Tree and Mushroom$(/l) is towering over this biome."
     },
     {
-      "type": "patchouli:text",
-      "text": "Myceylon adds great flavor to baked goods and $(l:cuisine/infused_beverage)drinks$().$(br2)$(italic)Why would you peel Mushrooms?$(br)So you can enjoy the peel later, of course."
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "advancement": "spectrum:unlocks/food/myceylon_pastries",
-      "recipe": "spectrum:pedestal/tier2/food/myceylon_pumpkin_pie",
-      "text": ""
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "advancement": "spectrum:unlocks/food/myceylon_pastries",
-      "recipe": "spectrum:pedestal/tier2/food/myceylon_apple_pie",
-      "text": ""
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "advancement": "spectrum:unlocks/food/myceylon_pastries",
-      "recipe": "spectrum:pedestal/tier2/food/myceylon_cookie",
-      "text": ""
+      "type": "patchouli:spotlight",
+      "item": "spectrum:shimmel",
+      "text": "Blackslag, overgrown with a thin layer of a mycelium-like fungi."
     }
   ]
 }
