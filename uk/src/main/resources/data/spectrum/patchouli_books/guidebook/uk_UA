@@ -1,21 +1,21 @@
 {
-  "name": "Jeopardant",
-  "advancement": "spectrum:unlocks/trinkets/jeopardant",
-  "icon": "spectrum:jeopardant",
+  "name": "Lagoon Rod",
+  "advancement": "spectrum:unlocks/equipment/lagoon_rod",
+  "icon": "spectrum:lagoon_rod",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:jeopardant": 0
+    "spectrum:lagoon_rod": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Adrenaline does not have to be the only thing racing through your veins in state of emergency.$(br2)With every heart lost, the $(l:resources/stratine)Stratine Gem$() in this ring shines brighter and brighter, pulsating in the same rhythm as your racing heart - granting you an exponential damage boost."
+      "text": "On quiet days on your patio you could observe that the $(l:resources/mermaids_brush)Mermaid's Gems$() you found that marine life seems oddly attracted to them. Along with the fact that they naturally float on water, you decided to use one as a bobber.$(br2)Lo and behold, not only does it increase your success, but also have quite a few other interesting side effects..."
     },
     {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Fusion Recipe",
-      "recipe": "spectrum:fusion_shrine/trinkets/jeopardant",
-      "text": "$(italic)Tell me what you think about your situation$(br)Complication, aggravation"
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "recipe": "spectrum:pedestal/tier1/tools/lagoon_rod",
+      "text": "$(italic)You wonder what you can bring to the surface?"
     }
   ]
 }
