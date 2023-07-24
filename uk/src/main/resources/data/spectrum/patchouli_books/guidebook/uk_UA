@@ -1,25 +1,31 @@
 {
-  "name": "Steadfast",
-  "icon": "spectrum:multitool",
-  "advancement": "spectrum:unlocks/enchantments/steadfast",
-  "flag": "spectrum:enchantment_exists_spectrum_steadfast",
+  "name": "Tight Grip",
+  "icon": "minecraft:iron_sword",
+  "advancement": "spectrum:unlocks/enchantments/tight_grip",
+  "flag": "spectrum:enchantment_exists_spectrum_tight_grip",
   "category": "spectrum:enchanting_category",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Knowing you, you create the perfect tool for yourself, only to have it fall into lava in a moment of derangement. And then there is the dimension of the Endermen, which dramatically punishes every mistake.$(br2)This new enchantment will protect your favorite tools in case of such an emergency (and be it throwing it against a cactus)."
+      "text": "It almost seems like a fever dream that you could strike with weapons faster than you can think. In the meantime, every blow costs you so much strength that you have to pause for a moment.$(br)Maybe you are getting old.$(br2)With a few small tweaks to your weapon, you can reduce this downtime somewhat."
     },
     {
       "type": "patchouli:spotlight",
       "title": "Characteristics",
-      "item": "spectrum:multitool{Enchantments: [{id: \"spectrum:steadfast\", lvl: 1s}]}",
-      "text": "Protects tools from all kinds of damage when on the ground, even from Lava or falling into the Void.$(br2)Max Level: 1$(br)Applicable to all tools."
+      "item": "minecraft:iron_sword{Enchantments: [{id: \"spectrum:tight_grip\", lvl: 2s}]}",
+      "text": "Decreases attack cooldown.$(br2)Max Level: 2$(br)Applicable to melee weapons."
     },
     {
       "type": "spectrum:enchanter_crafting",
       "title": "Enchanter Recipe",
-      "recipe": "spectrum:enchanter/spectrum_books/book_steadfast",
-      "text": "You can infuse a $(item)common Book$() with Steadfast by surrounding your $(l:enchanting/enchanter)Enchanter$() with $(l:general/pigment)Pigment$() and the other required materials."
+      "recipe": "spectrum:enchanter/spectrum_books/book_tight_grip",
+      "text": "You can infuse a $(item)common Book$() with Tight Grip by surrounding your $(l:enchanting/enchanter)Enchanter$() with $(l:general/pigment)Pigment$() and the other required materials."
+    },
+    {
+      "type": "spectrum:enchanter_upgrading",
+      "title": "Enchantment Upgrading",
+      "recipe": "spectrum:enchantment_upgrade/spectrum/tight_grip_level_2",
+      "text": "Upgrading Tight Grip from level 1 to level 2 is fairly cheap at first.$(br)This price will quickly increase to more and more $(l:general/pigment)Pigment$() and experience for each additional level."
     }
   ]
 }
