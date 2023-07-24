@@ -1,38 +1,24 @@
 {
-  "name": "Glowblocks",
-  "advancement": "spectrum:unlocks/glowblocks/any_glowblock",
-  "icon": "spectrum:orange_glowblock",
+  "name": "Item Bowls",
+  "advancement": "spectrum:unlocks/blocks/item_bowl",
+  "icon": "spectrum:item_bowl_basalt",
   "category": "spectrum:decoration_category",
-  "extra_recipe_mappings": {
-    "spectrum:black_glowblock": 0,
-    "spectrum:blue_glowblock": 0,
-    "spectrum:brown_glowblock": 0,
-    "spectrum:cyan_glowblock": 0,
-    "spectrum:gray_glowblock": 0,
-    "spectrum:green_glowblock": 0,
-    "spectrum:light_blue_glowblock": 0,
-    "spectrum:light_gray_glowblock": 0,
-    "spectrum:lime_glowblock": 0,
-    "spectrum:magenta_glowblock": 0,
-    "spectrum:orange_glowblock": 0,
-    "spectrum:pink_glowblock": 0,
-    "spectrum:purple_glowblock": 0,
-    "spectrum:red_glowblock": 0,
-    "spectrum:white_glowblock": 0,
-    "spectrum:yellow_glowblock": 0
-  },
+  "extra_recipe_mappings": {},
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "item": "spectrum:orange_glowblock",
-      "title": "Glowblocks",
-      "text": "You have color as pure as can be. So why not create blocks with color as pure as can be!$(br2)You thought about calling them $(thing)Antiblocks$(), but since they are indeed blocks that would be silly, right?"
+      "type": "spectrum:collection",
+      "title": "Item Bowls",
+      "items": [
+        "spectrum:item_bowl_basalt",
+        "spectrum:item_bowl_calcite"
+      ],
+      "text": "There's always something you forget when leaving the base - maybe placing it in this decorative Item Bowl will serve as a good reminder.$()$(br2)It comes in both a $(item)Basalt$() and $(item)Calcite$() variant."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/glowblocks/orange_glowblock",
-      "text": "Glowblocks come in all colors and always look the same, no matter how much light falls on their surface."
+      "recipe": "spectrum:pedestal/tier3/item_bowl_calcite",
+      "text": "The Item Bowl presents a single item stack floating above it.$(br)Click an item into the Bowl or throw it on top to put it in."
     }
   ]
 }
