@@ -1,61 +1,38 @@
 {
-  "name": "Base Trinkets",
-  "advancement": "spectrum:unlocks/trinkets/any_base_trinket",
-  "icon": "spectrum:fanciful_stone_ring",
+  "name": "Bedrock Armor",
+  "advancement": "spectrum:unlocks/equipment/bedrock_tools",
+  "icon": "spectrum:bedrock_chestplate",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:fanciful_stone_ring": 0,
-    "spectrum:fanciful_belt": 0,
-    "spectrum:fanciful_pendant": 0,
-    "spectrum:fanciful_circlet": 0,
-    "spectrum:fanciful_bismuth_ring": 0
+    "spectrum:bedrock_helmet": 0,
+    "spectrum:bedrock_chestplate": 0,
+    "spectrum:bedrock_leggings": 0,
+    "spectrum:bedrock_boots": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These basic accessories are used as a base for more advanced Trinkets. All final Trinkets are created in the $(l:general/fusion_shrine)Fusion Shrine$()."
+      "text": "The strongest material you could find so far was Netherite. However, repairing $(item)Netherite Armor$() had the disadvantage that it was more expensive than making the armor itself. In addition, the protection decreased with every scratch. All this is less problematic when the armor simply $(italic)cannot$() be damaged.$(br2)$(italic)Never wilt, stone blossom."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Fanciful Stone Ring",
-      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_stone_ring",
-      "advancement": "spectrum:unlocks/trinkets/fanciful_stone_ring",
-      "text": ""
+      "type": "spectrum:fusion_shrine_crafting",
+      "recipe": "spectrum:fusion_shrine/bedrock/bedrock_helmet",
+      "text": "The Bedrock Helmet comes with $(bold)Projectile Protection V$()."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Fanciful Circlet",
-      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_circlet",
-      "advancement": "spectrum:unlocks/trinkets/fanciful_circlet",
-      "text": ""
+      "type": "spectrum:fusion_shrine_crafting",
+      "recipe": "spectrum:fusion_shrine/bedrock/bedrock_chestplate",
+      "text": "The Bedrock Chestplate comes with $(bold)Protection V$()."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Fanciful Belt",
-      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_belt",
-      "advancement": "spectrum:unlocks/trinkets/fanciful_belt",
-      "text": ""
+      "type": "spectrum:fusion_shrine_crafting",
+      "recipe": "spectrum:fusion_shrine/bedrock/bedrock_leggings",
+      "text": "The Bedrock Leggings come with $(bold)Blast Protection V$()."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Fanciful Pendant",
-      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_pendant",
-      "advancement": "spectrum:unlocks/trinkets/fanciful_pendant",
-      "text": ""
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Fanciful Gloves",
-      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_gloves",
-      "advancement": "spectrum:unlocks/trinkets/fanciful_gloves",
-      "text": ""
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Fanciful Bismuth Ring",
-      "recipe": "spectrum:pedestal/tier4/fanciful_bismuth_ring",
-      "advancement": "spectrum:unlocks/trinkets/fanciful_bismuth_ring",
-      "text": ""
+      "type": "spectrum:fusion_shrine_crafting",
+      "recipe": "spectrum:fusion_shrine/bedrock/bedrock_boots",
+      "text": "The Bedrock Boots come with $(bold)Fire Protection V$()."
     }
   ]
 }
