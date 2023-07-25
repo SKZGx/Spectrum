@@ -1,63 +1,36 @@
 {
-  "name": "Fusion Shrine",
-  "icon": "spectrum:fusion_shrine_basalt",
-  "sortnum": 10,
+  "name": "Creating Onyx Shards",
+  "icon": "spectrum:onyx_shard",
+  "sortnum": 11,
   "advancement": "spectrum:unlocks/blocks/fusion_shrine",
-  "turnin": "spectrum:build_fusion_shrine",
   "category": "spectrum:general_category",
-  "extra_recipe_mappings": {},
+  "turnin": "spectrum:create_onyx_shard",
+  "extra_recipe_mappings": {
+    "spectrum:onyx_shard": 0,
+    "spectrum:onyx_block": 0
+  },
   "pages": [
     {
-      "type": "spectrum:collection",
-      "title": "Fusion Shrine",
-      "items": [
-        "spectrum:fusion_shrine_basalt",
-        "spectrum:fusion_shrine_calcite"
+      "type": "patchouli:text",
+      "text": "To create brown Pigment you needed a way to darken an orange tone.$(br)And then it occurred to you. It's so logical when you think about it! The three gems you found correspond to the three basic colors of color theory!$(br)By mixing all three colors you can create a shard that is so dark it almost looks unreal."
+    },
+    {
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "Fusion Recipe",
+      "recipe": "spectrum:fusion_shrine/onyx_shard",
+      "text": "The creation of this 'blackest of blacks' in the $(l:general/fusion_shrine)Fusion Shrine$() has to be performed in a way that absolutely no unregulated light can pollute the crystal. So midnight on a new moon it is. Best to bring a clock with you."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Moon Phases",
+      "images": [
+        "spectrum:textures/gui/guidebook/moon_phases.png"
       ],
-      "text": "For the process of creating $(l:general/onyx_shards)Black Shards$() you have developed a special construction.$(br2)You can either click or throw items and buckets onto it. You are even able to process entire stacks of fusion ingredients at once, making fusing much more efficient than with a single item per cycle."
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier2/fusion_shrine_basalt",
-      "text": "Can be constructed using $(item)Calcite$() or $(item)Basalt$().$(br)Requires a focus structure and clear view of the sky."
-    },
-    {
-      "type": "patchouli:multiblock",
-      "name": "Shrine Structure",
-      "multiblock_id": "spectrum:fusion_shrine_structure",
-      "enable_visualize": true,
-      "text": "Dimensions: 9x9x5x5 blocks."
+      "text": "Depending on the positions of Sun and Moon, the Moon will reflect more or less light."
     },
     {
       "type": "patchouli:text",
-      "title": "Block Checklist",
-      "text": "$(li)1 Fusion Shrine$(li)4 Polished Gemstone Blocks$(li)4 Chiseled Polished Blocks$(li)8 Polished Pillars$(li)12 Polished Slabs$(li)77 Polished Blocks$(br2)As always you are able to switch $(item)Basalt$() with $(item)Calcite$() and choose the $(l:decoration/gemstone_storage_blocks)Gemstone Blocks$(/l) to your liking."
-    },
-    {
-      "type": "patchouli:text",
-      "title": "Changing the Weather",
-      "text": "You have designed the structure for the Fusion Shrine to bundle the magical energies of $(c_cyan)Matter$(), $(c_magenta)Time$() and $(c_yellow)Energy$() and focus them on a single, central point, the Fusion Shrine itself.$(br2)These powerful bundled energies seem to even have enough power to change the weather."
-    },
-    {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Sunny Weather",
-      "recipe": "spectrum:fusion_shrine/weather/weather_clear",
-      "text": "$(italic)It's a brand new day$(br)And the sun is high$(br)All the birds are singing$(br)That you're gonna die"
-    },
-    {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Rainy Weather",
-      "advancement": "spectrum:unlocks/weather/weather_rain",
-      "recipe": "spectrum:fusion_shrine/weather/weather_rain",
-      "text": "$(italic)Knock Knock$(br)Who's there?$(br)Accordion$(br)Accordion who?$(br)Accordion to the forecast, it's going to rain tonight."
-    },
-    {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Thunderstorms",
-      "advancement": "spectrum:unlocks/weather/weather_thunder",
-      "recipe": "spectrum:fusion_shrine/weather/weather_thunder",
-      "text": "$(italic)Why did the god of thunder drink water?$(br2)Because he was thorsty."
+      "text": "These are known as $(thing)Moon Phases$().$(br2)When the moon is at its brightest, it is known as a $(thing)Full Moon$(). When at its darkest, it is a $(thing)New Moon$().$(br2)An entire lunar phase cycle from one new moon to the following new moon is also called a $(thing)lunation$()."
     }
   ]
 }
