@@ -12,7 +12,13 @@ import net.minecraft.world.event.*;
 
 public class BlockPosEventTransmissionParticleEffect extends SimpleTransmissionParticleEffect {
 	
-	public static final Codec<BlockPosEventTransmissionParticleEffect> CODEC = RecordCodecBuilder.create((instance) -> instance.group(PositionSource.CODEC.fieldOf("destination").forGetter((effect) -> effect.destination), Codec.INT.fieldOf("arrival_in_ticks").forGetter((vibrationParticleEffect) -> vibrationParticleEffect.arrivalInTicks)).apply(instance, BlockPosEventTransmissionParticleEffect::new));
+	public static final Codec<BlockPosEventTransmissionParticleEffect> CODEC = RecordCodecBuilder.create(
+		(instance) -> instance.group(
+			PositionSource.CODEC.fieldOf("destination").forGetter((effect) -> effect.destination),
+			Codec.INT.fieldOf("arrival_in_ticks").forGetter((vibrationParticleEffect) -> vibrationParticleEffect.arrivalInTicks)
+		).apply(instance, BlockPosEventTransmissionParticleEffect::new));
+	
+	@SuppressWarnings("deprecation")
 	public static final Factory<BlockPosEventTransmissionParticleEffect> FACTORY = new Factory<>() {
 		@Override
 		public BlockPosEventTransmissionParticleEffect read(ParticleType<BlockPosEventTransmissionParticleEffect> particleType, StringReader stringReader) throws CommandSyntaxException {
@@ -36,12 +42,12 @@ public class BlockPosEventTransmissionParticleEffect extends SimpleTransmissionP
 		}
 	};
 	
-	public BlockPosEventTransmissionParticleEffect(PositionSource positionSource, int arrivalInTicks) {
+	public BlockPosEventTransmissionParticleEffect(PositionSource positionSource, Integer arrivalInTicks) {
 		super(positionSource, arrivalInTicks);
 	}
 	
 	@Override
-	public ParticleType getType() {
+	public ParticleType<BlockPosEventTransmissionParticleEffect> getType() {
 		return SpectrumParticleTypes.BLOCK_POS_EVENT_TRANSMISSION;
 	}
 	

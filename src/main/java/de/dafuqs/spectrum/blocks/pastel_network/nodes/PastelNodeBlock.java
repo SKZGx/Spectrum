@@ -40,6 +40,7 @@ public class PastelNodeBlock extends FacingBlock implements BlockEntityProvider 
 	}
 	
 	@Nullable
+	@SuppressWarnings("unchecked")
 	protected static <E extends BlockEntity, A extends BlockEntity> BlockEntityTicker<A> checkType(BlockEntityType<A> givenType, BlockEntityType<E> expectedType, BlockEntityTicker<? super E> ticker) {
 		return expectedType == givenType ? (BlockEntityTicker<A>) ticker : null;
 	}
@@ -57,6 +58,7 @@ public class PastelNodeBlock extends FacingBlock implements BlockEntityProvider 
 
 
     @Override
+	@SuppressWarnings("deprecation")
     public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
         if (!newState.isOf(state.getBlock())) {
             PastelNodeBlockEntity blockEntity = getBlockEntity(world, pos);
@@ -104,6 +106,7 @@ public class PastelNodeBlock extends FacingBlock implements BlockEntityProvider 
 	}
 	
 	@Override
+	@SuppressWarnings("deprecation")
 	public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
 		PastelNodeBlockEntity blockEntity = getBlockEntity(world, pos);
 		if (player.getStackInHand(hand).isOf(SpectrumItems.PAINTBRUSH)) {

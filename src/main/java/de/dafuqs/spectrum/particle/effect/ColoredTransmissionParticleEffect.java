@@ -13,7 +13,14 @@ import net.minecraft.world.event.*;
 
 public class ColoredTransmissionParticleEffect extends SimpleTransmissionParticleEffect {
 	
-	public static final Codec<ColoredTransmissionParticleEffect> CODEC = RecordCodecBuilder.create((instance) -> instance.group(PositionSource.CODEC.fieldOf("destination").forGetter((effect) -> effect.destination), Codec.INT.fieldOf("arrival_in_ticks").forGetter((effect) -> effect.arrivalInTicks), Codec.INT.fieldOf("dye_color").forGetter((effect) -> effect.dyeColor.getId())).apply(instance, ColoredTransmissionParticleEffect::new));
+	public static final Codec<ColoredTransmissionParticleEffect> CODEC = RecordCodecBuilder.create(
+		(instance) -> instance.group(
+			PositionSource.CODEC.fieldOf("destination").forGetter((effect) -> effect.destination),
+			Codec.INT.fieldOf("arrival_in_ticks").forGetter((effect) -> effect.arrivalInTicks),
+			Codec.INT.fieldOf("dye_color").forGetter((effect) -> effect.dyeColor.getId())
+		).apply(instance, ColoredTransmissionParticleEffect::new));
+	
+	@SuppressWarnings("deprecation")
 	public static final ParticleEffect.Factory<ColoredTransmissionParticleEffect> FACTORY = new ParticleEffect.Factory<>() {
 		@Override
 		public ColoredTransmissionParticleEffect read(ParticleType<ColoredTransmissionParticleEffect> particleType, StringReader stringReader) throws CommandSyntaxException {
@@ -41,12 +48,12 @@ public class ColoredTransmissionParticleEffect extends SimpleTransmissionParticl
 	
 	public final DyeColor dyeColor;
 	
-	public ColoredTransmissionParticleEffect(PositionSource positionSource, int arrivalInTicks, int dyeColorId) {
+	public ColoredTransmissionParticleEffect(PositionSource positionSource, Integer arrivalInTicks, Integer dyeColorId) {
 		super(positionSource, arrivalInTicks);
 		this.dyeColor = DyeColor.byId(dyeColorId);
 	}
 	
-	public ColoredTransmissionParticleEffect(PositionSource positionSource, int arrivalInTicks, DyeColor dyeColor) {
+	public ColoredTransmissionParticleEffect(PositionSource positionSource, Integer arrivalInTicks, DyeColor dyeColor) {
 		super(positionSource, arrivalInTicks);
 		this.dyeColor = dyeColor;
 	}
