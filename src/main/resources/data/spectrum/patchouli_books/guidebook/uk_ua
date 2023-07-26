@@ -1,31 +1,27 @@
 {
-  "name": "Little Ants",
-  "icon": "ants:dirt_ant_nest",
-  "flag": "mod:ants",
+  "name": "More Geodes",
+  "icon": "geodes:echo_cluster",
+  "flag": "mod:geodes",
   "advancement": "spectrum:place_pedestal",
   "category": "spectrum:mod_integration_category",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "These industrious little buggers continuously collect leaves from trees. The results of their work are also reflected in their products. While they mostly produce $(thing)Clay$(), there might be others...$(br2)Shoutout to MastroCaleb for this great mod!"
+      "text": "Scattered around the world you have discovered numerous geodes, which produce not only colored gems, but also valuable resources."
     },
     {
       "type": "patchouli:spotlight",
-      "item": "spectrum:jade_vine_petal_block",
-      "advancement": "spectrum:hidden/collect_jade_vine_petals",
-      "text": "The ants produce an almost silk-like material from $(item)Jade Petals$()."
+      "title": "Auto-Harvesting",
+      "advancement": "spectrum:unlocks/blocks/crystal_apothecary",
+      "item": "spectrum:crystal_apothecary",
+      "text": "The $(l:magic/crystal_apothecary)Crystal Apothecary$() is able to harvest $(item)Crystals$() automatically - even if you are not near those geodes at all!"
     },
     {
       "type": "patchouli:spotlight",
-      "item": "minecraft:orange_dye",
-      "advancement": "spectrum:collect_pigment",
-      "text": "If you harvest a full anthill that collected leaves of colored trees with a shovel, you get $(item)Dye$()."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "item": "spectrum:orange_pigment",
-      "advancement": "spectrum:collect_pigment",
-      "text": "Even better, if you bribe them with $(thing)Vegetal$(), you can even salvage pure $(thing)Pigment$() instead."
+      "title": "Moving Budding Blocks",
+      "advancement": "spectrum:unlocks/enchantments/resonance_usage",
+      "item": "spectrum:resonant_pickaxe",
+      "text": "Tools enchanted with $(l:enchantments/resonance)Resonance$() are able to harvest Budding Blocks."
     }
   ]
 }
