@@ -1,34 +1,28 @@
 {
-  "name": "Trifles",
-  "icon": "spectrum:jaramel_trifle",
-  "advancement": "spectrum:unlocks/food/trifles",
-  "category": "spectrum:cuisine_category",
+  "name": "Banner Patterns",
+  "icon": "spectrum:amethyst_shard_banner_pattern",
+  "advancement": "spectrum:spectrum",
+  "category": "spectrum:decoration_category",
   "extra_recipe_mappings": {
-    "spectrum:jaramel_trifle": 0,
-    "spectrum:salted_jaramel_trifle": 0,
-    "spectrum:monster_trifle": 0
+    "spectrum:logo_banner_pattern": 0,
+    "spectrum:amethyst_shard_banner_pattern": 0,
+    "spectrum:amethyst_cluster_banner_pattern": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "Sweet delicacies, guaranteed to not only give you a sugar rush - depending on the toppings.$(br)Made from $(l:resources/jade_vines#jaramel)Jaramel$(/l), $(thing)Gelatin$() & $(l:resources/amaranth)Amaranth$(/l).$(br)Even the simple one tastes great!"
+      "type": "patchouli:image",
+      "title": "Banner Patterns",
+      "border": true,
+      "images": [
+        "spectrum:textures/gui/guidebook/banners.png"
+      ],
+      "text": "Resources and tools you come across can be used directly in the Loom as patterns."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Jaramel Trifle",
-      "recipe": "spectrum:pedestal/tier3/food/jaramel_trifle",
-      "text": "The classic. The only thing that would make this one more delicious would be the tears of your enemies."
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "advancement": "spectrum:craft_salted_jaramel_trifle_or_tart",
-      "recipe": "spectrum:pedestal/tier3/food/salted_jaramel_trifle",
-      "text": "$(italic)Extra Salty"
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "recipe": "spectrum:pedestal/tier3/food/monster_trifle",
-      "text": "Gives out effects at random. Fancy a gamble?"
+      "type": "patchouli:crafting",
+      "title": "Vanilla Patterns",
+      "recipe": "spectrum:crafting_table/banner_patterns/amethyst_cluster_banner_pattern",
+      "recipe2": "spectrum:crafting_table/banner_patterns/amethyst_shard_banner_pattern"
     }
   ]
 }
