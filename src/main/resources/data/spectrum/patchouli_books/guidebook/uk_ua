@@ -1,36 +1,22 @@
 {
-  "name": "Ender Splice",
-  "advancement": "spectrum:unlocks/items/ender_splice",
-  "icon": "spectrum:ender_splice",
+  "name": "Everpromise Ribbon",
+  "advancement": "spectrum:unlocks/items/everpromise_ribbon_guidebook",
+  "icon": "spectrum:everpromise_ribbon",
   "category": "spectrum:magical_items_category",
   "extra_recipe_mappings": {
-    "spectrum:ender_splice": 0
+    "spectrum:everpromise_ribbon": 0
   },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "item": "spectrum:ender_splice",
-      "text": "The most interesting thing about the Endermen is, without question, their teleportation ability. You were pretty successful replicating it! However, to determine the destination of your teleport, you must first take a snapshot of the position.$(br)Endermen don't have to do that, it seems. Why?"
+      "type": "patchouli:text",
+      "text": "A ribbon, gifted to pets as an everlasting promise to watch out and care for them.$(br)Name it, add Pigment to it in a Crafting Table and attach it on a creature."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/ender_splice",
-      "text": "Change it to bind it to your current position.$(br)The second use will teleport you back. Can even be used on other players. Cannot teleport you across dimensions."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "advancement": "spectrum:midgame/build_enchanting_structure",
-      "title": "Unbreaking",
-      "item": "spectrum:ender_splice{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 3s}]}",
-      "text": "Enchanting an Ender Splice with Unbreaking by using the $(l:enchanting/enchanting_items)Enchanter$(/l) decreases the chance of it breaking on use."
-    },
-    {
-      "type": "patchouli:spotlight",
-      "advancement": "spectrum:lategame/create_resonance_enchanted_book",
-      "title": "Resonance",
-      "item": "spectrum:ender_splice{Enchantments: [{id: \"spectrum:resonance\", lvl: 1s}]}",
-      "text": "Enchanting an Ender Splice with Resonance by using the $(l:enchanting/enchanting_items)Enchanter$(/l) will allow for interdimensional teleport."
+      "advancement": "spectrum:unlocks/items/everpromise_ribbon_recipe",
+      "recipe": "spectrum:pedestal/tier4/everpromise_ribbon",
+      "text": "Your pet receive it's new, colored name, will immediately trust you if it does not already and - should it ever die - drop a $(item)Broken Promise$()."
     }
   ]
 }
