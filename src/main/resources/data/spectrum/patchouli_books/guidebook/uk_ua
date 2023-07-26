@@ -1,23 +1,21 @@
 {
-  "name": "Bag of Holding",
-  "advancement": "spectrum:unlocks/items/bag_of_holding",
-  "icon": "spectrum:bag_of_holding",
+  "name": "Block Flooder",
+  "advancement": "spectrum:unlocks/blocks/block_flooder",
+  "icon": "spectrum:block_flooder",
   "category": "spectrum:magical_items_category",
   "extra_recipe_mappings": {
-    "spectrum:bag_of_holding": 0
+    "spectrum:block_flooder": 0
   },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "title": "Bag of Holding",
-      "item": "spectrum:bag_of_holding",
-      "text": "Placing an $(item)Ender Chest$(), opening it, and mining it with an enchanted pickaxe is not what you think of as fun.$(br)That's why you invented this thing."
+      "type": "patchouli:text",
+      "text": "Like a caveman, you've always run around manually illuminating caves, or closing their unsightly entries in your immediate vicinity. To relieve you of this work you took the self-replicating abilities of $(l:creating_life/fading)Fading$(/l) as an inspiration and developed the Block Flooder.$(br)Thrown into a narrow path, pond or ravine, those get filled - in 5% of the cases the result even looks acceptable!"
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/bag_of_holding",
-      "text": "Just open it and the contents of your $(item)Ender Chest$() are right there."
+      "recipe": "spectrum:pedestal/tier2/block_flooder",
+      "text": "Pulls matching blocks directly from your inventory to fill the gaps. If you don't have any matching ones, it will fall back to Cobblestone."
     }
   ]
 }
