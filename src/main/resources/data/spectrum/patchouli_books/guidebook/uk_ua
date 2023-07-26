@@ -1,18 +1,21 @@
 {
-  "name": "Storage Node",
-  "icon": "spectrum:provider_node",
-  "advancement": "spectrum:unlocks/blocks/pastel_network",
-  "category": "spectrum:pastel_network_category",
+  "name": "Block Detector",
+  "advancement": "spectrum:unlocks/redstone/block_detector",
+  "icon": "spectrum:block_detector",
+  "category": "spectrum:redstone_category",
+  "extra_recipe_mappings": {
+    "spectrum:block_detector": 0
+  },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Storage Node",
-      "text": "The Storage Node will show their greatest use in combination with $(l:pastel_network/sender_node)Sender Nodes$(/l) (will push to it) and $(l:pastel_network/gather_node)Gather Nodes$(/l) (will pull from it).$(br2)Its $(thing)filter$() allows you to specify which items it will receive & provide. An empty filter makes it act as a general storage for all types of items."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:block_detector",
+      "text": "Almost like an $(item)Observer$(), but more specific.$(br)Gives off a $(thing)redstone pulse$() every time a block is placed in front of it that matches the block below it (or above it, if facing down)."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/pastel_network/storage_node",
+      "recipe": "spectrum:pedestal/tier1/block_detector",
       "text": ""
     }
   ]
