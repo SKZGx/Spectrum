@@ -1,21 +1,21 @@
 {
-  "name": "Crescent Clock",
-  "advancement": "spectrum:unlocks/items/crescent_clock",
-  "icon": "spectrum:crescent_clock",
+  "name": "Enchantment Canvas",
+  "advancement": "spectrum:unlocks/items/enchantment_canvas",
+  "icon": "spectrum:enchantment_canvas",
   "category": "spectrum:magical_items_category",
   "extra_recipe_mappings": {
-    "spectrum:crescent_clock": 0
+    "spectrum:enchantment_canvas": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "This clock, made up of witnesses to time, is intended to guide you through this never-ending stream of beginnings and endings - the phases of the moon.$(br2)$(br2)$(italic)If we shadows have offended, Know but this and all is mended."
+      "text": "Your pickaxe, which was sinfully expensive to enchant? Almost broken and each additional broken block damages your nerves more than the tool itself.$(br)Even if the tool can't be saved, at least the enchantments will! This canvas does not only capture color: Used on a tool, the enchantments are exchanged."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/crescent_clock",
-      "text": "$(italic)That you have but slumbered here, While these visions did appear.$(br)And this weak and idle theme, No more yielding, but a dream."
+      "recipe": "spectrum:pedestal/tier2/enchantment_canvas",
+      "text": "Once used, an image of the item you used it on will manifest on the canvas, never be removed again, binding it to this type of item."
     }
   ]
 }
