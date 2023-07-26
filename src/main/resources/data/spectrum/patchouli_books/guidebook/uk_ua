@@ -1,22 +1,22 @@
 {
-  "name": "Glow Vision Goggles",
-  "advancement": "spectrum:unlocks/trinkets/glow_vision_goggles",
-  "icon": "spectrum:glow_vision_goggles",
+  "name": "Greater Potion Pendant",
+  "advancement": "spectrum:unlocks/trinkets/greater_potion_pendant",
+  "secret": true,
+  "icon": "spectrum:greater_potion_pendant",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:glow_vision_goggles": 0
+    "spectrum:greater_potion_pendant": 0
   },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "item": "spectrum:glow_vision_goggles",
-      "text": "What makes Glow Squids so special is them lighting your way in the darkness of the caves. As beautiful as they are, they seem to wash ashore far too often and meet their sad end there.$(br)You honor their clumsy glowing legacy by designing glasses that can continue guiding you in the darkness of the caves."
+      "type": "patchouli:text",
+      "text": "Works very much like its $(l:equipment/lesser_potion_pendant)little brother$(/l).$(br)However, this version has three chambers, each of which can be filled with a different potion - which also means it can only support effects of level I."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/glow_vision_goggles",
-      "text": "If you are in a dark area and have Glow Ink Sacs on you, the Glow Vision Goggles grant you the Night Vision effect."
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "Fusion Recipe",
+      "recipe": "spectrum:fusion_shrine/trinkets/greater_potion_pendant",
+      "text": "Use the $(l:brewing/potion_workshop)Potion Workshop$(/l) to infuse it, by placing it where the $(item)Bottle$() would normally go.$(br2)To clear its effect, put it in a crafting grid."
     }
   ]
 }
