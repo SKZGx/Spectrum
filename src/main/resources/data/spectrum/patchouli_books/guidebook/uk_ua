@@ -1,6 +1,6 @@
 {
-  "name": "Enchanting",
-  "description": "Everything you need for improving your tools and weapons.",
-  "icon": "spectrum:enchanter",
-  "sortnum": 11
+  "name": "Equipment",
+  "description": "Tools, Armor and Trinkets.$(br)Everything you can wield or equip to do fun stuff or increase your abilities.",
+  "icon": "spectrum:multitool",
+  "sortnum": 4
 }
