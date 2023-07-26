@@ -1,3 +1,6 @@
-files:
-  - source: /src/main/resources/assets/spectrum/lang/en_us.json
-    translation: /src/main/resources/assets/spectrum/lang/%locale_with_underscore%.json
+crowdin:
+  project_id: Spectrumua
+  base_path: /src/main/resources/data/spectrum/patchouli_books/guidebook
+  files:
+    - source: /en_us/**.json
+      translation: /%two_letters_code%/%original_file_name%
