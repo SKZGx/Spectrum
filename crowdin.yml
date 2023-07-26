@@ -1,5 +1,5 @@
 files:
-  - source: src/main/resources/assets/spectrum/lang/en_us.json
+  - source: /src/main/resources/assets/spectrum/lang/en_us.json
     translation: /src/main/resources/assets/spectrum/lang/%locale_with_underscore%.json
   - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories
     translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/%original_file_name%
@@ -7,3 +7,33 @@ files:
     translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/%original_file_name%
   - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/
     translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/lore
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/lore/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/%original_file_name%
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/%original_file_name%
