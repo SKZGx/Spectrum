@@ -1,51 +1,50 @@
 {
-  "name": "Liquid Crystal",
-  "advancement": "spectrum:unlocks/blocks/liquid_crystal",
-  "icon": "spectrum:liquid_crystal_bucket",
+  "name": "Midnight Solution",
+  "icon": "spectrum:midnight_solution_bucket",
+  "advancement": "spectrum:midgame/create_midnight_aberration",
   "category": "spectrum:magical_blocks_category",
-  "turnin": "spectrum:midgame/enter_liquid_crystal",
+  "turnin": "spectrum:midgame/collect_midnight_chip",
   "extra_recipe_mappings": {
-    "spectrum:liquid_crystal_bucket": 0,
-    "spectrum:blazing_crystal": 0,
-    "spectrum:frostbite_crystal": 0,
-    "spectrum:resonant_lily": 0
+    "spectrum:midnight_solution_bucket": 0,
+    "spectrum:midnight_chip": 0,
+    "spectrum:black_materia": 0
   },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "title": "Liquid Crystal",
-      "item": "spectrum:liquid_crystal_bucket",
-      "text": "The pure energy of gemstones in liquid form. It is said to have a healing effect."
-    },
-    {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/liquid_crystal_bucket",
-      "text": "Combining it with various other liquids results in all kinds of interesting looking materials."
+      "type": "patchouli:text",
+      "text": "You stumbled upon this bizarre liquid as a direct result of $(l:general/midnight_aberration)your failed fusion experiment$(). Pity, really, but look what you have now.$(br)Creatures that touch it seem to get their life drained out of them. Interesting...$(br)Better not get caught in it yourself."
     },
     {
       "type": "patchouli:spotlight",
-      "item": "minecraft:clay",
-      "text": "Letting Liquid Crystal collide with $(l:magical_blocks/mud)Liquid Mud$() created $(item)Clay$()! Surely there are more combinations to discover!$(br2)$(italic)Thomas had never seen such unbalance before.$()"
+      "title": "Midnight Chip",
+      "item": "spectrum:midnight_chip",
+      "advancement": "spectrum:midgame/collect_midnight_chip",
+      "text": "Creatures that died in that feisty liquid drop a small splinter that almost resembles a $(l:general/midnight_aberration)Midnight Aberration$(/l), just way, way smaller. Sharp-Edged and vicious.$(br)Creatures unalived by this cruel process also seem to $(thing)drop items as if they were killed by a player$()."
+    },
+    {
+      "type": "spectrum:potion_workshop_crafting",
+      "title": "Midnight Solution Bucket",
+      "recipe": "spectrum:potion_workshop_crafting/midnight_solution_bucket",
+      "advancement": "spectrum:unlocks/blocks/midnight_solution",
+      "text": "Using the exact drop that you got by killing creatures with that fluid you can create even more of it. Quite morbid, if you think about it."
     },
     {
       "type": "patchouli:spotlight",
-      "advancement": "spectrum:hidden/collect_blazing_crystal",
-      "item": "spectrum:blazing_crystal",
-      "text": "Letting a full block of Liquid Crystal absorb the immense heat of Lava resulted in this.$(br)Almost feels like a $(item)Magma Block$(), albeit way hotter."
+      "title": "Black Materia",
+      "item": "spectrum:black_materia",
+      "advancement": "spectrum:hidden/break_black_materia",
+      "text": "A seemingly useless material that forms around pools of Midnight Solution."
     },
     {
-      "type": "patchouli:spotlight",
-      "advancement": "spectrum:hidden/collect_frostbite_crystal",
-      "item": "spectrum:frostbite_crystal",
-      "text": "As $(item)Water$() tried to flow into a full block of Liquid Crystal the crystal solidified.$(br)Since even a light touch is enough to give you a cold shiver, you called it Frostbite Crystal."
+      "type": "spectrum:midnight_solution_converting",
+      "title": "Item Conversion",
+      "recipe": "spectrum:midnight_solution_converting/blackstone",
+      "text": "Throwing some items into the liquid seems to corrupt them up to a point they turn into something else entirely."
     },
     {
-      "type": "spectrum:liquid_crystal_converting",
-      "advancement": "spectrum:midgame/collect_resonant_lily",
-      "anchor": "resonant_lily",
-      "recipe": "spectrum:liquid_crystal_converting/resonant_lily",
-      "text": "This is an interesting one. When $(item)Flowers$() absorb this magical liquid through their roots, they turn into those elusive plants."
+      "type": "patchouli:text",
+      "title": "Disenchanting",
+      "text": "Even more, if you throw enchanted items into it, they will be stripped of their special abilities. All that's left is the ordinary item and a bunch of experience."
     }
   ]
 }
