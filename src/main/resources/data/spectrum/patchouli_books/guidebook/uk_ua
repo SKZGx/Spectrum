@@ -1,22 +1,24 @@
 {
-  "name": "Fabrication Chest",
-  "advancement": "spectrum:unlocks/blocks/restocking_chest",
-  "icon": "spectrum:restocking_chest",
+  "name": "Glistering Melons",
+  "advancement": "spectrum:collect_vegetal",
+  "icon": "minecraft:glistering_melon_slice",
   "category": "spectrum:magical_blocks_category",
   "extra_recipe_mappings": {
-    "spectrum:restocking_chest": 0
+    "minecraft:glistering_melon_slice": 0,
+    "spectrum:glistering_melon": 0,
+    "spectrum:glistering_melon_seeds": 0
   },
   "pages": [
     {
       "type": "patchouli:spotlight",
-      "item": "spectrum:restocking_chest",
-      "text": "The Pigment Pedestal is wonderful for automatically creating items. But if you need the same few items over and over again, you'll have to rearrange your whole construction.$(br2)Of course, you have found a more than adequate solution for that."
+      "title": "Glistering Melon Plants",
+      "item": "minecraft:glistering_melon_slice",
+      "text": "With the magic inherent in gemstone dust you have $(l:general/colored_trees)already managed to change seedlings$(). What's stopping you from trying it on other plants?$(br)Not because you're greedy or anything, of course."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/restocking_chest",
-      "text": "The Fabrication Chest has four slots for $(l:magical_items/crafting_tablet)Crafting Tablets$(). The recipes you have defined in these are always kept in stock - as long as the ingredients in the chest allow it."
+      "recipe": "spectrum:pedestal/tier1/glistering_melon_seeds"
     }
   ]
 }
