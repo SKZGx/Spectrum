@@ -1,6 +1,6 @@
 {
-  "name": "Mod Integration",
-  "description": "All the additional functionality & recipes in combination with other mods. Knowledge transfer is a fine thing.$(br)You will expand each mod's pages as you go.",
-  "icon": "minecraft:knowledge_book",
-  "sortnum": 16
+  "name": "Pastel Network [PREVIEW]",
+  "description": "Wireless item transfer using Azurite!",
+  "icon": "spectrum:provider_node",
+  "sortnum": 12
 }
