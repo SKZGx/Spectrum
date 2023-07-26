@@ -1,22 +1,48 @@
 {
-  "name": "Weather Detector",
-  "advancement": "spectrum:unlocks/redstone/weather_detector",
-  "icon": "spectrum:player_detector",
-  "category": "spectrum:redstone_category",
+  "name": "Amaranth",
+  "advancement": "spectrum:milestones/reveal_amaranth",
+  "icon": "spectrum:amaranth_bushel",
+  "category": "spectrum:resources_category",
   "extra_recipe_mappings": {
-    "spectrum:weather_detector": 0
+    "spectrum:amaranth_grains": 0,
+    "spectrum:amaranth_bushel": 0,
+    "spectrum:honey_pastry": 0,
+    "spectrum:scone": 0,
+    "spectrum:triple_meat_pot_pie": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Weather Detector",
-      "text": "Citrine is very sensitive to the energies released during a storm.$(br2)If the Weather Detector is directly exposed to rain or a thunderstorm, it emits a $(thing)redstone signal$()."
+      "title": "Amaranth",
+      "text": "Though seemingly left behind for quite some time now, these seeds still look very much alive. You wonder what comes out of it when grown?"
+    },
+    {
+      "type": "spectrum:anvil_crushing",
+      "title": "Amaranth Grains",
+      "advancement": "spectrum:collect_amaranth_bushel",
+      "recipe": "spectrum:anvil_crushing/amaranth_grains",
+      "text": "You never have seen anything like it. Such an intense red. So expressive!$(br)These Bushels can be crushed to get more grains.$(br2)They can also be planted decoratively on grass or in a flower pot."
     },
     {
       "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/detectors/weather_detector",
-      "text": "Rain provides a signal with strength 8, thunderstorms of full 15."
+      "advancement": "spectrum:collect_amaranth_bushel",
+      "title": "Honey Pastry",
+      "recipe": "spectrum:pedestal/tier1/honey_pastry",
+      "text": "The taste of Amaranth is as different from Wheat as its appearance. In your mind sprouted completely new ideas, like this deliciousness here."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "advancement": "spectrum:collect_amaranth_bushel",
+      "title": "Scones",
+      "recipe": "spectrum:pedestal/tier2/food/scone",
+      "text": "Small but fine pastry filled with cream.$(br2)$(italic)Perfect with tea."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "advancement": "spectrum:unlocks/food/triple_meat_pot_pie",
+      "title": "Triple Meat Pot Pie",
+      "recipe": "spectrum:pedestal/tier2/food/triple_meat_pot_pie",
+      "text": "This feast is guaranteed to fill your belly for quite some time.$(br2)$(italic)Full of fat and meat and wine and warp!"
     }
   ]
 }
