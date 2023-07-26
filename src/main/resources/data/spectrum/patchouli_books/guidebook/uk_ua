@@ -1,18 +1,38 @@
 {
-  "name": "Gather Node",
-  "icon": "spectrum:gather_node",
-  "advancement": "spectrum:unlocks/blocks/pastel_network",
+  "name": "Node Coloring",
+  "icon": "minecraft:red_dye",
+  "advancement": "spectrum:unlocks/milestones/__todo_unlock_pastel_node_coloring",
   "category": "spectrum:pastel_network_category",
+  "priority": true,
+  "sortnum": 2,
+  "secret": true,
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "The Gather Node will actively request from other nodes in its $(l:pastel_network/pastel_network)Pastel Network$(/l) and put them in its connected inventory.$(br2)Specify the items to collect in its $(thing)filter$()."
+      "type": "patchouli:spotlight",
+      "title": "Node Coloring",
+      "item": "spectrum:purple_pigment",
+      "text": "Using $(l:general/pigment)Pigment$(/l) on Pastel Network Nodes dyes them.$(br2)Each node will only be able to transfer items to nodes of the same color or ones it composites into, but not the other way around: ($(c_cyan)Cyan$() nodes will transfer to $(c_blue)Blue$() ones, but not $(c_blue)Blue$() nodes to $(c_cyan)Cyan$())"
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier3/pastel_network/gather_node",
-      "text": "Gathering Order:$(br)1. $(l:pastel_network/sender_node)Sender Nodes$(/l)$(br)2. $(l:pastel_network/provider_node)Provider Nodes$(/l)$(br)3. $(l:pastel_network/storage_node)Storage Nodes$(/l)"
+      "type": "patchouli:image",
+      "title": "",
+      "images": [
+        "spectrum:textures/gui/guidebook/composite_colors.png"
+      ],
+      "border": true,
+      "text": "You can finely adjust which Nodes are able to interact with others, allowing you to build complex transfer chains. $(bold)White$() nodes are only able to connect to other Whites."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Spectral Colored Nodes",
+      "item": "spectrum:spectral_shard",
+      "text": "Nodes colored with spectral pigment are able to interact with all nodes, regardless of their color."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "",
+      "item": "spectrum:purple_pigment",
+      "text": "Using a $(l:resources/mermaids_brush)Mermaid's Gem$(/l) on a Node will change it to a Fluid Node.$(br)It will transfer liquid instead of items."
     }
   ]
 }
