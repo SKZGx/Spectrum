@@ -1,21 +1,21 @@
 {
-  "name": "Getting Deeper Down",
-  "icon": "minecraft:bedrock",
-  "priority": true,
-  "sortnum": 1,
-  "advancement": "spectrum:midgame/open_deeper_down_portal",
-  "category": "spectrum:dimension_category",
+  "name": "Guardian Turrets",
+  "icon": "spectrum:guardian_turret_head",
+  "advancement": "spectrum:hidden/entity_interact/guardian_turret",
+  "category": "spectrum:creating_life_category",
+  "extra_recipe_mappings": {
+    "spectrum:guardian_turret_head": 0
+  },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "item": "minecraft:bedrock",
-      "text": "A place which has not seen a single ray of sunlight for eons. A place where the sun never shines, shrouded in darkness.$(br2)What is waiting for you to discover down there?"
+      "type": "patchouli:text",
+      "title": "Guardian Turrets",
+      "text": "High-tech machines, crafted from a reinforced shell of basalt and calcite, powered by an unknown energy source that gently pulsates in the center of these contraptions.$(br)Ready to poke holes in you at any time if you make your presence known."
     },
     {
-      "type": "patchouli:text",
-      "advancement": "spectrum:midgame/enter_dimension",
-      "title": "Horrors Below?",
-      "text": "There is something lurking for you in the dark, you are sure. Or is it just your nerves?"
+      "type": "patchouli:entity",
+      "entity": "spectrum:guardian_turret",
+      "text": "$(italic)True engineering excellence. But boy does it hurt."
     }
   ]
 }
