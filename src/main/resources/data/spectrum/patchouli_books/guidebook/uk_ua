@@ -1,96 +1,61 @@
 {
-  "name": "Preservation Ruins",
-  "icon": "spectrum:preservation_controller",
-  "advancement": "spectrum:find_preservation_ruins",
-  "sortnum": 16,
-  "turnin": "spectrum:hidden/solve_every_preservation_ruin",
+  "name": "Gemstone Shards",
+  "icon": "minecraft:amethyst_shard",
+  "sortnum": 2,
   "category": "spectrum:general_category",
+  "turnin": "spectrum:collect_all_basic_shards",
   "extra_recipe_mappings": {
-    "spectrum:preservation_stone": 0,
-    "spectrum:preservation_stairs": 0,
-    "spectrum:preservation_slab": 0,
-    "spectrum:preservation_controller": 0,
-    "spectrum:powder_chiseled_preservation_stone": 0,
-    "spectrum:dike_chiseled_preservation_stone": 0,
-    "spectrum:treasure_chest": 0,
-    "spectrum:preservation_glass": 0,
-    "spectrum:tinted_preservation_glass": 0,
-    "spectrum:dike_gate": 0,
-    "spectrum:dike_gate_fountain": 0,
-    "spectrum:courier_statue": 0,
-    "spectrum:preservation_bricks": 0,
-    "spectrum:preservation_block_detector": 0,
-    "spectrum:shimmering_preservation_bricks": 0,
-    "spectrum:black_chiseled_preservation_stone": 0,
-    "spectrum:blue_chiseled_preservation_stone": 0,
-    "spectrum:brown_chiseled_preservation_stone": 0,
-    "spectrum:cyan_chiseled_preservation_stone": 0,
-    "spectrum:gray_chiseled_preservation_stone": 0,
-    "spectrum:green_chiseled_preservation_stone": 0,
-    "spectrum:light_blue_chiseled_preservation_stone": 0,
-    "spectrum:light_gray_chiseled_preservation_stone": 0,
-    "spectrum:lime_chiseled_preservation_stone": 0,
-    "spectrum:magenta_chiseled_preservation_stone": 0,
-    "spectrum:orange_chiseled_preservation_stone": 0,
-    "spectrum:pink_chiseled_preservation_stone": 0,
-    "spectrum:purple_chiseled_preservation_stone": 0,
-    "spectrum:red_chiseled_preservation_stone": 0,
-    "spectrum:white_chiseled_preservation_stone": 0,
-    "spectrum:yellow_chiseled_preservation_stone": 0
+    "spectrum:topaz_shard": 0,
+    "minecraft:amethyst_shard": 0,
+    "spectrum:citrine_shard": 0,
+    "spectrum:onyx_shard": 0,
+    "spectrum:moonstone_shard": 0,
+    "spectrum:spectral_shard": 0
   },
   "pages": [
     {
-      "type": "patchouli:spotlight",
-      "title": "Preservation Ruins",
-      "item": "spectrum:preservation_controller",
-      "text": "Deep underground you found this outlandish structure, which seems to be built from immensely sturdy stone. Whoever constructed them seemed to have knowledge way beyond your understanding.$(br)There has to be a way to get in there! If not now, then later... better keep the location in mind."
-    },
-    {
       "type": "patchouli:text",
-      "title": "A Challenge?",
-      "advancement": "spectrum:hidden/solve_any_preservation_ruin",
-      "text": "Until now you thought you were alone in your creative endeavour with the gems. From the looks of it, you were wrong. So very, very wrong.$(br)Whoever built these structures obviously followed a similar path as you, but was miles ahead.$(br)Still, anyway. You accept the challenge, of course. You have one huge advantage:$(br)$(italic)YOU are still alive."
+      "text": "To start delving into Spectrum you first have to find some gemstone shards.$(br2)Each kind of gemstone represents an elemental color and a different kind of natural force."
     },
     {
-      "type": "spectrum:checklist",
-      "title": "How many are there?",
-      "advancement": "spectrum:hidden/solve_any_preservation_ruin",
-      "checklist": {
-        "spectrum:solve_color_mixing_preservation_ruin": "Preservation Ruin #1",
-        "spectrum:solve_dike_gate_preservation_ruin": "Preservation Ruin #2",
-        "spectrum:solve_wireless_redstone_preservation_ruin": "Preservation Ruin #3"
-      },
-      "text": "They seem to come in different variations. In each one you will encounter a different challenge."
+      "type": "patchouli:spotlight",
+      "anchor": "topaz",
+      "advancement": "spectrum:hidden/collect_shards/collect_topaz_shard",
+      "title": "Topaz Shards",
+      "item": "spectrum:topaz_shard",
+      "text": "Topaz Shards lie surprisingly heavy in your hand. This gemstone quickly turned out to be one of the most robust materials you've ever gotten your hands on - perhaps only surpassed by diamond. Topaz is found in geodes at the very top of steep hills and on the tops of sky-high mountains.$(br)The Topaz represents $(bold)$(c_cyan)MATTER.$()"
     },
     {
-      "type": "patchouli:image",
-      "title": "A Protected Entrance",
-      "advancement": "spectrum:enter_dike_gate_preservation_ruin",
-      "images": [
-        "spectrum:textures/gui/guidebook/preservation_ruin_dike_gate.png"
-      ],
-      "border": true,
-      "text": "A strong, magical forcefield. Wearing $(l:equipment/azure_dike_equipment)Azure Dike equipment$(/l) allowed you to enter."
+      "type": "patchouli:spotlight",
+      "anchor": "amethyst",
+      "advancement": "spectrum:hidden/collect_shards/collect_amethyst_shard",
+      "title": "Amethyst Shards",
+      "item": "minecraft:amethyst_shard",
+      "text": "Magenta light refracts in this gemstone.$(br)Formed over eons in the geodes, this gemstone radiates awe. It is a symbol of permanence and found in the deepest layers of the world.$(br2)The Amethyst represents $(bold)$(c_purple)TIME$()."
     },
     {
-      "type": "patchouli:image",
-      "title": "Color Combinations",
-      "advancement": "spectrum:enter_color_mixing_preservation_ruin",
-      "images": [
-        "spectrum:textures/gui/guidebook/preservation_ruin_color_mixing.png"
-      ],
-      "border": true,
-      "text": "It was all so clear, in the end! You had it $(l:general/color_mixing)laid all out already$(/l)."
+      "type": "patchouli:spotlight",
+      "anchor": "citrine",
+      "advancement": "spectrum:hidden/collect_shards/collect_citrine_shard",
+      "title": "Citrine Shards",
+      "item": "spectrum:citrine_shard",
+      "text": "This yellow gemstone is found close to surface level where the suns light dissipates into warmth.$(br2)Its bright yellow luster radiates pure $(bold)$(c_yellow)ENERGY$() and makes it slightly warm to the touch at all times."
     },
     {
-      "type": "patchouli:image",
-      "title": "Short Wired",
-      "advancement": "spectrum:enter_wireless_redstone_preservation_ruin",
-      "images": [
-        "spectrum:textures/gui/guidebook/preservation_ruin_wireless_redstone.png"
-      ],
-      "border": true,
-      "text": "A really weird one. Having some colors at hand helped a lot."
+      "type": "patchouli:spotlight",
+      "anchor": "onyx",
+      "advancement": "spectrum:create_onyx_shard",
+      "title": "Onyx Shards",
+      "item": "spectrum:onyx_shard",
+      "text": "Onyx is nearly pitch black. It almost seems as if it drains the light from its surroundings.$(br2)The Onyx, as a combination of energy, matter, and time, serves as a reinforcing focus and $(bold)$(c_black)CATALYST$() for magical tools and devices."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "moonstone",
+      "advancement": "spectrum:lategame/collect_moonstone_shard",
+      "title": "Moonstone Shards",
+      "item": "spectrum:moonstone_shard",
+      "text": "It's bluish-white shimmer reminds you of the soothing light of the moon on a calm summer night. The tranquility it exudes leaves a calming, yet significant impression, like a sleeping cat - balm for the soul and yet a predator, always on guard.$(br2)The Moonstone embodies pure $(bold)$(c_white)MAGIC$()."
     }
   ]
 }
