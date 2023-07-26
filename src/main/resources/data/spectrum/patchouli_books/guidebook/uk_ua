@@ -1,21 +1,29 @@
 {
-  "name": "Dragonrot",
+  "name": "Dragonrot Swamp",
+  "advancement": "spectrum:hidden/visit_dd_biomes/dragonrot_swamp",
   "icon": "spectrum:dragonrot_bucket",
-  "advancement": "spectrum:hidden/interact_with_dragonrot",
   "category": "spectrum:dimension_category",
   "extra_recipe_mappings": {
-    "spectrum:dragonrot_bucket": 0
+    "spectrum:snapping_ivy": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "It looks red-hot, as if it were on fire, burning like hell to the touch (you $(italics)had$() to satisfy your curiosity...) and yet radiates no heat at all.$(br)While $(l:magical_blocks/midnight_solution)Midnight Solution$() seems to be destructive for the sake of change, Dragonrot seems intent only on pure and total destruction. Certainly there is not much organic that can withstand its bloodlust."
+      "type": "patchouli:image",
+      "title": "Dragonrot Swamp",
+      "images": [
+        "spectrum:textures/gui/guidebook/dd_dragonrot_swamp.png"
+      ],
+      "border": true,
+      "text": ""
     },
     {
-      "type": "spectrum:dragonrot_converting",
-      "title": "Item Conversion",
-      "recipe": "spectrum:dragonrot_converting/blackslag_from_stone",
-      "text": "Throwing in some items seems to corrupt them up to a point they turn into something else entirely."
+      "type": "patchouli:text",
+      "text": "It is not water that gives the biome its distinctive name. Lakes of $(l:dimension/dragonrot)Dragonrot$(/l) pervades the swamp-like thicket here.$(br)An acidic smell lingers in the air."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "spectrum:snapping_ivy",
+      "text": "These small plants spread over the ground like ivy. In small clusters they grow in a clump of snapping green. When you fertilize them, they spread even further."
     }
   ]
 }
