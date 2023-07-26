@@ -1,21 +1,21 @@
 {
-  "name": "Radiance Pin",
-  "advancement": "spectrum:unlocks/trinkets/radiance_pin",
-  "icon": "spectrum:radiance_pin",
+  "name": "Ring of Pursuit",
+  "advancement": "spectrum:unlocks/trinkets/ring_of_pursuit",
+  "icon": "spectrum:ring_of_pursuit",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:radiance_pin": 0
+    "spectrum:ring_of_pursuit": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "You didn't randomly choose the name of the Radiance Pin to resemble the $(l:equipment/radiance_staff)Radiance Staff$(/l).$(br)If you are in a dark area, the pin automatically creates an invisible light on you. Unlike the lights of the $(l:magical_items/radiance_staff)Radiance Staff$(/l), however, they slowly become fainter and fainter until they eventually dissipate completely."
+      "text": "Mining is your game. It's almost a miracle that you're only now coming around to the idea of upgrading not only your tools, but your mining proficiency in general. This ring will grow with your abilities."
     },
     {
       "type": "spectrum:fusion_shrine_crafting",
       "title": "Fusion Recipe",
-      "recipe": "spectrum:fusion_shrine/trinkets/radiance_pin",
-      "text": "Fantastic to see the paths you've already taken in your cave explorations."
+      "recipe": "spectrum:fusion_shrine/trinkets/ring_of_pursuit",
+      "text": "Infuse it with $(l:magic/ink)Magenta Ink$(/l) in a $(l:magic/color_picker)Color Picker$() to increase your Mining Speed."
     }
   ]
 }
