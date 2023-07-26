@@ -1,6 +1,1 @@
-crowdin:
-  project_id: Spectrumua
-  base_path: /src/main/resources/data/spectrum/patchouli_books/guidebook
-  files:
-    - source: /en_us/**.json
-      translation: /%two_letters_code%/%original_file_name%
+files: []
