@@ -1,21 +1,21 @@
 {
-  "name": "Lagoon Rod",
-  "advancement": "spectrum:unlocks/equipment/lagoon_rod",
-  "icon": "spectrum:lagoon_rod",
+  "name": "Lesser Potion Pendant",
+  "advancement": "spectrum:unlocks/trinkets/lesser_potion_pendant",
+  "icon": "spectrum:lesser_potion_pendant",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:lagoon_rod": 0
+    "spectrum:lesser_potion_pendant": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "On quiet days on your patio you could observe that the $(l:resources/mermaids_brush)Mermaid's Gems$() you found that marine life seems oddly attracted to them. Along with the fact that they naturally float on water, you decided to use one as a bobber.$(br2)Lo and behold, not only does it increase your success, but also have quite a few other interesting side effects..."
+      "text": "Potions are handy. Carrying half an inventory of them around, however, is more than a little inconvenient.$(br)The Potion Pendant has a small chamber that can be filled with the effect of a potion. As long as you wear it, you will receive the effects of that potion.$(br)Since the potions are not ingested, the effects will only last up to level III."
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/tools/lagoon_rod",
-      "text": "$(italic)You wonder what you can bring to the surface?"
+      "type": "spectrum:fusion_shrine_crafting",
+      "title": "Fusion Recipe",
+      "recipe": "spectrum:fusion_shrine/trinkets/lesser_potion_pendant",
+      "text": "Use the $(l:brewing/potion_workshop)Potion Workshop$(/l) to infuse it, by placing it where the $(item)Bottle$() would normally go.$(br2)To clear its effect, put it in a crafting grid."
     }
   ]
 }
