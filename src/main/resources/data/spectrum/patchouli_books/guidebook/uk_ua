@@ -1,21 +1,21 @@
 {
-  "name": "Totem Pendant",
-  "advancement": "spectrum:unlocks/trinkets/totem_pendant",
-  "icon": "spectrum:totem_pendant",
+  "name": "Weeping Circlet",
+  "advancement": "spectrum:unlocks/trinkets/weeping_circlet",
+  "icon": "spectrum:weeping_circlet",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:totem_pendant": 0
+    "spectrum:weeping_circlet": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(item)Totems of Undying$(), while having a powerful effect, have the significant disadvantage that you always have to hold them in your hand.$(br2)Using the protective powers of $(l:general/pigment#blue)Blue Pigment$(/l) as a focus you can keep its life-saving effect active, even when worn around the neck."
+      "text": "These hostile underwater temples are hell to maneuver in. Luckily, in your search for treasure, you stumbled upon a $(item)Heart of The Sea$().$(br)This circlet allows you to live and mine underwater as if it were the most natural thing ever. You swim and mine faster, require no air and are able to see better.$(br)It also heals your little close by Axolotl friends. ♥"
     },
     {
       "type": "spectrum:fusion_shrine_crafting",
       "title": "Fusion Recipe",
-      "recipe": "spectrum:fusion_shrine/trinkets/totem_pendant",
-      "text": "One-time protection from death. After it is triggered, crumbles into dust."
+      "recipe": "spectrum:fusion_shrine/trinkets/weeping_circlet",
+      "text": "$(italic)Have you ever wanted to live underwater?$(br)No? Whatever, now you can. Time to build an underwater base!"
     }
   ]
 }
