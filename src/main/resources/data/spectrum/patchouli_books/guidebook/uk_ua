@@ -1,22 +1,21 @@
 {
-  "name": "Crafting Tablet",
-  "icon": "spectrum:crafting_tablet",
-  "advancement": "spectrum:unlocks/items/crafting_tablet",
+  "name": "Crescent Clock",
+  "advancement": "spectrum:unlocks/items/crescent_clock",
+  "icon": "spectrum:crescent_clock",
   "category": "spectrum:magical_items_category",
   "extra_recipe_mappings": {
-    "spectrum:crafting_tablet": 0
+    "spectrum:crescent_clock": 0
   },
   "pages": [
     {
-      "type": "spectrum:pedestal_crafting",
-      "title": "Crafting Tablet",
-      "recipe": "spectrum:pedestal/tier1/crafting_tablet",
-      "text": "The Crafting Tablet is so much more than a portable Crafting Table. It saves a recipe you inserted and let's you craft it on demand."
+      "type": "patchouli:text",
+      "text": "This clock, made up of witnesses to time, is intended to guide you through this never-ending stream of beginnings and endings - the phases of the moon.$(br2)$(br2)$(italic)If we shadows have offended, Know but this and all is mended."
     },
     {
-      "type": "patchouli:text",
-      "title": "Pedestal Automation",
-      "text": "There may come a time when you feel you need a certain material so often that you want to automate it. Or you're one of those masochists who automate every single item because they can.$(br2)The $(l:general/pedestal)Pigment Pedestal$() has a dedicated slot for a Crafting Tablet. When you add items with hoppers or similar to the pedestal, they will be placed appropriately and evenly, like specified in the saved recipe."
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "recipe": "spectrum:pedestal/tier3/crescent_clock",
+      "text": "$(italic)That you have but slumbered here, While these visions did appear.$(br)And this weak and idle theme, No more yielding, but a dream."
     }
   ]
 }
