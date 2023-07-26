@@ -1,41 +1,23 @@
 {
-  "name": "3 Structures",
+  "name": "A new Resource",
   "category": "spectrum:hints_category",
   "icon": "minecraft:writable_book",
-  "advancement": "spectrum:midgame/break_decayed_bedrock",
+  "advancement": "spectrum:milestones/reveal_quitoxic_reeds",
   "read_by_default": true,
-  "turnin": "spectrum:hidden/solve_every_preservation_ruin",
+  "turnin": "spectrum:collect_quitoxic_reeds",
   "pages": [
     {
       "type": "spectrum:hint",
       "title": "Where to find",
-      "completion_advancement": "spectrum:generate_preservation_ruins_loot",
-      "cost": "spectrum:refined_azurite#4",
-      "text": "There are 3 different kinds of impenetrable structures hidden at around y=0 in the Overworld in any biome. They seem to be built from an unbreakable stone."
+      "completion_advancement": "spectrum:collect_quitoxic_reeds",
+      "cost": "minecraft:clay_ball#16",
+      "text": "Time for an adventure trip on the surface. Visit a Swamp or Mangrove Swamp!"
     },
     {
       "type": "spectrum:hint",
-      "title": "Blue Hearts",
-      "advancement": "spectrum:find_preservation_ruins",
-      "completion_advancement": "spectrum:generate_preservation_ruins_loot",
-      "cost": "spectrum:refined_azurite#12",
-      "text": "The entrance seems to be blocked by a powerful force field. Whoever built those was kind enough to leave you clues, however! The hearts on the force field's sides seem to indicate you have to have Azure Dike active."
-    },
-    {
-      "type": "spectrum:hint",
-      "title": "Colored Spore Blossoms",
-      "advancement": "spectrum:find_preservation_ruins",
-      "completion_advancement": "spectrum:enter_color_mixing_preservation_ruin",
-      "cost": "spectrum:refined_azurite#12",
-      "text": "The Colored Spore Blossoms at the ceiling and the engravings behind them on the walls seem to hint at the solution. A powder engraving and a '? + ?'. You have to mix Powders?"
-    },
-    {
-      "type": "spectrum:hint",
-      "title": "Bedrock Seal",
-      "advancement": "spectrum:find_preservation_ruins",
-      "completion_advancement": "spectrum:enter_wireless_redstone_preservation_ruin",
-      "cost": "spectrum:refined_azurite#12",
-      "text": "Is there a way to crack open the Bedrock? After you get in, best to take a look at the corresponding pages in your book of everything you find there. Always good to have some dyes with you."
+      "title": "Concise Instructions",
+      "cost": "minecraft:clay_ball#48",
+      "text": "Strange looking plants have been seen in (Mangrove) Swamps, growing on patches of Clay or Mud. When growing, they will consume Clay/Mud in the process, turning it to Dirt."
     }
   ]
 }
