@@ -1,26 +1,32 @@
 {
-  "name": "Gemstone Powder",
-  "icon": "spectrum:amethyst_powder",
-  "sortnum": 5,
-  "advancement": "spectrum:place_pedestal",
+  "name": "Intro",
+  "icon": "spectrum:pedestal_basic_amethyst",
   "category": "spectrum:general_category",
-  "turnin": "spectrum:collect_gemstone_powder",
-  "extra_recipe_mappings": {
-    "spectrum:topaz_powder": 0,
-    "spectrum:amethyst_powder": 0,
-    "spectrum:citrine_powder": 0,
-    "spectrum:onyx_powder": 0,
-    "spectrum:moonstone_powder": 0
-  },
+  "sortnum": 0,
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "Most recipes in your pedestal require some amount of Gemstone Powder as a source of magical energy.$(br)It comes in various colors and can be acquired by pulverizing $(l:general/shards)Gemstone Shards$() via $(l:general/anvil_crushing)Item Crushing$()."
+      "type": "patchouli:image",
+      "title": "Welcome to Spectrum!",
+      "images": [
+        "spectrum:textures/gui/guidebook/spectrum.png"
+      ],
+      "border": true,
+      "text": "Spectrum is a progression- and exploration-driven magic mod where you combine colors."
     },
     {
       "type": "patchouli:text",
-      "title": "Mixing Colors",
-      "text": "There is nothing more important to an upcoming artist than mixing the right paint.$(br)Unfortunately, you found that in the case of Gemstone Powder, it's not nearly as easy as it initially seemed. The powders don't quite want to mix, the result being just a multicolored mass.$(br2)Maybe you can come up with something later?"
+      "text": "Its color mixing of the subtractive color system (CMYK). Subtractive color mixing may be familiar to you from painting with watercolors or printing.$(br2)Spectrum's main colors are represented by gemstones, found in geodes scattered around the world, with the vanilla Amethyst representing the Magenta part of the spectrum."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Progression System",
+      "text": "Spectrum comes with a complex progression system where you unlock new things as you progress.$(br)As you delve deeper, you will notice changes in the world. Differences only you can perceive.$(br2)Everything you learn will bring you closer to your final destination: Finding out what is waiting for you beneath the impenetrable bedrock floor."
+    },
+    {
+      "type": "patchouli:link",
+      "text": "No idea on how to progress? Take a look at this book or your advancements. These give a lot of hints on what to do next. Press the bottom center arrow to get started!$(br2)Spectrum is still in development. If you find a bug or have a suggestion, visit Spectrum's Discord or report them on GitHub.$(br)Have fun!        - DaFuqs",
+      "url": "https://discord.com/invite/EXU9XFXT8a",
+      "link_text": "Spectrum's Discord"
     }
   ]
 }
