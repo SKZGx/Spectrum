@@ -1,5 +1,5 @@
 files:
   - source: src/main/resources/assets/spectrum/lang/en_us.json
-    translation: src/main/resources/assets/spectrum/lang/%locale_with_underscore%.json
+    translation: /src/main/resources/assets/spectrum/lang/%locale_with_underscore%.json
   - source: src/main/resources/data/spectrum/patchouli_books/guidebook/en_us
-    translation: src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%
