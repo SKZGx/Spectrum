@@ -1,1 +1,671 @@
-files: []
+files:
+  - source: /src/main/resources/assets/spectrum/lang/en_us.json
+    translation: /src/main/resources/assets/spectrum/lang/%locale_with_underscore%.json
+
+  # Categories
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/brewing_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/brewing_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/creating_life_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/creating_life_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/cuisine_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/cuisine_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/decoration_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/decoration_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/dimension_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/dimension_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/enchanting_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/enchanting_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/equipment_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/equipment_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/general_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/general_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/hints_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/hints_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/lore_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/lore_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/magical_blocks_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/magical_blocks_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/magical_items_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/magical_items_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/magic_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/magic_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/mod_integration_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/mod_integration_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/pastel_network_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/pastel_network_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/redstone_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/redstone_category.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/categories/resources_category.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/categories/resources_category.json
+
+  # Entries - Brewing
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/another_roll.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/another_roll.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/ascension_divinity.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/ascension_divinity.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/deadly_poison.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/deadly_poison.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/effect_prolonging.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/effect_prolonging.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/frenzy.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/frenzy.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/immunity.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/immunity.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/lava_gliding.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/lava_gliding.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/life_drain.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/life_drain.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/lightweight_density.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/lightweight_density.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/magic_annulation.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/magic_annulation.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/potion_workshop.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/potion_workshop.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/potion_workshop_brewing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/potion_workshop_brewing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/potion_workshop_crafting.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/potion_workshop_crafting.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/potion_workshop_reagents.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/potion_workshop_reagents.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/projectile_rebound.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/projectile_rebound.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/scarred.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/scarred.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/swiftness_stiffness.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/swiftness_stiffness.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/toughness.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/toughness.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/brewing/vulnerability.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/brewing/vulnerability.json
+
+  # Entries - Creating Life
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/creating_life.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/creating_life.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/decay_away.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/decay_away.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/egg_laying_wooly_pig.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/egg_laying_wooly_pig.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/fading.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/fading.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/failing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/failing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/hardcore_revival.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/hardcore_revival.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/kindlings.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/kindlings.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/memories.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/memories.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/mob_heads.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/mob_heads.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/ruin.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/ruin.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/spawner_manipulation.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/spawner_manipulation.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/creating_life/spirit_instiller.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/creating_life/spirit_instiller.json
+
+  # Entries - Cuisine
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/blood_orchid_products.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/blood_orchid_products.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/brewers_handbook.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/brewers_handbook.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/freigeist.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/freigeist.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/glistering_jelly_tea.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/glistering_jelly_tea.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/imbrifer_cookbook.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/imbrifer_cookbook.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/imperial_cookbook.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/imperial_cookbook.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/infused_beverages.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/infused_beverages.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/jade_wine.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/jade_wine.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/lucky_roll.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/lucky_roll.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/melochites_cookbook_vol_1.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/melochites_cookbook_vol_1.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/melochites_cookbook_vol_2.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/melochites_cookbook_vol_2.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/reprise.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/reprise.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/restoration_tea.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/restoration_tea.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/rock_candy.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/rock_candy.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/star_candy.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/star_candy.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/suspicious_brew.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/suspicious_brew.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/tarts.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/tarts.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/titration_barrel.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/titration_barrel.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/cuisine/trifles.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/cuisine/trifles.json
+
+  # Entries - Decoration
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/banner_patterns.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/banner_patterns.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/block_variants.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/block_variants.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/colored_lamps.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/colored_lamps.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/colored_spore_blossoms.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/colored_spore_blossoms.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/decostones.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/decostones.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/ethereal_platform.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/ethereal_platform.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/gemstone_chimes.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/gemstone_chimes.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/gemstone_glass.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/gemstone_glass.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/gemstone_lamps.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/gemstone_lamps.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/gemstone_runes.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/gemstone_runes.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/gemstone_storage_blocks.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/gemstone_storage_blocks.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/glowblocks.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/glowblocks.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/item_bowl.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/item_bowl.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/item_roundel.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/item_roundel.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/jade_vine_petal_blocks.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/jade_vine_petal_blocks.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/particle_spawner.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/particle_spawner.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/phantom_frame.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/phantom_frame.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/radiant_glass.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/radiant_glass.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/decoration/shimmerstone_lights.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/decoration/shimmerstone_lights.json
+
+  # Entries - Dimension
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/aloe.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/aloe.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/blackslag.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/blackslag.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/black_langast.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/black_langast.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/crystal_gardens.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/crystal_gardens.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/deep_barrens.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/deep_barrens.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/deep_dripstone_caves.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/deep_dripstone_caves.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/doomblooms.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/doomblooms.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/downstone.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/downstone.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/dragonbone.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/dragonbone.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/dragonrot.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/dragonrot.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/dragonrot_swamp.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/dragonrot_swamp.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/getting_deeper_down.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/getting_deeper_down.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/guardian_turrets.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/guardian_turrets.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/hummingstone.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/hummingstone.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/lizards.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/lizards.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/monstrosity.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/monstrosity.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/myceylon.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/myceylon.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/noxshroom_forest.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/noxshroom_forest.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/noxwood.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/noxwood.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/pyrite.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/pyrite.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/razor_edge.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/razor_edge.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/sawblade_holly.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/sawblade_holly.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/shale-clay.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/shale-clay.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/dimension/slush.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/dimension/slush.json
+
+  # Entries - Enchanting
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/big_catch.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/big_catch.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/clovers_favor.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/clovers_favor.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/conflicting_enchantments.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/conflicting_enchantments.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/creating_enchanted_books.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/creating_enchanted_books.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/curse_of_the_void.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/curse_of_the_void.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/disarming.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/disarming.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/enchanter.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/enchanter.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/enchanting_items.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/enchanting_items.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/exuberance.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/exuberance.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/first_strike.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/first_strike.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/foundry.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/foundry.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/gilded_book.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/gilded_book.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/improved_critical.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/improved_critical.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/indestructible.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/indestructible.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/inertia.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/inertia.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/inexorable.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/inexorable.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/inventory_insertion.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/inventory_insertion.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/overchanting.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/overchanting.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/pest_control.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/pest_control.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/razing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/razing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/resonance.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/resonance.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/sniper.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/sniper.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/steadfast.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/steadfast.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/tight_grip.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/tight_grip.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/treasure_hunter.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/treasure_hunter.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/upgrading_enchanted_books.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/upgrading_enchanted_books.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/enchanting/vanilla_enchantments.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/enchanting/vanilla_enchantments.json
+
+  # Entries - Equipment
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/ashen_circlet.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/ashen_circlet.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/azure_dike_equipment.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/azure_dike_equipment.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/base_trinkets.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/base_trinkets.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/bedrock_armor.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/bedrock_armor.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/bedrock_tools.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/bedrock_tools.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/circlet_of_arrogance.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/circlet_of_arrogance.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/cotton_cloud_boots.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/cotton_cloud_boots.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/dreamflayer.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/dreamflayer.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/gemstone_armor.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/gemstone_armor.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/glass_arrows.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/glass_arrows.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/glass_crest_tools.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/glass_crest_tools.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/gleaming_pin.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/gleaming_pin.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/gloves_of_dawns_grasp.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/gloves_of_dawns_grasp.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/glow_vision_goggles.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/glow_vision_goggles.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/greater_potion_pendant.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/greater_potion_pendant.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/heartsingers_reward.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/heartsingers_reward.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/jeopardant.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/jeopardant.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/lagoon_rod.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/lagoon_rod.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/lesser_potion_pendant.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/lesser_potion_pendant.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/malachite_tools.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/malachite_tools.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/molten_rod.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/molten_rod.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/multitool.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/multitool.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/neat_ring.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/neat_ring.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/nightfalls_blade.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/nightfalls_blade.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/preenchanted_tools.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/preenchanted_tools.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/puff_circlet.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/puff_circlet.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/radiance_pin.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/radiance_pin.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/ring_of_pursuit.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/ring_of_pursuit.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/seven_league_boots.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/seven_league_boots.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/take_off_belt.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/take_off_belt.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/totem_pendant.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/totem_pendant.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/weeping_circlet.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/weeping_circlet.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/equipment/whispy_circlet.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/equipment/whispy_circlet.json
+
+  # Entries - General
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/anvil_crushing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/anvil_crushing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/colored_trees.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/colored_trees.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/color_mixing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/color_mixing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/create_budding_onyx.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/create_budding_onyx.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/fusion_shrine.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/fusion_shrine.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/gemstone_powder.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/gemstone_powder.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/intro.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/intro.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/midnight_aberration.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/midnight_aberration.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/moonstone_shards.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/moonstone_shards.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/mysterious_locket.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/mysterious_locket.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/onyx_shards.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/onyx_shards.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/paintbrush.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/paintbrush.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/pedestal.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/pedestal.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/pedestal_upgrade_cmy.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/pedestal_upgrade_cmy.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/pedestal_upgrade_moonstone.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/pedestal_upgrade_moonstone.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/pedestal_upgrade_moonstone_2.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/pedestal_upgrade_moonstone_2.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/pedestal_upgrade_onyx.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/pedestal_upgrade_onyx.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/pigment.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/pigment.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/preservation_ruins.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/preservation_ruins.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/shards.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/shards.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/spectral_shard.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/spectral_shard.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/general/what_happened.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/general/what_happened.json
+
+  # Entries - Hints
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/amethyst.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/amethyst.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/azurite.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/azurite.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/citrine.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/citrine.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/clover.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/clover.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/fading.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/fading.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/failing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/failing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/malachite.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/malachite.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/mermaids_gems.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/mermaids_gems.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/midnight_chip.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/midnight_chip.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/paltaeria.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/paltaeria.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/preservation_ruins.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/preservation_ruins.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/quitoxic_reeds.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/quitoxic_reeds.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/resonating_ender.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/resonating_ender.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/shimmerstone.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/shimmerstone.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/stargazing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/stargazing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/storm_stones.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/storm_stones.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/stratine.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/stratine.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/hints/topaz.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/hints/topaz.json
+
+  # Entries - Lore
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/lore/pale_metal.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/lore/pale_metal.json
+
+  # Entries - Magic
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/artists_palette.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/artists_palette.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/color_picker.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/color_picker.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/crystal_apothecary.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/crystal_apothecary.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/ink.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/ink.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/ink_assortment.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/ink_assortment.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/ink_flask.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/ink_flask.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/pigment_palette.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/pigment_palette.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magic/spirit_sallow.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magic/spirit_sallow.json
+
+  # Entries - Magical Blocks
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/bedrock_anvil.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/bedrock_anvil.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/black_hole_chest.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/black_hole_chest.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/cinderhearth.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/cinderhearth.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/compacting_chest.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/compacting_chest.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/crystallarieum.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/crystallarieum.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/ender_dropper.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/ender_dropper.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/ender_hopper.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/ender_hopper.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/fabrication_chest.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/fabrication_chest.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/glistering_melons.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/glistering_melons.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/lava_sponge.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/lava_sponge.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/liquid_crystal.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/liquid_crystal.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/midnight_solution.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/midnight_solution.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/mob_blocks.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/mob_blocks.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/mud.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/mud.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/present.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/present.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/private_chest.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/private_chest.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/semi_permeable_glass.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/semi_permeable_glass.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/universe_spyhole.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/universe_spyhole.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_blocks/upgrades.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_blocks/upgrades.json
+
+  # Entries - Magical Items
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/bag_of_holding.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/bag_of_holding.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/block_flooder.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/block_flooder.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/bottomless_bundle.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/bottomless_bundle.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/celestial_pocketwatch.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/celestial_pocketwatch.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/constructors_staff.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/constructors_staff.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/crafting_tablet.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/crafting_tablet.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/crescent_clock.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/crescent_clock.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/enchantment_canvas.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/enchantment_canvas.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/ender_splice.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/ender_splice.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/everpromise_ribbon.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/everpromise_ribbon.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/exchanging_staff.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/exchanging_staff.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/herding_staff.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/herding_staff.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/incandescent_amalgam.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/incandescent_amalgam.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/knowledge_gem.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/knowledge_gem.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/natures_staff.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/natures_staff.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/perturbed_eye.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/perturbed_eye.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/magical_items/radiance_staff.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/magical_items/radiance_staff.json
+
+  # Entries - Mod Integration
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/ae2.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/ae2.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/alloy_forgery.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/alloy_forgery.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/biomemakeover.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/biomemakeover.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/botania.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/botania.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/chalk.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/chalk.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/conjuring.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/conjuring.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/create.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/create.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/ecologics.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/ecologics.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/extraalchemy.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/extraalchemy.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/geode_plus.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/geode_plus.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/gobber.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/gobber.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/gofish.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/gofish.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/hexcasting.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/hexcasting.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/little_ants.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/little_ants.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/more_geodes.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/more_geodes.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/paginatedadvancements.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/paginatedadvancements.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/starry_skies.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/starry_skies.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/tech_reborn.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/tech_reborn.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/terralith.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/terralith.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/mod_integration/vein_mining.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/mod_integration/vein_mining.json
+
+  # Entries - Pastel Network
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/connection_node.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/connection_node.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/gather_node.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/gather_node.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/node_coloring.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/node_coloring.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/pastel_network.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/pastel_network.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/provider_node.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/provider_node.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/redstone_interaction.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/redstone_interaction.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/sender_node.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/sender_node.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/pastel_network/storage_node.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/pastel_network/storage_node.json
+
+  # Entries - Redstone
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/block_detector.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/block_detector.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/block_placer.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/block_placer.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/ender_glass.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/ender_glass.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/entity_detector.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/entity_detector.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/item_detector.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/item_detector.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/light_level_detector.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/light_level_detector.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/player_detector.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/player_detector.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/redstone_calculator.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/redstone_calculator.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/redstone_sand.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/redstone_sand.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/redstone_timer.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/redstone_timer.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/redstone_wireless.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/redstone_wireless.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/redstone/weather_detector.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/redstone/weather_detector.json
+
+  # Entries - Resources
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/amaranth.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/amaranth.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/azurite.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/azurite.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/bismuth.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/bismuth.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/bloodstone.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/bloodstone.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/blood_orchids.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/blood_orchids.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/clover.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/clover.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/geodes.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/geodes.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/jade_vines.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/jade_vines.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/liquid_crystal_powders.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/liquid_crystal_powders.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/malachite.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/malachite.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/mermaids_brush.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/mermaids_brush.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/moonstone_cores.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/moonstone_cores.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/paltaeria.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/paltaeria.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/pure_resources.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/pure_resources.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/quitoxic_reeds.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/quitoxic_reeds.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/resonating_ender.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/resonating_ender.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/shimmerstone.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/shimmerstone.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/stargazing.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/stargazing.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/storm_stones.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/storm_stones.json
+  - source: /src/main/resources/data/spectrum/patchouli_books/guidebook/en_us/entries/resources/stratine.json
+    translation: /src/main/resources/data/spectrum/patchouli_books/guidebook/%locale_with_underscore%/entries/resources/stratine.json
+
+Remember to replace `%locale_with_underscore%` with the appropriate locale code, such as `en_us` for English (US) or `fr_fr` for French (France). Also, ensure that the file paths are accurate based on the location of your translation files.
