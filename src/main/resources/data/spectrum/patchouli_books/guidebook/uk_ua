@@ -1,28 +1,21 @@
 {
-  "name": "Gleaming Pin",
-  "advancement": "spectrum:unlocks/trinkets/gleaming_pin",
-  "icon": "spectrum:gleaming_pin",
+  "name": "Gloves of Dawn's Grasp",
+  "advancement": "spectrum:unlocks/trinkets/gloves_of_dawns_grasp",
+  "icon": "spectrum:gloves_of_dawns_grasp",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:gleaming_pin": 0
+    "spectrum:gloves_of_dawns_grasp": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "During your explorations you were hit by arrows again and again, only to completely miss your enemy while looking around in panic - if it hadn't already disappeared behind the next corner already.$(br)When you get hit, the Gleaming Pin emits a magic surge that passes through walls and attaches to nearby creatures so you can easily track them down."
+      "text": "When you asked your neighbor what this $(item)\"Gobber\"$() was that they were always talking about, the only answer you got was that this godlike material was \"out of reach for you, little artist\".$(br)Before they could explain to you that \"out of reach\" was not to be taken literally, you had already designed these gloves. Oops."
     },
     {
       "type": "spectrum:fusion_shrine_crafting",
       "title": "Fusion Recipe",
-      "recipe": "spectrum:fusion_shrine/trinkets/gleaming_pin",
-      "text": "$(italic)Can't run, can't hide"
-    },
-    {
-      "type": "patchouli:spotlight",
-      "advancement": "spectrum:unlocks/enchantments/sniper",
-      "title": "Sniping",
-      "item": "spectrum:gleaming_pin{Enchantments: [{id: \"spectrum:sniping\", lvl: 2s}]}",
-      "text": "Enchanting the Gleaming Pin with Sniping allows the surge to pierce even more matter, further increasing its range."
+      "recipe": "spectrum:fusion_shrine/trinkets/gloves_of_dawns_grasp",
+      "text": "Oh, well, now that you've thought them up, you're gonna use them!$(br2)Infuse them with $(l:magic/ink)Light Blue Ink$(/l) to increase the additional reach provided."
     }
   ]
 }
