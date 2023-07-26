@@ -1,18 +1,23 @@
 {
-  "name": "Creating Life",
-  "icon": "minecraft:egg",
-  "advancement": "spectrum:unlocks/items/bottle_of_fading",
+  "name": "Decay Away",
+  "icon": "spectrum:bottle_of_decay_away",
+  "advancement": "spectrum:unlocks/items/bottle_of_decay_away",
   "category": "spectrum:creating_life_category",
-  "priority": true,
+  "extra_recipe_mappings": {
+    "spectrum:bottle_of_decay_away": 0
+  },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Creating Life",
-      "text": "It has always been the dream of people to create artificial life.$(br2)Since you are now dealing with magical gems yourself, which seem to have magical powers, this should be a piece of cake."
+      "title": "Decay Away",
+      "type": "patchouli:spotlight",
+      "item": "spectrum:bottle_of_decay_away",
+      "text": "Your last experiment was not only dangerous, but also quite a pain to get rid of.$(br)Just in case anything ever gets out of hand you created this modified variant. This time, though, to heal instead of flooding your base.$(br2)Yeah, that's probably better."
     },
     {
-      "type": "patchouli:text",
-      "text": "The raw magical powers, which are bundled by the gems, are the best starting point for such research.$(br2)Since you seem to be immortal, you have all the time in the world to think about it.$(br)(last time a green pig walking upright surprised you, you woke up in your bed the next morning)$(br2)It's time for... experiments!"
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "recipe": "spectrum:pedestal/tier3/bottle_of_decay_away",
+      "text": "Gets rid of 99 % of all self-replicating microorganisms."
     }
   ]
 }
