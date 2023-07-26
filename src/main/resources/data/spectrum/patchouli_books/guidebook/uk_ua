@@ -1,32 +1,62 @@
 {
-  "name": "Conjuring",
-  "icon": "conjuring:conjurer",
-  "flag": "mod:conjuring",
+  "name": "Create",
+  "icon": "create:crushing_wheel",
+  "flag": "mod:create",
   "advancement": "spectrum:place_pedestal",
   "category": "spectrum:mod_integration_category",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(italic)Souls, Spirits, Cages$()$(br)Now if that isn't a work of shrewd occultism you do not know what is."
+      "text": "Everywhere it rattles and fizzles, whistles and smokes. An ensemble of Assemblage.$(br2)Surely a few of those machines will come in handy."
     },
     {
-      "type": "spectrum:potion_workshop_brewing",
-      "title": "Resistance Potions",
-      "recipe": "spectrum:mod_integration/conjuring/potion_workshop_brewing/distilled_spirit_resistance",
-      "advancement": "spectrum:midgame/brew_powerful_potion_in_potion_workshop",
-      "text": "Distilled Spirits can be... $(br)umm.. distilled?$(br)$(italic)distilled further?$()$(br)into long lasting $(thing)Resistance$() Potions."
+      "type": "patchouli:spotlight",
+      "title": "Crushing Gemstones",
+      "advancement": "spectrum:spectrum",
+      "item": "minecraft:amethyst_shard",
+      "text": "$(item)Gemstones$() can be crushed, yielding some $(item)Gemstone Powder$()."
     },
     {
-      "type": "spectrum:spirit_instiller_crafting",
-      "recipe": "spectrum:mod_integration/conjuring/spirit_instiller/lesser_conjuration_essence",
-      "advancement": "spectrum:midgame/build_spirit_instiller_structure",
-      "text": "You're not even sure yourself how you came up with this recipe anymore.$(br)Maybe you inhaled a little too much $(item)Quitoxic Powder$() when you combined various ingredients. But the result is interesting, no question."
+      "type": "patchouli:spotlight",
+      "title": "Milling Leaves",
+      "advancement": "spectrum:collect_pigment",
+      "item": "spectrum:magenta_leaves",
+      "text": "$(item)Colored Leaves$() can be crushed, yielding $(item)Pigment$() and a higher chance for $(item)Colored Saplings$()."
     },
     {
-      "type": "spectrum:spirit_instiller_crafting",
-      "recipe": "spectrum:mod_integration/conjuring/spirit_instiller/mob_spawner",
-      "advancement": "spectrum:midgame/build_spirit_instiller_structure",
-      "text": "Combining everything you learned as a Spawner expert and Pigment Tinkerer gave you the ability to create plain $(item)Mob Spawners$() yourself.$(br)You only need to assign a Creature to spawn using the $(l:creating_life/spirit_instiller)Spirit Instiller$(/l)."
+      "type": "patchouli:spotlight",
+      "title": "Crushing Colored Logs",
+      "advancement": "spectrum:collect_pigment",
+      "item": "spectrum:magenta_log",
+      "text": "Crushing $(thing)Colored Logs$() results in some additional $(thing)Pigment$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Milling Quitoxic Reeds",
+      "advancement": "spectrum:collect_quitoxic_reeds",
+      "item": "spectrum:quitoxic_reeds",
+      "text": "$(l:resources/quitoxic_reeds)Quitoxic Reeds$() can be milled into powder."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Milling Amaranth",
+      "advancement": "spectrum:collect_amaranth_bushel",
+      "item": "spectrum:amaranth_bushel",
+      "text": "$(l:resources/amaranth)Amaranth$() can be milled into grains."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Milling Frostbite Crystal",
+      "advancement": "spectrum:hidden/collect_frostbite_crystal",
+      "item": "spectrum:frostbite_crystal",
+      "text": "Milling $(l:resources/liquid_crystal_powders)Frostbite Crystal$() will yield you a nice amount of $(item)Blizzard Powder$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Milling Blazing Crystal",
+      "advancement": "spectrum:hidden/collect_blazing_crystal",
+      "item": "spectrum:blazing_crystal",
+      "text": "Milling $(l:resources/liquid_crystal_powders)Blazing Crystal$() will yield you a nice amount of $(item)Fiery Powder$()."
     }
   ]
 }
