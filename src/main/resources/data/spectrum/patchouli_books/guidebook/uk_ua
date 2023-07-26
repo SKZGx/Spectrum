@@ -1,22 +1,41 @@
 {
-  "name": "Storm Stones",
-  "advancement": "spectrum:midgame/collect_storm_stone",
-  "icon": "spectrum:storm_stone",
+  "name": "Stratine",
+  "advancement": "spectrum:midgame/collect_stratine",
+  "icon": "spectrum:stratine_fragments",
   "category": "spectrum:resources_category",
   "extra_recipe_mappings": {
-    "spectrum:storm_stone": 0
+    "spectrum:stratine_ore": 0,
+    "spectrum:stratine_fragments": 0,
+    "spectrum:stratine_gem": 0,
+    "spectrum:stratine_fragment_block": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Thunderstorms",
-      "text": "Storms are a powerful manifestation of Mother Nature.$(br)Using the $(l:general/fusion_shrine)Fusion Shrine$() you even started one when crafting $(l:general/onyx_shard)some powerful resources$().$(br2)There is no doubt that you will find something here to help you on your journey."
+      "type": "patchouli:spotlight",
+      "title": "Stratine",
+      "item": "spectrum:stratine_fragments",
+      "text": "This very heavy ore is scattered around the depths of the Nether.$(br)It's probably not the best idea to carry large amounts of it home at once."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Stratine Gem",
+      "advancement": "spectrum:hidden/collect_stratine_gem",
+      "recipe": "spectrum:pedestal/tier3/stratine_gem",
+      "text": "Rarely, an intact gem can be carved out and used in recipes for which fragments are too small. With effort, said fragments can also be made whole again."
     },
     {
       "type": "patchouli:spotlight",
-      "title": "Storm Stones",
-      "item": "spectrum:storm_stone",
-      "text": "Dug into the ground by lightning strikes, you found these stones, vibrating in your hand due to barely-contained energy.$(br)Used in the $(l:general/fusion_shrine)Fusion Shrine$(), you can use them to summon thunderstorms with ease.$(br2)$(italic)Because of their volatile nature, they do not react too nicely to explosions..."
+      "title": "Stratine Floatblock",
+      "advancement": "spectrum:midgame/carry_too_many_heavy_gravity_blocks",
+      "item": "spectrum:stratine_fragment_block",
+      "text": "Stratine - as you may have already noticed - is an exceptionally heavy material. And difficult to shape, too. Even the blazing heat of the Nether could not harm the material.$(br2)However, shaping it via your $(l:general/pedestal)Pedestal$() should not be a problem whatsoever."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "advancement": "spectrum:midgame/carry_too_many_heavy_gravity_blocks",
+      "recipe": "spectrum:pedestal/tier1/compacting/stratine_fragment_block",
+      "text": "$(italic)Heavy Metal"
     }
   ]
 }
