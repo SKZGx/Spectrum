@@ -1,21 +1,28 @@
 {
-  "name": "Lizards",
-  "icon": "spectrum:lizard_head",
-  "advancement": "spectrum:hidden/entity_interact/lizard",
-  "category": "spectrum:creating_life_category",
-  "extra_recipe_mappings": {
-    "spectrum:lizard_head": 0
-  },
+  "name": "The Monstrosity",
+  "icon": "minecraft:bedrock",
+  "priority": true,
+  "sortnum": 1,
+  "advancement": "spectrum:lategame/hurt_by_monstrosity",
+  "category": "spectrum:dimension_category",
+  "extra_recipe_mappings": {},
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Lizards",
-      "text": "Quarrelsome beasts that are always looking for trouble.$(br2)Actually, they would be quite cute if they didn't always try to bite off some of your limbs right away.$(br)...maybe you'd better keep them behind a $(item)Glass Pane$(), your extremities will thank you for it."
+      "title": "The Monstrosity",
+      "text": "$(italic)Something is lurking down there. You knew it!$()$(br2)A cruel monstrosity watching your every step. Just waiting for the right time to strike.$(br)Watch out not getting shredded into pieces and devoured. What a nice time to be alive."
     },
     {
-      "type": "patchouli:entity",
-      "entity": "spectrum:lizard",
-      "text": "$(italic)Not particularly affable contemporaries."
+      "type": "patchouli:text",
+      "advancement": "spectrum:lategame/killed_monstrosity",
+      "title": "Victory?",
+      "text": "It's dead.$(br2)$(italic)You think$()."
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "spectrum:hidden/killed_by_monstrosity",
+      "title": "Loss?",
+      "text": "This being is powerful. Very powerful. Whatever it may be, it's not a good idea to face this thing unprepared."
     }
   ]
 }
