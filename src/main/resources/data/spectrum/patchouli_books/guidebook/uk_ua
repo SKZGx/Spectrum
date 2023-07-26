@@ -1,24 +1,61 @@
 {
-  "name": "Black Langast",
-  "advancement": "spectrum:hidden/visit_dd_biomes/black_langast",
-  "icon": "spectrum:black_materia",
+  "name": "Blackslag",
+  "advancement": "spectrum:hidden/collect_blackslag",
+  "icon": "spectrum:blackslag",
   "category": "spectrum:dimension_category",
   "extra_recipe_mappings": {
-    "spectrum:black_sludge": 0
+    "spectrum:blackslag": 0,
+    "spectrum:infested_blackslag": 0
   },
   "pages": [
     {
-      "type": "patchouli:image",
-      "title": "Black Langast",
-      "images": [
-        "spectrum:textures/gui/guidebook/dd_black_langast.png"
+      "type": "spectrum:collection",
+      "title": "Blackslag",
+      "items": [
+        "spectrum:cobbled_blackslag",
+        "spectrum:cobbled_blackslag_stairs",
+        "spectrum:cobbled_blackslag_slab",
+        "spectrum:cobbled_blackslag_wall",
+        "spectrum:polished_blackslag",
+        "spectrum:polished_blackslag_button",
+        "spectrum:polished_blackslag_pressure_plate",
+        "spectrum:polished_blackslag_stairs",
+        "spectrum:polished_blackslag_slab",
+        "spectrum:polished_blackslag_wall",
+        "spectrum:blackslag_tiles",
+        "spectrum:blackslag_tile_stairs",
+        "spectrum:blackslag_tile_slab",
+        "spectrum:blackslag_tile_wall",
+        "spectrum:blackslag_bricks",
+        "spectrum:blackslag_brick_stairs",
+        "spectrum:blackslag_brick_slab",
+        "spectrum:blackslag_brick_wall",
+        "spectrum:polished_blackslag_pillar",
+        "spectrum:chiseled_polished_blackslag",
+        "spectrum:ancient_chiseled_polished_blackslag",
+        "spectrum:cracked_blackslag_bricks",
+        "spectrum:cracked_blackslag_tiles"
       ],
-      "border": true,
-      "text": "$(l:magical_blocks/midnight_solution)Midnight Solution$(/l) everywhere."
+      "text": "A common, darkish and sturdy stone that constitutes a large part of the lower levels of the Deeper Down."
     },
     {
-      "type": "patchouli:text",
-      "text": "What must have happened here to turn whole swaths of land into this dead wasteland? Some terrible accident, for sure. Whatever - or whoever - was responsible for this might have had a similar experience to yours.... only much more tragic.$(br2)The $(italic)things$() growing here - calling them plants would be an outrage even to $(item)Dead Bushes$() - look anything but healthy."
+      "type": "patchouli:smelting",
+      "title": "Polishing",
+      "recipe": "spectrum:smelting/cobbled_blackslag_to_blackslag",
+      "recipe2": "spectrum:smelting/blackslag_to_polished_blackslag",
+      "text": "The $(item)Blast Furnace$() smelts these stones even faster than a $(item)Furnace$()."
+    },
+    {
+      "type": "spectrum:anvil_crushing",
+      "title": "Cracking",
+      "recipe": "spectrum:anvil_crushing/spectrum_pulverising/cracked_blackslag_bricks",
+      "text": "Bricks & Tiles can get cracked."
+    },
+    {
+      "type": "patchouli:smelting",
+      "title": "Smelting them back",
+      "recipe": "spectrum:smelting/polished_blackslag_unsmelting",
+      "text": "By applying heat, all blocks can be converted back to their polished variant again."
     }
   ]
 }
