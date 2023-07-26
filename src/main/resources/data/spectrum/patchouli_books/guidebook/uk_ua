@@ -1,17 +1,23 @@
 {
-  "name": "A Gemstone",
+  "name": "A new Ore",
   "category": "spectrum:hints_category",
   "icon": "minecraft:writable_book",
-  "advancement": "spectrum:spectrum",
+  "advancement": "spectrum:milestones/reveal_azurite",
   "read_by_default": true,
-  "turnin": "spectrum:hidden/collect_shards/collect_amethyst_shard",
+  "turnin": "spectrum:midgame/collect_azurite",
   "pages": [
     {
       "type": "spectrum:hint",
       "title": "Where to find",
-      "completion_advancement": "spectrum:hidden/collect_shards/collect_amethyst_shard",
-      "cost": "spectrum:citrine_shard#16",
-      "text": "There is a type of geode found deep underground."
+      "completion_advancement": "spectrum:midgame/collect_azurite",
+      "cost": "spectrum:neolith#8",
+      "text": "There is a new blue ore that can be found in the Overworld in all biomes."
+    },
+    {
+      "type": "spectrum:hint",
+      "title": "Concise Instructions",
+      "cost": "spectrum:neolith#24",
+      "text": "This rich blue ore generates very deep down under the surface and is fairly rare."
     }
   ]
 }
