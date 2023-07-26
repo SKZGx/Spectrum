@@ -1,36 +1,44 @@
 {
-  "name": "Moonstone Pedestal",
+  "name": "Moonstone Pedestal (2)",
   "icon": "spectrum:pedestal_moonstone",
-  "sortnum": 18,
-  "advancement": "spectrum:lategame/collect_moonstone_shard",
+  "sortnum": 19,
+  "advancement": "spectrum:lategame/build_complex_pedestal_structure_without_moonstone",
   "category": "spectrum:general_category",
-  "turnin": "spectrum:hidden/build_any_complex_structure",
-  "extra_recipe_mappings": {
-    "spectrum:pedestal_moonstone": 0
-  },
+  "turnin": "spectrum:lategame/build_complex_pedestal_structure",
   "pages": [
     {
-      "type": "spectrum:pedestal_crafting",
+      "type": "patchouli:spotlight",
       "title": "Moonstone Pedestal",
-      "recipe": "spectrum:pedestal/tier3/pedestal_moonstone",
-      "text": "Upgrade your $(l:general/pedestal)Pigment Pedestal$() by using one of your gathered $(l:general/shards#moonstone)Moonstone Shards$()."
+      "item": "spectrum:moonstone_chiseled_basalt",
+      "text": "Your latest structure feels... somewhat lacking. And now you also know exactly what is missing: more $(c_white)Moonstone$() exactly. The tricky part: Creating the required $(item)Moonstone Chiseled Blocks$() would require you being able to use your $(item)Moonstone Pedestal$() to it's full capability already.$(br)$(italic)Could there be a way to get around that?"
     },
     {
       "type": "patchouli:multiblock",
       "name": "Spectrum Palace",
-      "multiblock_id": "spectrum:pedestal_complex_structure_without_moonstone_check",
+      "multiblock_id": "spectrum:pedestal_complex_structure_check",
       "enable_visualize": true,
       "text": "Dimensions: 13x13x7 blocks"
     },
     {
       "type": "patchouli:text",
       "title": "Checklist (Complete)",
-      "text": "$(li)1 Pigment Pedestal$(li)4 Onyx Chiseled Blocks$(li)4 Notched Polished Blocks$(li)8 Gemstone Lamps$(li)4 Gemstone Chiseled Blocks$(li)12 Polished Gemstone Blocks$(li)16 CMYK Chiseled Blocks$(li)36 Polished Pillars$(li)52 Polished Crests$(li)172 Polished Blocks"
+      "text": "$(li)1 Pigment Pedestal$(li)4 Onyx Chiseled Blocks$(li)4 Notched Polished Blocks$(li)8 Gemstone Lamps$(li)4 Gemstone Chiseled Blocks$(li)12 Polished Gemstone Blocks$(li)16 CMY Gemstone Chiseled Bl.$(li)28 Moonstone Chiseled Bl.$(li)36 Polished Pillars$(li)52 Polished Crests$(li)144 Polished Blocks"
     },
     {
       "type": "patchouli:text",
       "title": "Checklist (Upgrade)",
-      "text": "$(li)4 Onyx Chiseled Blocks$(li)4 Polished Gemstone Blocks$(li)36 Polished Crests$(li)12 Polished Blocks"
+      "text": "$(li)28 Moonstone Chiseled Bl."
+    },
+    {
+      "type": "patchouli:image",
+      "title": "Individualize!",
+      "images": [
+        "spectrum:textures/gui/guidebook/spectrum_complex_customisation.png"
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can switch the basalt blocks with calcite and choose the gemstone blocks as you like it best. Mix up $(item)Calcite$() and $(item)Basalt$() up to create your personal variation!"
     }
   ]
 }
