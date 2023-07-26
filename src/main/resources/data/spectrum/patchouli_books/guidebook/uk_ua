@@ -1,43 +1,27 @@
 {
-  "name": "Incandescent Amalgam",
-  "advancement": "spectrum:unlocks/items/incandescent_amalgam",
-  "icon": "spectrum:incandescent_amalgam",
+  "name": "Knowledge Gem",
+  "advancement": "spectrum:unlocks/items/knowledge_gem",
+  "icon": "spectrum:knowledge_gem{stored_experience:500}",
   "category": "spectrum:magical_items_category",
   "extra_recipe_mappings": {
-    "spectrum:incandescent_amalgam": 0
+    "spectrum:knowledge_gem": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The sun on the palm of your hand sounded far better in theory. $(br2)Now that it sits there... well, it burns. The simple fact that it exists is almost a miracle - really, it should have exploded in the barrel - an unstable, simmering amalgam of ethanol blended with a cocktail of accelerants that hates existing."
+      "text": "Whenever you pick up one of those little green orbs that appear whenever you kill an enemy, you get smarter - supposedly.$(br2)However, the inevitable death by clumsiness means that you always lose this experience quickly. Crystallized and safely stored in your chests, however, they will be as safe as can be.$()"
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "recipe": "spectrum:pedestal/tier3/knowledge_gem",
+      "text": "A Gem holds up to 10,000 experience. $(l:enchanting/enchanting_items)Enchanting$() it with $(thing)Efficiency$() increases that limit, $(thing)Quick Charge$() boosts the pushing/pulling of XP."
     },
     {
       "type": "patchouli:text",
-      "text": "A single wrong move could easily cause it to detonate, taking everything nearby with it including yourself. And yet, for all those reasons and yet more, the soft, warm glow of the gel elicits endless curiosity, all things are drawn to the flame. There is no question that what is effectively a high yield magical explosive bears endless potential. All you need is a little care, a small mountain of it, and a hint of reckless abandon."
-    },
-    {
-      "type": "spectrum:titration_barrel_fermenting",
-      "title": "Titration Snythesis",
-      "recipe": "spectrum:titration_barrel/incandescent_amalgam_doom",
-      "text": "$(italic)my very own sun...$()$(br2)The longer the synthesis goes on, the higher the yield... you really can't blame the angels for not wanting a cut of this."
-    },
-    {
-      "type": "spectrum:titration_barrel_fermenting",
-      "title": "Pure Synthesis",
-      "recipe": "spectrum:titration_barrel/incandescent_amalgam_pure",
-      "text": "$(italic)...so grossly incandescent!$()"
-    },
-    {
-      "type": "spectrum:titration_barrel_fermenting",
-      "title": "Simple Synthesis",
-      "recipe": "spectrum:titration_barrel/incandescent_amalgam_simple",
-      "text": ""
-    },
-    {
-      "type": "spectrum:titration_barrel_fermenting",
-      "title": "Distillation",
-      "recipe": "spectrum:titration_barrel/fast_pure_alcohol",
-      "text": "The pristine burn of the amalgam makes it uniquely suited for pure alcohol distillation"
+      "title": "XP Orb Absorption",
+      "advancement": "spectrum:unlocks/blocks/black_hole_chest",
+      "text": "Putting a Knowledge Gem into a $(l:magical_blocks/black_hole_chest)Black Hole Chest$() allows it to absorb XP orbs, putting the experience into the Gem."
     }
   ]
 }
