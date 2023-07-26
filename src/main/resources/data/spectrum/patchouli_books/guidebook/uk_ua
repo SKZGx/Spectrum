@@ -1,37 +1,32 @@
 {
-  "name": "Egg Laying Wooly Pigs",
-  "icon": "spectrum:egg_laying_wooly_pig_head",
-  "advancement": "spectrum:unlocks/blocks/egg_laying_wooly_pig_head",
+  "name": "Experiment #1: Fading",
+  "icon": "spectrum:bottle_of_fading",
+  "advancement": "spectrum:unlocks/items/bottle_of_fading",
   "category": "spectrum:creating_life_category",
+  "turnin": "spectrum:collect_vegetal",
   "extra_recipe_mappings": {
-    "spectrum:egg_laying_wooly_pig_head": 0
+    "spectrum:bottle_of_fading": 0,
+    "spectrum:vegetal": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Egg Laying Wooly Pig",
-      "text": "Your whole \"creating life\" thing has worked rather mixed so far. But slowly you feel you are able to move something.$(br2)Creating life from nothing is a difficult thing, but combining existing knowledge? You feel a bit like Frankenstein himself.$(br)$(italic)Is that a good thing? Bad? You are not sure at all."
+      "type": "patchouli:spotlight",
+      "item": "spectrum:bottle_of_fading",
+      "text": "It did not take long, there the idea for a construction plan came to you.$(br2)The organism you came up with is weak, but it seems that your plans to create new life were successful, at least in principle! Admittedly, it is only a clump of microorganisms, but they are alive!"
     },
     {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Fusing a Head",
-      "advancement": "spectrum:unlocks/blocks/egg_laying_wooly_pig_head",
-      "recipe": "spectrum:fusion_shrine/egg_laying_wooly_pig_head",
-      "text": "What would your creation like to eat? It's relevant, for... $(l:creating_life/memories)reasons$()."
+      "type": "spectrum:pedestal_crafting",
+      "title": "Pedestal Recipe",
+      "recipe": "spectrum:pedestal/tier1/bottle_of_fading",
+      "text": "Every living being has basically the same goals: eat & reproduce.$() So... what do these weak creatures eat? Other Blocks? Definitely something easy to digest."
     },
     {
-      "type": "spectrum:spirit_instiller_crafting",
-      "advancement": "spectrum:midgame/remember_egg_laying_wooly_pig",
-      "title": "Remembering",
-      "recipe": "spectrum:spirit_instiller/memories/egg_laying_wooly_pig",
-      "text": "$(l:resources/amaranth)Amaranth$(), did the trick!"
-    },
-    {
-      "type": "patchouli:entity",
-      "advancement": "spectrum:midgame/remember_egg_laying_wooly_pig",
-      "title": "The Creature",
-      "entity": "spectrum:egg_laying_wooly_pig",
-      "text": "Able to be $(thing)sheared$() and $(thing)milked$(), while also $(thing)laying eggs$()."
+      "type": "patchouli:spotlight",
+      "advancement": "spectrum:collect_vegetal",
+      "title": "Vegetal",
+      "anchor": "vegetal",
+      "item": "spectrum:vegetal",
+      "text": "The answer seemed to be organics! Easily digestible indeed.$(br)When digested by the organism, an interesting by-product was created that you called Vegetal. It consists of the $(bold)raw energy of nature$().$(br2)You are sure that it will be very useful to you."
     }
   ]
 }
