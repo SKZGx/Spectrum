@@ -12,8 +12,13 @@ import net.minecraft.world.event.*;
 
 public class WirelessRedstoneTransmissionParticleEffect extends SimpleTransmissionParticleEffect {
 	
-	public static final Codec<WirelessRedstoneTransmissionParticleEffect> CODEC = RecordCodecBuilder.create((instance) -> instance.group(PositionSource.CODEC.fieldOf("destination").forGetter((effect) -> effect.destination), Codec.INT.fieldOf("arrival_in_ticks").forGetter((vibrationParticleEffect) -> vibrationParticleEffect.arrivalInTicks)).apply(instance, WirelessRedstoneTransmissionParticleEffect::new));
+	public static final Codec<WirelessRedstoneTransmissionParticleEffect> CODEC = RecordCodecBuilder.create(
+		(instance) -> instance.group(
+			PositionSource.CODEC.fieldOf("destination").forGetter((effect) -> effect.destination),
+			Codec.INT.fieldOf("arrival_in_ticks").forGetter((vibrationParticleEffect) -> vibrationParticleEffect.arrivalInTicks)
+		).apply(instance, WirelessRedstoneTransmissionParticleEffect::new));
 	
+	@SuppressWarnings("deprecation")
 	public static final ParticleEffect.Factory<WirelessRedstoneTransmissionParticleEffect> FACTORY = new ParticleEffect.Factory<>() {
 		@Override
 		public WirelessRedstoneTransmissionParticleEffect read(ParticleType<WirelessRedstoneTransmissionParticleEffect> particleType, StringReader stringReader) throws CommandSyntaxException {
@@ -37,7 +42,7 @@ public class WirelessRedstoneTransmissionParticleEffect extends SimpleTransmissi
 		}
 	};
 	
-	public WirelessRedstoneTransmissionParticleEffect(PositionSource positionSource, int arrivalInTicks) {
+	public WirelessRedstoneTransmissionParticleEffect(PositionSource positionSource, Integer arrivalInTicks) {
 		super(positionSource, arrivalInTicks);
 	}
 	
