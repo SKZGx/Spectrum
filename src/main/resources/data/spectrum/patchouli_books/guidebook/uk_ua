@@ -1,23 +1,23 @@
 {
-  "name": "Experiment #1",
+  "name": "Experiment #2",
   "category": "spectrum:hints_category",
   "icon": "minecraft:writable_book",
-  "advancement": "spectrum:craft_bottle_of_fading",
+  "advancement": "spectrum:midgame/craft_bottle_of_failing",
   "read_by_default": true,
-  "turnin": "spectrum:collect_vegetal",
+  "turnin": "spectrum:midgame/collect_neolith",
   "pages": [
     {
       "type": "spectrum:hint",
       "title": "Small Clue",
-      "completion_advancement": "spectrum:collect_vegetal",
-      "cost": "spectrum:shimmerstone_gem#16",
-      "text": "Fading, as a small and weak organism, feeds on organic blocks placed next to it."
+      "completion_advancement": "spectrum:midgame/collect_neolith",
+      "cost": "spectrum:stratine_fragments#8",
+      "text": "Just like Fading, they prefer a specific block placed next to them. This time a lot more strong, though. 'I hate mining this'-strong, to be precise."
     },
     {
       "type": "spectrum:hint",
       "title": "Concise Instructions",
-      "cost": "spectrum:shimmerstone_gem#48",
-      "text": "Place organic blocks like Leaves, Pumpkins or Melons next to a Block of Fading and wait a while. The block will get consumed and replaced with a different looking variant. Break those converted blocks to get a new resource."
+      "cost": "spectrum:stratine_fragments#24",
+      "text": "The preferred food is Obsidian. Watch out for their insatiable hunger, though. They will eat quite a lot, if given the chance..."
     }
   ]
 }
