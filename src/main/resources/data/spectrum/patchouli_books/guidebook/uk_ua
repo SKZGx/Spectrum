@@ -2,22 +2,22 @@
   "name": "A new Resource",
   "category": "spectrum:hints_category",
   "icon": "minecraft:writable_book",
-  "advancement": "spectrum:milestones/reveal_quitoxic_reeds",
+  "advancement": "spectrum:midgame/build_advanced_pedestal_structure",
   "read_by_default": true,
-  "turnin": "spectrum:collect_quitoxic_reeds",
+  "turnin": "spectrum:get_radiating_ender",
   "pages": [
     {
       "type": "spectrum:hint",
       "title": "Where to find",
-      "completion_advancement": "spectrum:collect_quitoxic_reeds",
-      "cost": "minecraft:clay_ball#16",
-      "text": "Time for an adventure trip on the surface. Visit a Swamp or Mangrove Swamp!"
+      "completion_advancement": "spectrum:get_radiating_ender",
+      "cost": "minecraft:ender_pearl#4",
+      "text": "Not every block an Enderman carries is what it looks like at first glance."
     },
     {
       "type": "spectrum:hint",
       "title": "Concise Instructions",
-      "cost": "minecraft:clay_ball#48",
-      "text": "Strange looking plants have been seen in (Mangrove) Swamps, growing on patches of Clay or Mud. When growing, they will consume Clay/Mud in the process, turning it to Dirt."
+      "cost": "minecraft:ender_pearl#12",
+      "text": "Some Endermen appear in the Overworld carrying blocks that could very well be small relics of the End itself. You can get a hold of one by killing an Endermen while it carries what looks like Cobblestone. Endermen holding these blocks can also be found in the End, albeit more rarely."
     }
   ]
 }
