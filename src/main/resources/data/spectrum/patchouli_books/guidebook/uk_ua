@@ -1,22 +1,22 @@
 {
-  "name": "Redstone Timer",
-  "advancement": "spectrum:unlocks/redstone/redstone_timer",
-  "icon": "spectrum:redstone_timer",
+  "name": "Wireless Redstone",
+  "advancement": "spectrum:create_onyx_shard",
+  "icon": "spectrum:redstone_wireless",
   "category": "spectrum:redstone_category",
   "extra_recipe_mappings": {
-    "spectrum:redstone_timer": 0
+    "spectrum:redstone_wireless": 0
   },
   "pages": [
     {
       "type": "patchouli:spotlight",
-      "item": "spectrum:redstone_timer",
-      "text": "Though there are lots of ways to calculate time, most seem relatively... rustic. They are no match for this new trick up your sleeve: the time-affinity of $(l:general/shards#amethyst)Amethyst Shards$(/l)."
+      "item": "spectrum:redstone_wireless",
+      "text": "Gentle resonances are amplified by $(l:general/shards#onyx)Onyx$(/l) to such an extent that they can even be measured through walls, given a suitable receiver. Based on your previous experiments with gemstone shards, it was easy for you to devise such transmitter and receiver systems."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier1/redstone_timer",
-      "text": "You can toggle the durations for both active time ($(k:use)) and inactive time ($(k:sneak) + $(k:use) with empty hand)."
+      "recipe": "spectrum:pedestal/tier2/redstone_wireless",
+      "text": "Click with empty hands to toggle sending/receiving. Change the frequency of transmissions by using dye/pigment, so signals do not overlap. Range: 16 blocks."
     }
   ]
 }
