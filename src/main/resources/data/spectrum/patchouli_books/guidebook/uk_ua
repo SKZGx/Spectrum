@@ -1,28 +1,21 @@
 {
-  "name": "Quitoxic Reeds",
-  "icon": "spectrum:quitoxic_reeds",
-  "advancement": "spectrum:collect_quitoxic_reeds",
+  "name": "Radiating Ender",
+  "advancement": "spectrum:milestones/reveal_radiating_ender",
+  "icon": "minecraft:ender_pearl",
   "category": "spectrum:resources_category",
   "extra_recipe_mappings": {
-    "spectrum:quitoxic_reeds": 0,
-    "spectrum:quitoxic_powder": 0
+    "spectrum:radiating_ender": 0
   },
   "pages": [
     {
-      "type": "patchouli:image",
-      "title": "Quitoxic Reeds",
-      "images": [
-        "spectrum:textures/gui/guidebook/quitoxic_reed.png"
-      ],
-      "border": true,
-      "text": "Grows exclusively in Swamps and seems to devour Clay as a form of nutrient."
+      "type": "patchouli:text",
+      "text": "Those pesky Endermen!$(br2)They always show up at night and steal blocks off the ground right from your nose. You have the feeling that the whole area here will be nothing but a single crater landscape in a month.$()"
     },
     {
       "type": "patchouli:spotlight",
-      "title": "Quitoxic Powder",
-      "anchor": "quitoxic_powder",
-      "item": "spectrum:quitoxic_powder",
-      "text": "A purple glittering powder can be extracted from the stems of the alien-looking plant by crushing it with an anvil.$(br)Smell and consistency are very unusual when rubbed between your fingers.$(br2)$(italic)...wait a moment, what are fingers?"
+      "title": "Radiating Ender",
+      "item": "spectrum:radiating_ender",
+      "text": "The Endermen come to this world to place those blocks. But what is this stuff? And $(italic)WHY$() do they leave it here?$(br2)Now that you hold one in your hands... they are everywhere! How didn't you notice earlier? Anyways, you are sure that you can take advantage of this interesting material."
     }
   ]
 }
