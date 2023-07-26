@@ -1,21 +1,26 @@
 {
-  "name": "Radiating Ender",
-  "advancement": "spectrum:milestones/reveal_radiating_ender",
-  "icon": "minecraft:ender_pearl",
+  "name": "Shimmerstone",
+  "advancement": "spectrum:collect_shimmerstone",
+  "icon": "spectrum:shimmerstone_gem",
   "category": "spectrum:resources_category",
   "extra_recipe_mappings": {
-    "spectrum:radiating_ender": 0
+    "spectrum:shimmerstone_ore": 0,
+    "spectrum:deepslate_shimmerstone_ore": 0,
+    "spectrum:blackslag_shimmerstone_ore": 0,
+    "spectrum:shimmerstone_gem": 0,
+    "spectrum:shimmerstone_block": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "text": "Those pesky Endermen!$(br2)They always show up at night and steal blocks off the ground right from your nose. You have the feeling that the whole area here will be nothing but a single crater landscape in a month.$()"
+      "type": "patchouli:spotlight",
+      "title": "Shimmerstone",
+      "item": "spectrum:shimmerstone_gem",
+      "text": "A yellow ore that does not only emit energy in the form of light, but is able to manipulate it, too.$(br2)Shimmerstone is found close to sea level altitudes."
     },
     {
-      "type": "patchouli:spotlight",
-      "title": "Radiating Ender",
-      "item": "spectrum:radiating_ender",
-      "text": "The Endermen come to this world to place those blocks. But what is this stuff? And $(italic)WHY$() do they leave it here?$(br2)Now that you hold one in your hands... they are everywhere! How didn't you notice earlier? Anyways, you are sure that you can take advantage of this interesting material."
+      "type": "patchouli:crafting",
+      "recipe": "spectrum:crafting_table/storage_blocks/shimmerstone_block",
+      "text": "Full blocks of Shimmerstone emit glowing bright yellow particles."
     }
   ]
 }
