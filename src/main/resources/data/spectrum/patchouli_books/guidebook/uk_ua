@@ -1,39 +1,41 @@
 {
-  "name": "Spectral Shard",
-  "advancement": "spectrum:unlocks/resources/spectral_shard",
-  "sortnum": 22,
-  "secret": true,
-  "icon": "spectrum:spectral_shard",
+  "name": "What Happened Below?",
+  "icon": "spectrum:black_materia",
+  "sortnum": 20,
+  "advancement": "spectrum:lategame/visit_all_deeper_down_biomes",
+  "turnin": "spectrum:endgame/collect_enough_hints",
   "category": "spectrum:general_category",
-  "turnin": "spectrum:endgame/create_spectral_shard",
-  "extra_recipe_mappings": {
-    "spectrum:spectral_shard": 0,
-    "spectrum:spectral_shard_block": 0,
-    "spectrum:spectral_shard_storage_block": 0
-  },
+  "extra_recipe_mappings": {},
   "pages": [
     {
       "type": "patchouli:text",
-      "title": "Spectral Shard",
-      "text": "Your first attempt to reach for the stars - long, long ago - was not too successful.$(br)Looking back, you can only laugh at how simple-minded you were. You learned a lot and came a long way.$(br)Now you are here. Take 2, here we go."
+      "text": "$(italic)On the trail of the history of the Deeper Down$().$(br2)There is no question that, despite the lack of light, there must once have been an advanced civilisation down here. But you found nothing more than ruins.$(br)What had happened? Surely you can find clues to their whereabouts? Demise? Legacy?"
     },
     {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Fusion Recipe",
-      "recipe": "spectrum:fusion_shrine/spectral_shard",
-      "text": "$(italic)The feeling of perfection, this time for real."
+      "type": "spectrum:checklist",
+      "title": "Where to look",
+      "checklist": {
+        "spectrum:lategame/revive_black_sludge_plant": "How did the Black Langast come to be?",
+        "spectrum:lategame/break_cracked_dragonbone": "Those bones in the Dragonrot Swamps... can they be broken?",
+        "spectrum:lategame/find_excavation_site": "Who created the ruins that you found in the Overworld?",
+        "spectrum:lategame/find_forgotten_city": "Where did the previous inhabitants live?"
+      },
+      "text": ""
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "advancement": "spectrum:endgame/create_spectral_shard",
-      "recipe": "spectrum:pedestal/tier1/compacting/spectral_shard_block",
-      "text": "$(italic)Pretty!$()"
+      "type": "spectrum:checklist",
+      "checklist": {
+        "spectrum:lategame/reached_dd_floor": "Now that Bedrock isn't the bottom anymore, what is there to find?",
+        "spectrum:lategame/strike_up_hummingstone_hymn": "What about these weird Crystals in the Crystal Gardens?",
+        "spectrum:lategame/collect_moonstone_shard": "Can you find Geodes here, too?"
+      },
+      "text": ""
     },
     {
-      "type": "spectrum:pedestal_crafting",
-      "advancement": "spectrum:endgame/create_spectral_shard",
-      "recipe": "spectrum:pedestal/tier1/compacting/spectral_shard_storage_block",
-      "text": "$(italic)And you thought a beacon out of Netherite Blocks was a excessive?$()"
+      "type": "patchouli:text",
+      "advancement": "spectrum:lategame/revive_black_sludge_plant",
+      "title": "Clue: Black Langast",
+      "text": "The remains growing in $(l:dimension/black_langast)Black Langast$(/l) were actually Resonant Lilies, once. What happened here? Does that mean..."
     }
   ]
 }
