@@ -1,36 +1,26 @@
 {
-  "name": "Colored Spore Blossoms",
-  "advancement": "spectrum:unlocks/blocks/colored_spore_blossoms",
-  "icon": "spectrum:orange_spore_blossom",
+  "name": "Decostones",
+  "icon": "spectrum:amethyst_decostone",
+  "advancement": "spectrum:unlocks/decostones/any_decostone",
   "category": "spectrum:decoration_category",
   "extra_recipe_mappings": {
-    "spectrum:black_spore_blossom": 0,
-    "spectrum:blue_spore_blossom": 0,
-    "spectrum:brown_spore_blossom": 0,
-    "spectrum:cyan_spore_blossom": 0,
-    "spectrum:gray_spore_blossom": 0,
-    "spectrum:green_spore_blossom": 0,
-    "spectrum:light_blue_spore_blossom": 0,
-    "spectrum:light_gray_spore_blossom": 0,
-    "spectrum:lime_spore_blossom": 0,
-    "spectrum:magenta_spore_blossom": 0,
-    "spectrum:orange_spore_blossom": 0,
-    "spectrum:pink_spore_blossom": 0,
-    "spectrum:purple_spore_blossom": 0,
-    "spectrum:red_spore_blossom": 0,
-    "spectrum:white_spore_blossom": 0,
-    "spectrum:yellow_spore_blossom": 0
+    "spectrum:topaz_decostone": 0,
+    "spectrum:amethyst_decostone": 0,
+    "spectrum:citrine_decostone": 0,
+    "spectrum:onyx_decostone": 0,
+    "spectrum:moonstone_decostone": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "As you wandered through a leafy cave, you noticed the many petals sailing through the air.$(br2)You were so enchanted by this sight that you set out to design your own, colorful variations."
+      "title": "Decostones",
+      "text": "These two-block high decorative stones are a representation of your precious find.$(br2)They make quite an imposing impression."
     },
     {
       "type": "spectrum:pedestal_crafting",
       "title": "Pedestal Recipe",
-      "recipe": "spectrum:pedestal/tier2/colored_spore_blossoms/orange_spore_blossom",
-      "text": "By using different pigment you can color the petals in a wide variety of colors."
+      "recipe": "spectrum:pedestal/tier1/decostones/topaz_decostone",
+      "text": "Decostones come in all gemstone colors available to you."
     }
   ]
 }
