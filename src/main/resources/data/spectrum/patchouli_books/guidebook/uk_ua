@@ -1,21 +1,24 @@
 {
-  "name": "Aloe",
-  "advancement": "spectrum:hidden/collect_aloe",
-  "icon": "spectrum:aloe_leaf",
+  "name": "Black Langast",
+  "advancement": "spectrum:hidden/visit_dd_biomes/black_langast",
+  "icon": "spectrum:black_materia",
   "category": "spectrum:dimension_category",
   "extra_recipe_mappings": {
-    "spectrum:aloe_leaf": 0
+    "spectrum:black_sludge": 0
   },
   "pages": [
     {
-      "type": "patchouli:text",
-      "title": "Aloe",
-      "text": "These drought-loving plants are able to grow almost everywhere. Ironically, as sturdy as they are, they can not handle too much light and nutrient-rich soil. Down there, there was simply no reason to adapt to that."
+      "type": "patchouli:image",
+      "title": "Black Langast",
+      "images": [
+        "spectrum:textures/gui/guidebook/dd_black_langast.png"
+      ],
+      "border": true,
+      "text": "$(l:magical_blocks/midnight_solution)Midnight Solution$(/l) everywhere."
     },
     {
-      "type": "patchouli:spotlight",
-      "item": "spectrum:aloe_leaf",
-      "text": "You can break off individual leaves. They retain a lot of moisture and are quite nutritious.$(br)Planted, they will grow into a full-fledged new plant over time."
+      "type": "patchouli:text",
+      "text": "What must have happened here to turn whole swaths of land into this dead wasteland? Some terrible accident, for sure. Whatever - or whoever - was responsible for this might have had a similar experience to yours.... only much more tragic.$(br2)The $(italic)things$() growing here - calling them plants would be an outrage even to $(item)Dead Bushes$() - look anything but healthy."
     }
   ]
 }
