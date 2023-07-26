@@ -1,43 +1,61 @@
 {
-  "name": "Azure Dike Equipment",
-  "advancement": "spectrum:unlocks/trinkets/any_azure_dike_equipment",
-  "icon": "spectrum:azure_dike_ring",
+  "name": "Base Trinkets",
+  "advancement": "spectrum:unlocks/trinkets/any_base_trinket",
+  "icon": "spectrum:fanciful_stone_ring",
   "category": "spectrum:equipment_category",
   "extra_recipe_mappings": {
-    "spectrum:azure_dike_ring": 0,
-    "spectrum:azure_dike_belt": 0,
-    "spectrum:shieldgrasp_amulet": 0
+    "spectrum:fanciful_stone_ring": 0,
+    "spectrum:fanciful_belt": 0,
+    "spectrum:fanciful_pendant": 0,
+    "spectrum:fanciful_circlet": 0,
+    "spectrum:fanciful_bismuth_ring": 0
   },
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The results of combining $(l:resources/azurite)Azurite$(/l) and the protective properties of $(l:general/pigment#blue)Blue Pigment$(/l) really sparked your interest. The material seemed to surround itself with a transparent aura which took some effort to penetrate when you reached for the lump.$(br2)$(italic)This is going to be interesting..."
+      "text": "These basic accessories are used as a base for more advanced Trinkets. All final Trinkets are created in the $(l:general/fusion_shrine)Fusion Shrine$()."
     },
     {
-      "type": "patchouli:text",
-      "title": "Azure Dike",
-      "text": "A magical aura surrounding your body, shielding you from incoming damage.$(br)Slowly, but steadily recharges up to a specific amount.$(br2)Each piece of Azure Dike Equipment increases the maximum amount of protection."
+      "type": "spectrum:pedestal_crafting",
+      "title": "Fanciful Stone Ring",
+      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_stone_ring",
+      "advancement": "spectrum:unlocks/trinkets/fanciful_stone_ring",
+      "text": ""
     },
     {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Azure Dike Ring",
-      "advancement": "spectrum:unlocks/trinkets/azure_dike_ring",
-      "recipe": "spectrum:fusion_shrine/trinkets/azure_dike_ring",
-      "text": "$(li)Grants you $(c_green)4$() points of $(c_blue)Azure Dike$()$(li)Slightly speeds up $(c_blue)Azure Dike$() charging"
+      "type": "spectrum:pedestal_crafting",
+      "title": "Fanciful Circlet",
+      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_circlet",
+      "advancement": "spectrum:unlocks/trinkets/fanciful_circlet",
+      "text": ""
     },
     {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Azure Dike Belt",
-      "advancement": "spectrum:unlocks/trinkets/azure_dike_belt",
-      "recipe": "spectrum:fusion_shrine/trinkets/azure_dike_belt",
-      "text": "$(li)Grants you $(c_green)6$() points of $(c_blue)Azure Dike$()$(li)Increases $(c_blue)Azure Dike$() recovery after a hit, making it recharge quicker"
+      "type": "spectrum:pedestal_crafting",
+      "title": "Fanciful Belt",
+      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_belt",
+      "advancement": "spectrum:unlocks/trinkets/fanciful_belt",
+      "text": ""
     },
     {
-      "type": "spectrum:fusion_shrine_crafting",
-      "title": "Shieldgrasp Amulet",
-      "advancement": "spectrum:unlocks/trinkets/shieldgrasp_amulet",
-      "recipe": "spectrum:fusion_shrine/trinkets/shieldgrasp_amulet",
-      "text": "Infuse it with $(l:magic/ink)Blue Ink$(/l) in a $(l:magic/color_picker)Color Picker$() to increase the amount of $(c_blue)Azure Dike$() provided.$(br)Cheap at first, the required energy to infuse more power into this amulet increases exponentially."
+      "type": "spectrum:pedestal_crafting",
+      "title": "Fanciful Pendant",
+      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_pendant",
+      "advancement": "spectrum:unlocks/trinkets/fanciful_pendant",
+      "text": ""
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Fanciful Gloves",
+      "recipe": "spectrum:pedestal/tier3/trinkets/fanciful_gloves",
+      "advancement": "spectrum:unlocks/trinkets/fanciful_gloves",
+      "text": ""
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Fanciful Bismuth Ring",
+      "recipe": "spectrum:pedestal/tier4/fanciful_bismuth_ring",
+      "advancement": "spectrum:unlocks/trinkets/fanciful_bismuth_ring",
+      "text": ""
     }
   ]
 }
