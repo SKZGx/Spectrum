@@ -1443,7 +1443,7 @@
   "block.spectrum.provider_node.tooltip": "Supplies Gatherer Nodes with items",
   "block.spectrum.storage_node.tooltip": "Serves as storage for Sender and Gather Nodes",
   "block.spectrum.connection_node.tooltip": "Extends the range of your Network",
-  "item.spectrum.mob_head.tooltip.designer": "§7Head design by %s",
+  "item.spectrum.mob_head.tooltip.designer": "§7дизайн %s",
   "block.spectrum.goat_head": "Goat Head",
   "block.spectrum.glow_squid_head": "Glow Squid Head",
   "block.spectrum.axolotl_blue_head": "Blue Axolotl Head",
