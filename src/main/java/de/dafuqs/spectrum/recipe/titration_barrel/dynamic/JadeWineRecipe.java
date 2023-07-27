@@ -32,7 +32,7 @@ public class JadeWineRecipe extends TitrationBarrelRecipe {
 	}};
 	
 	public JadeWineRecipe(Identifier identifier) {
-		super(identifier, "", false, UNLOCK_IDENTIFIER, INGREDIENT_STACKS, Fluids.WATER, OUTPUT_STACK, TAPPING_ITEM, MIN_FERMENTATION_TIME_HOURS, new FermentationData(0.075F, 0.1F, List.of()));
+		super(identifier, "jade_vine_wines", false, UNLOCK_IDENTIFIER, INGREDIENT_STACKS, Fluids.WATER, OUTPUT_STACK, TAPPING_ITEM, MIN_FERMENTATION_TIME_HOURS, new FermentationData(0.075F, 0.1F, List.of()));
 	}
 
 	@Override
