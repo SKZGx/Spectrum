@@ -298,7 +298,7 @@
   "spectrum.tooltip.ink_powered.bullet.pink": "§b◆ %d §bРожеве чорнило§r",
   "spectrum.tooltip.ink_powered.bullet.purple": "§b◆ %d §bФіолетове чорнило§r",
   "spectrum.tooltip.ink_powered.bullet.red": "§b◆ %d §bЧервоне чорнило§r",
-  "spectrum.tooltip.ink_powered.empty": "Empty",
+  "spectrum.tooltip.ink_powered.empty": "Порожньо",
   "spectrum.tooltip.ink_powered.stored": "Stored:",
   "spectrum.tooltip.ink_powered.unselect_color": "Unselect Color",
   "spectrum.tooltip.ink_powered.percent_filled": "%d Ink (%d %%)",
