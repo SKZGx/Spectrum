@@ -2036,7 +2036,7 @@
   "item.spectrum.guardian_turret_spawn_egg": "Guardian Turret Spawn Egg",
   "item.spectrum.kindling_spawn_egg": "Kindling Spawn Egg",
   "item.spectrum.lizard_spawn_egg": "Lizard Spawn Egg",
-  "item.spectrum.spawner": "Spawner",
+  "item.spectrum.spawner": "Спавнер",
   "item.spectrum.spawner.tooltip.unknown_mob": "Unknown Mob",
   "item.spectrum.spawner.tooltip.spawn_count": "Spawn Count: %d",
   "item.spectrum.spawner.tooltip.min_spawn_delay": "Min Spawn Delay: %d",
