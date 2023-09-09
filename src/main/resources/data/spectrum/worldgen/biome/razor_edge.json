@@ -38,12 +38,6 @@
     "misc": [],
     "monster": [
       {
-        "type": "spectrum:eraser",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 8
-      },
-      {
         "type": "minecraft:zombie",
         "weight": 100,
         "minCount": 4,
@@ -90,7 +84,6 @@
     [
       "spectrum:dd_downstone_sloped",
       "spectrum:moonstone_geode",
-      "spectrum:dd_large_dripstone",
       "spectrum:dd_pyrite_pillar",
       "spectrum:dd_shale_clay_pillar",
       "spectrum:blackslag_pile"
@@ -101,7 +94,8 @@
     [
       "spectrum:dd_sawblade_delta",
       "spectrum:dd_small_pyrite_columns",
-      "spectrum:dd_small_shale_clay_columns"
+      "spectrum:dd_small_shale_clay_columns",
+      "spectrum:dd_shale_clay_crystal_formations"
     ],
     [],
     [
@@ -119,13 +113,10 @@
       "spectrum:dd_andesite",
       "spectrum:dd_stone"
     ],
-    [
-      "spectrum:dd_pointed_dripstone"
-    ],
+    [],
     [
       "spectrum:dd_water_springs",
-      "spectrum:dd_lava_springs",
-      "spectrum:dd_shale_clay_crystal_formations"
+      "spectrum:dd_lava_springs"
     ],
     [
       "spectrum:pyrite_ripper_wall_patch",

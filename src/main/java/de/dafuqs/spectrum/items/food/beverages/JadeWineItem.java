@@ -1,5 +1,6 @@
 package de.dafuqs.spectrum.items.food.beverages;
 
+import de.dafuqs.spectrum.items.*;
 import de.dafuqs.spectrum.items.food.beverages.properties.*;
 import net.minecraft.client.item.*;
 import net.minecraft.item.*;
@@ -23,10 +24,11 @@ public class JadeWineItem extends BeverageItem {
 	@Override
 	public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
 		super.appendTooltip(itemStack, world, tooltip, tooltipContext);
-		if (BeverageItem.isPreviewStack(itemStack)) {
-			tooltip.add(Text.translatable("item.spectrum.jade_wine.tooltip.preview").formatted(Formatting.GRAY));
-			tooltip.add(Text.translatable("item.spectrum.jade_wine.tooltip.preview2").formatted(Formatting.GRAY));
-			tooltip.add(Text.translatable("item.spectrum.jade_wine.tooltip.preview3").formatted(Formatting.GRAY));
+		if (FermentedItem.isPreviewStack(itemStack)) {
+			String translationKey = getTranslationKey();
+			tooltip.add(Text.translatable(translationKey + ".tooltip.preview").formatted(Formatting.GRAY));
+			tooltip.add(Text.translatable(translationKey + ".tooltip.preview2").formatted(Formatting.GRAY));
+			tooltip.add(Text.translatable(translationKey + ".tooltip.preview3").formatted(Formatting.GRAY));
 		}
 	}
 	

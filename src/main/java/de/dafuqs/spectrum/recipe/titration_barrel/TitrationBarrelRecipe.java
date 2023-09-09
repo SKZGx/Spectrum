@@ -2,7 +2,7 @@ package de.dafuqs.spectrum.recipe.titration_barrel;
 
 import de.dafuqs.spectrum.helpers.TimeHelper;
 import de.dafuqs.spectrum.helpers.*;
-import de.dafuqs.spectrum.items.food.beverages.*;
+import de.dafuqs.spectrum.items.*;
 import de.dafuqs.spectrum.items.food.beverages.properties.*;
 import de.dafuqs.spectrum.recipe.*;
 import de.dafuqs.spectrum.registries.*;
@@ -14,13 +14,12 @@ import net.minecraft.item.*;
 import net.minecraft.recipe.*;
 import net.minecraft.text.*;
 import net.minecraft.util.*;
-import net.minecraft.util.collection.*;
 import net.minecraft.world.*;
 import org.jetbrains.annotations.*;
 
 import java.util.*;
 
-public class TitrationBarrelRecipe extends GatedSpectrumRecipe implements ITitrationBarrelRecipe {
+public class TitrationBarrelRecipe extends GatedStackSpectrumRecipe implements ITitrationBarrelRecipe {
 	
 	public static final ItemStack NOT_FERMENTED_LONG_ENOUGH_OUTPUT_STACK = Items.POTION.getDefaultStack();
 	public static final List<Integer> FERMENTATION_DURATION_DISPLAY_TIME_MULTIPLIERS = new ArrayList<>() {{
@@ -55,13 +54,6 @@ public class TitrationBarrelRecipe extends GatedSpectrumRecipe implements ITitra
 		return matchIngredientStacksExclusively(inventory, getIngredientStacks());
 	}
 	
-	// should not be used. Instead, use getIngredientStacks(), which includes item counts
-	@Override
-	@Deprecated
-	public DefaultedList<Ingredient> getIngredients() {
-		return IngredientStack.listIngredients(this.inputStacks);
-	}
-	
 	@Override
 	public List<IngredientStack> getIngredientStacks() {
 		return this.inputStacks;
@@ -87,9 +79,14 @@ public class TitrationBarrelRecipe extends GatedSpectrumRecipe implements ITitra
 		return ItemStack.EMPTY;
 	}
 	
+	public ItemStack getPreviewTap(int timeMultiplier) {
+		return tapWith(1.0F, this.minFermentationTimeHours * 60L * 60L * timeMultiplier, 0.4F); // downfall equals the one in plains
+	}
+	
 	public ItemStack getDefaultTap(int timeMultiplier) {
-		ItemStack stack = tapWith(1.0F, this.minFermentationTimeHours * 60L * 60L * timeMultiplier, 0.4F); // downfall equals the one in plains
+		ItemStack stack = getPreviewTap(timeMultiplier);
 		stack.setCount(this.outputItemStack.getCount());
+		FermentedItem.setPreviewStack(stack);
 		return stack;
 	}
 	
@@ -151,12 +148,12 @@ public class TitrationBarrelRecipe extends GatedSpectrumRecipe implements ITitra
 		}
 		
 		if (alcPercent >= 100) {
-			return getPureAlcohol(ageIngameDays);
+			return SpectrumItems.PURE_ALCOHOL.getDefaultStack();
 		}
 		
 		BeverageProperties properties;
-		if (inputStack.getItem() instanceof BeverageItem beverageItem) {
-			properties = beverageItem.getBeverageProperties(inputStack);
+		if (inputStack.getItem() instanceof FermentedItem fermentedItem) {
+			properties = fermentedItem.getBeverageProperties(inputStack);
 		} else {
 			// if it's not a set beverage (custom recipe) assume VariantBeverage to add that tag
 			properties = VariantBeverageProperties.getFromStack(inputStack);
@@ -187,14 +184,6 @@ public class TitrationBarrelRecipe extends GatedSpectrumRecipe implements ITitra
 		properties.ageDays = (long) ageIngameDays;
 		properties.thickness = thickness;
 		return properties.getStack(inputStack);
-	}
-	
-	protected static ItemStack getPureAlcohol(float ageIngameDays) {
-		ItemStack stack = SpectrumItems.PURE_ALCOHOL.getDefaultStack();
-		BeverageProperties properties = BeverageProperties.getFromStack(stack);
-		properties.ageDays = (long) ageIngameDays;
-		properties.getStack(stack);
-		return stack;
 	}
 	
 	protected static double getAlcPercent(float fermentationSpeedMod, float thickness, float downfall, float ageIngameDays) {
