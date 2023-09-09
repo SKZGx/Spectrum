@@ -36,7 +36,7 @@ public class SpectrumModelPredicateProviders {
 		registerEnderSplicePredicates(SpectrumItems.ENDER_SPLICE);
 		registerAnimatedWandPredicates(SpectrumItems.NATURES_STAFF);
 		registerAnimatedWandPredicates(SpectrumItems.RADIANCE_STAFF);
-		registerAnimatedWandPredicates(SpectrumItems.HERDING_STAFF);
+		registerAnimatedWandPredicates(SpectrumItems.STAFF_OF_REMEMBRANCE);
 		registerKnowledgeDropPredicates(SpectrumItems.KNOWLEDGE_GEM);
 		registerAshenCircletPredicates(SpectrumItems.ASHEN_CIRCLET);
 		registerColorPredicate(SpectrumItems.PAINTBRUSH);
@@ -69,6 +69,8 @@ public class SpectrumModelPredicateProviders {
 		registerMysteriousLocketPredicates(SpectrumItems.MYSTERIOUS_LOCKET);
 		registerStructureCompassPredicates(SpectrumItems.MYSTERIOUS_COMPASS);
 		registerNullableDyeColorPredicate(SpectrumBlocks.CRYSTALLARIEUM.asItem());
+
+		registerPipeBombPredicates(SpectrumItems.PIPE_BOMB);
 	}
 	
 	private static void registerNullableDyeColorPredicate(Item item) {
@@ -248,6 +250,13 @@ public class SpectrumModelPredicateProviders {
 		ModelPredicateProviderRegistry.register(crossbowItem, new Identifier("firework"), (itemStack, clientWorld, livingEntity, i) ->
 				livingEntity != null && CrossbowItem.isCharged(itemStack) && CrossbowItem.hasProjectile(itemStack, Items.FIREWORK_ROCKET) ? 1.0F : 0.0F
 		);
+	}
+
+	/**
+	 * @param biStateItem Ensure this extends PredicateBiStateProvider
+	 */
+	private static void registerPipeBombPredicates(Item pipeBombItem) {
+		ModelPredicateProviderRegistry.register(pipeBombItem, new Identifier("armed"), PipeBombItem::isArmed);
 	}
 	
 	private static void registerSpectrumFishingRodItemPredicates(Item fishingRodItem) {

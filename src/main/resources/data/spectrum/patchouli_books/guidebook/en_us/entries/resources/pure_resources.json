@@ -15,12 +15,8 @@
     "spectrum:pure_quartz": 0,
     "spectrum:pure_glowstone": 0,
     "spectrum:pure_prismarine": 0,
-
-    "spectrum:pure_certus_quartz": 0,
-    "spectrum:pure_fluix": 0,
-    "spectrum:pure_globette": 0,
-    "spectrum:pure_globette_nether": 0,
-    "spectrum:pure_globette_end": 0,
+    "spectrum:pure_echo": 0,
+    "spectrum:pure_netherite_scrap": 0,
 
     "spectrum:pure_coal_block": 0,
     "spectrum:pure_iron_block": 0,
@@ -34,6 +30,13 @@
     "spectrum:pure_netherite_scrap_block": 0,
     "spectrum:pure_glowstone_block": 0,
     "spectrum:pure_prismarine_block": 0,
+    "spectrum:pure_echo_block": 0,
+
+    "spectrum:pure_certus_quartz": 0,
+    "spectrum:pure_fluix": 0,
+    "spectrum:pure_globette": 0,
+    "spectrum:pure_globette_nether": 0,
+    "spectrum:pure_globette_end": 0,
 
     "spectrum:pure_certus_quartz_block": 0,
     "spectrum:pure_fluix_block": 0,
@@ -61,10 +64,10 @@
       "text": "However, smelting these in the $(l:magical_blocks/cinderhearth)Cinderhearth$() yields a much more decent output."
     },
     {
-      "type": "patchouli:crafting",
-      "title": "Compressing",
-      "recipe": "spectrum:crafting_table/storage_blocks/pure_quartz_storage_block",
-      "recipe2": "spectrum:crafting_table/storage_blocks/pure_quartz_from_quartz_storage_block"
+      "type": "spectrum:pedestal_crafting",
+      "title": "Compacting",
+      "recipe": "spectrum:pedestal/tier1/compacting/pure_quartz_block",
+      "text": "Can be crafted back into $(item)Pure Resources$()."
     },
     {
       "type": "spectrum:fusion_shrine_crafting",

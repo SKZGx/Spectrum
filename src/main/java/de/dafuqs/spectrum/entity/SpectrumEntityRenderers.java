@@ -15,6 +15,7 @@ public class SpectrumEntityRenderers {
 		register(SpectrumEntityTypes.SEAT, SeatEntityRenderer::new);
 		register(SpectrumEntityTypes.SHOOTING_STAR, ShootingStarEntityRenderer::new);
 		register(SpectrumEntityTypes.PHANTOM_FRAME, PhantomFrameEntityRenderer::new);
+		register(SpectrumEntityTypes.PARAMETRIC_MINING_DEVICE_ENTITY, FlyingItemEntityRenderer::new);
 		register(SpectrumEntityTypes.GLOW_PHANTOM_FRAME, PhantomFrameEntityRenderer::new);
 		register(SpectrumEntityTypes.BLOCK_FLOODER_PROJECTILE, FlyingItemEntityRenderer::new);
 		register(SpectrumEntityTypes.INK_PROJECTILE, MagicProjectileEntityRenderer::new);
@@ -31,7 +32,7 @@ public class SpectrumEntityRenderers {
 		register(SpectrumEntityTypes.LIGHT_SPEAR, LightSpearEntityRenderer::new);
 		register(SpectrumEntityTypes.LIGHT_MINE, LightMineEntityRenderer::new);
 		register(SpectrumEntityTypes.MONSTROSITY, MonstrosityEntityRenderer::new);
-		register(SpectrumEntityTypes.GUARDIAN_TURRET, GuardianTurretEntityRenderer::new);
+		register(SpectrumEntityTypes.PRESERVATION_TURRET, PreservationTurretEntityRenderer::new);
 		register(SpectrumEntityTypes.LIZARD, LizardEntityRenderer::new);
 		register(SpectrumEntityTypes.KINDLING, KindlingEntityRenderer::new);
 		register(SpectrumEntityTypes.KINDLING_COUGH, KindlingCoughEntityRenderer::new);

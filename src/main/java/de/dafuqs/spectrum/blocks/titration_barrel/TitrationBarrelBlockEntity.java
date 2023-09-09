@@ -106,6 +106,7 @@ public class TitrationBarrelBlockEntity extends BlockEntity {
 	public void reset(World world, BlockPos blockPos, BlockState state) {
 		this.sealTime = -1;
 		this.tapTime = -1;
+		this.fluidStorage.variant = FluidVariant.blank();
 		this.fluidStorage.amount = 0;
 		this.extractedBottles = 0;
 		this.inventory.clear();
@@ -227,12 +228,10 @@ public class TitrationBarrelBlockEntity extends BlockEntity {
 	
 	public void giveRecipeRemainders(PlayerEntity player) {
 		for (ItemStack stack : this.inventory.stacks) {
-			Item item = stack.getItem();
-			Item remainderItem = item.getRecipeRemainder();
-			if (remainderItem != null) {
-				ItemStack remainderStack = remainderItem.getDefaultStack();
-				remainderStack.setCount(stack.getCount());
-				player.getInventory().offerOrDrop(remainderStack);
+			ItemStack remainder = stack.getRecipeRemainder();
+			if (remainder.isEmpty()) {
+				remainder.setCount(stack.getCount());
+				player.getInventory().offerOrDrop(remainder);
 			}
 		}
 	}

@@ -3,7 +3,6 @@ package de.dafuqs.spectrum.recipe.titration_barrel.dynamic;
 import de.dafuqs.spectrum.*;
 import de.dafuqs.spectrum.helpers.TimeHelper;
 import de.dafuqs.spectrum.helpers.*;
-import de.dafuqs.spectrum.items.food.beverages.*;
 import de.dafuqs.spectrum.items.food.beverages.properties.*;
 import de.dafuqs.spectrum.recipe.titration_barrel.*;
 import de.dafuqs.spectrum.registries.*;
@@ -40,13 +39,10 @@ public class SuspiciousBrewRecipe extends TitrationBarrelRecipe {
 	}
 
 	@Override
-	public ItemStack getDefaultTap(int timeMultiplier) {
+	public ItemStack getPreviewTap(int timeMultiplier) {
 		ItemStack flowerStack = Items.POPPY.getDefaultStack();
 		flowerStack.setCount(4);
-		ItemStack tappedStack = tapWith(List.of(flowerStack), 1.0F, this.minFermentationTimeHours * 60L * 60L * timeMultiplier, 0.4F); // downfall equals the one in plains
-		BeverageItem.setPreviewStack(tappedStack);
-		tappedStack.setCount(OUTPUT_STACK.getCount());
-		return tappedStack;
+		return tapWith(List.of(flowerStack), 1.0F, this.minFermentationTimeHours * 60L * 60L * timeMultiplier, 0.4F);
 	}
 	
 	@Override
@@ -72,7 +68,7 @@ public class SuspiciousBrewRecipe extends TitrationBarrelRecipe {
 		float ageIngameDays = TimeHelper.minecraftDaysFromSeconds(secondsFermented);
 		double alcPercent = getAlcPercent(this.fermentationData.fermentationSpeedMod(), thickness, downfall, ageIngameDays);
 		if (alcPercent >= 100) {
-			return getPureAlcohol(ageIngameDays);
+			return SpectrumItems.PURE_ALCOHOL.getDefaultStack();
 		} else {
 			// add up all stew effects with their durations from the input stacks
 			Map<StatusEffect, Integer> stewEffects = new HashMap<>();
@@ -104,12 +100,8 @@ public class SuspiciousBrewRecipe extends TitrationBarrelRecipe {
 	
 	// taken from SuspiciousStewItem
 	private Optional<Pair<StatusEffect, Integer>> getStewEffectFrom(ItemStack stack) {
-		Item item = stack.getItem();
-		if (item instanceof BlockItem blockItem) {
-			Block block = blockItem.getBlock();
-			if (block instanceof FlowerBlock flowerBlock) {
-				return Optional.of(Pair.of(flowerBlock.getEffectInStew(), flowerBlock.getEffectInStewDuration()));
-			}
+		if (stack.getItem() instanceof BlockItem blockItem && blockItem.getBlock() instanceof FlowerBlock flowerBlock) {
+			return Optional.of(Pair.of(flowerBlock.getEffectInStew(), flowerBlock.getEffectInStewDuration()));
 		}
 		return Optional.empty();
 	}
@@ -120,7 +112,7 @@ public class SuspiciousBrewRecipe extends TitrationBarrelRecipe {
 		for (int i = 0; i < inventory.size(); i++) {
 			ItemStack stack = inventory.getStack(i);
 			if (!stack.isEmpty()) {
-				if (stack.isIn(ItemTags.SMALL_FLOWERS)) {
+				if (stack.getItem() instanceof BlockItem blockItem && blockItem.getBlock() instanceof FlowerBlock) {
 					flowerFound = true;
 				} else {
 					return false;

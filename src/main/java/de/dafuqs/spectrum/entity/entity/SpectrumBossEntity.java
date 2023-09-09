@@ -1,7 +1,6 @@
 package de.dafuqs.spectrum.entity.entity;
 
 import de.dafuqs.spectrum.helpers.*;
-import de.dafuqs.spectrum.mixin.accessors.*;
 import de.dafuqs.spectrum.registries.*;
 import net.minecraft.advancement.criterion.*;
 import net.minecraft.block.*;
@@ -18,9 +17,8 @@ import net.minecraft.sound.*;
 import net.minecraft.text.*;
 import net.minecraft.util.math.*;
 import net.minecraft.world.*;
+import net.minecraft.world.event.*;
 import org.jetbrains.annotations.*;
-
-import java.util.*;
 
 public class SpectrumBossEntity extends PathAwareEntity {
 	
@@ -66,6 +64,31 @@ public class SpectrumBossEntity extends PathAwareEntity {
 		return true;
 	}
 	
+	protected boolean isNonVanillaKillCommandDamage(DamageSource source, float amount) {
+		if (source != DamageSource.OUT_OF_WORLD || amount != Float.MAX_VALUE) {
+			return false;
+		}
+		
+		Thread currentThread = Thread.currentThread();
+		StackTraceElement[] stackTrace = currentThread.getStackTrace();
+		
+		int i = 0;
+		for (StackTraceElement element : stackTrace) {
+			if (element.getClassName().contains("net.minecraft")) {
+				// this is a vanilla or admin /kill
+				this.remove(RemovalReason.KILLED);
+				this.emitGameEvent(GameEvent.ENTITY_DIE);
+				return false;
+			}
+			if (i > 3) {
+				// not called from KillCommand? heresy
+				return true;
+			}
+			i++;
+		}
+		return false;
+	}
+	
 	@Override
 	protected void applyDamage(DamageSource source, float amount) {
 		// called when damage was dealt
@@ -93,13 +116,12 @@ public class SpectrumBossEntity extends PathAwareEntity {
 	public void onDeath(DamageSource damageSource) {
 		super.onDeath(damageSource);
 		
-		// grant the kill to all players that attacked recently
+		// grant the kill to all players close by players
 		// => should they battle in a team the kill counts for all players
 		// instead of just the one that did the killing blow like in vanilla
-		List<DamageRecord> recentDamage = ((DamageTrackerAccessor) this.getDamageTracker()).getRecentDamage();
-		for (DamageRecord damageRecord : recentDamage) {
-			if (damageRecord.getAttacker() instanceof ServerPlayerEntity player) {
-				Criteria.ENTITY_KILLED_PLAYER.trigger(player, this, damageSource);
+		if (!world.isClient) {
+			for (PlayerEntity closeByPlayer : world.getEntitiesByType(EntityType.PLAYER, getBoundingBox().expand(24), Entity::isAlive)) {
+				Criteria.ENTITY_KILLED_PLAYER.trigger((ServerPlayerEntity) closeByPlayer, this, damageSource);
 			}
 		}
 	}

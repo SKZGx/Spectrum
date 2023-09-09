@@ -39,7 +39,7 @@
     "monster": [
       {
         "type": "spectrum:eraser",
-        "weight": 100,
+        "weight": 50,
         "minCount": 4,
         "maxCount": 8
       },
@@ -99,7 +99,6 @@
       "spectrum:dd_diamond_ore",
       "spectrum:dd_emerald_ore",
       "spectrum:dd_tuff",
-      "spectrum:dd_gravel",
       "spectrum:dd_infested",
       "spectrum:dd_granite",
       "spectrum:dd_diorite",

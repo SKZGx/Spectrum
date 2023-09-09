@@ -134,7 +134,7 @@ public class SpectrumFoodComponents {
 	
 	public static final FoodComponent DIVINATION_HEART = new FoodComponent.Builder()
 			.hunger(2).saturationModifier(0.2F).alwaysEdible()
-			.statusEffect(new StatusEffectInstance(SpectrumStatusEffects.DIVINITY, 600), 1.0F)
+			.statusEffect(new StatusEffectInstance(SpectrumStatusEffects.DIVINITY, 600, DivinityStatusEffect.ASCENSION_AMPLIFIER), 1.0F)
 			.build();
 	
 	public static final FoodComponent ROCK_CANDY = new FoodComponent.Builder()
@@ -311,7 +311,7 @@ public class SpectrumFoodComponents {
 			.build();
 	
 	public static final FoodComponent LIZARD_MEAT = new FoodComponent.Builder()
-			.hunger(2).saturationModifier(0.6F)
+			.hunger(2).saturationModifier(0.6F).meat()
 			.build();
 	
 	public static final FoodComponent GOLDEN_BRISTLE_TEA = new FoodComponent.Builder()
