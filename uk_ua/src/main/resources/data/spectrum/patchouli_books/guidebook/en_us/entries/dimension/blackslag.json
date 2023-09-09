@@ -5,13 +5,25 @@
   "category": "spectrum:dimension_category",
   "extra_recipe_mappings": {
     "spectrum:blackslag": 0,
-    "spectrum:infested_blackslag": 0
+    "spectrum:infested_blackslag": 0,
+    "spectrum:blackslag_coal_ore": 0,
+    "spectrum:blackslag_copper_ore": 0,
+    "spectrum:blackslag_iron_ore": 0,
+    "spectrum:blackslag_gold_ore": 0,
+    "spectrum:blackslag_diamond_ore": 0,
+    "spectrum:blackslag_redstone_ore": 0,
+    "spectrum:blackslag_lapis_ore": 0,
+    "spectrum:blackslag_emerald_ore": 0
   },
   "pages": [
     {
       "type": "spectrum:collection",
       "title": "Blackslag",
       "items": [
+        "spectrum:blackslag",
+        "spectrum:blackslag_stairs",
+        "spectrum:blackslag_slab",
+        "spectrum:blackslag_wall",
         "spectrum:cobbled_blackslag",
         "spectrum:cobbled_blackslag_stairs",
         "spectrum:cobbled_blackslag_slab",
