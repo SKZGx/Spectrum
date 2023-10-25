@@ -25,7 +25,10 @@ public class SpectrumEnchantmentHelper {
 	 */
 	public static ItemStack addOrExchangeEnchantment(ItemStack stack, Enchantment enchantment, int level, boolean forceEvenIfNotApplicable, boolean allowEnchantmentConflicts) {
 		// can this enchant even go on that tool?
-		if (!enchantment.isAcceptableItem(stack)) {
+		if (!enchantment.isAcceptableItem(stack)
+				&& !stack.isOf(Items.ENCHANTED_BOOK)
+				&& !SpectrumEnchantmentHelper.isEnchantableBook(stack)) {
+			
 			return stack;
 		}
 		
@@ -62,10 +65,15 @@ public class SpectrumEnchantmentHelper {
 		}
 		
 		Identifier enchantmentIdentifier = Registry.ENCHANTMENT.getId(enchantment);
-		NbtList nbtList = nbtCompound.getList(nbtString, 10);
+		NbtList nbtList = nbtCompound.getList(nbtString, NbtElement.COMPOUND_TYPE);
 		for (int i = 0; i < nbtList.size(); i++) {
 			NbtCompound enchantmentCompound = nbtList.getCompound(i);
 			if (enchantmentCompound.contains("id", NbtElement.STRING_TYPE) && Identifier.tryParse(enchantmentCompound.getString("id")).equals(enchantmentIdentifier)) {
+				boolean isEqualOrDowngrade = enchantmentCompound.contains("lvl", NbtElement.SHORT_TYPE) ? enchantmentCompound.getInt("lvl") >= level : false;
+				if (isEqualOrDowngrade) {
+					return stack;
+				}
+				
 				nbtList.remove(i);
 				i--;
 			}
