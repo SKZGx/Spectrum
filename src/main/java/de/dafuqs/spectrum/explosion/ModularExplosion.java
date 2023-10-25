@@ -1,6 +1,7 @@
 package de.dafuqs.spectrum.explosion;
 
 import com.mojang.datafixers.util.*;
+import de.dafuqs.spectrum.compat.claims.*;
 import de.dafuqs.spectrum.helpers.*;
 import de.dafuqs.spectrum.particle.*;
 import de.dafuqs.spectrum.registries.*;
@@ -116,13 +117,16 @@ public class ModularExplosion {
 		}
 	}
 	
-	private static List<BlockPos> processExplosion(@NotNull ServerWorld world, @Nullable PlayerEntity owner, BlockPos center, ExplosionShape shape, double blastRadius, ItemStack miningStack) { // TODO: process shape
+	private static List<BlockPos> processExplosion(@NotNull ServerWorld world, @Nullable PlayerEntity owner, BlockPos center, ExplosionShape shape, double blastRadius, ItemStack miningStack) {
 		Explosion explosion = new Explosion(world, owner, center.getX(), center.getY(), center.getZ(), (float) blastRadius);
 		
 		ObjectArrayList<Pair<ItemStack, BlockPos>> drops = new ObjectArrayList<>();
 		List<BlockPos> affectedBlocks = new ArrayList<>();
 		int radius = (int) blastRadius / 2;
 		for (BlockPos p : BlockPos.iterateOutwards(center, radius, radius, radius)) {
+			if (GenericClaimModsCompat.isProtected(world, p, owner)) {
+				continue;
+			}
 			if (shape.isAffected(center, p) && processBlock(world, owner, world.random, center, p, drops, miningStack, explosion)) {
 				affectedBlocks.add(new BlockPos(p.getX(), p.getY(), p.getZ()));
 			}
