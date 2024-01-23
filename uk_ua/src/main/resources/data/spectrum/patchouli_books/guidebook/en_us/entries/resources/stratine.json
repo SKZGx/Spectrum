@@ -1,5 +1,5 @@
 {
-  "name": "Stratine",
+  "name": "Стратин",
   "advancement": "spectrum:midgame/collect_stratine",
   "icon": "spectrum:stratine_fragments",
   "category": "spectrum:resources_category",
@@ -12,30 +12,30 @@
   "pages": [
     {
       "type": "patchouli:spotlight",
-      "title": "Stratine",
+      "title": "Стратин",
       "item": "spectrum:stratine_fragments",
-      "text": "This very heavy ore is scattered around the depths of the Nether.$(br)It's probably not the best idea to carry large amounts of it home at once."
+      "text": "Ця дуже важка руда розкидана по всій глибині Нідерландів.$(br)Напевно, не найкраща ідея везти велику її кількість додому за один раз."
     },
     {
       "type": "spectrum:pedestal_crafting",
-      "title": "Stratine Gem",
+      "title": "Самоцвіт стратину",
       "advancement": "spectrum:hidden/collect_stratine_gem",
       "recipe": "spectrum:pedestal/tier3/stratine_gem",
-      "text": "Rarely, an intact gem can be carved out and used in recipes for which fragments are too small. With effort, said fragments can also be made whole again."
+      "text": "Рідко вдається вирізати цілий камінь і використовувати його в рецептах, для яких фрагменти занадто малі. Доклавши певних зусиль, ці фрагменти також можна знову зробити цілісними."
     },
     {
       "type": "patchouli:spotlight",
-      "title": "Stratine Floatblock",
+      "title": "Стратиновий поплавок",
       "advancement": "spectrum:midgame/carry_too_many_heavy_gravity_blocks",
       "item": "spectrum:stratine_fragment_block",
-      "text": "Stratine - as you may have already noticed - is an exceptionally heavy material. And difficult to shape, too. Even the blazing heat of the Nether could not harm the material.$(br2)However, shaping it via your $(l:general/pedestal)Pedestal$() should not be a problem whatsoever."
+      "text": "Стратин - як ви вже могли помітити - надзвичайно важкий матеріал. А ще його важко формувати. Навіть палюча спека Нідерландів не змогла зашкодити матеріалу.$(br2)Однак, надання йому форми за допомогою вашого $(l:general/pedestal)Pedestal$() не повинно бути проблемою."
     },
     {
       "type": "spectrum:pedestal_crafting",
-      "title": "Pedestal Recipe",
+      "title": "Педестальний рецепт",
       "advancement": "spectrum:midgame/carry_too_many_heavy_gravity_blocks",
       "recipe": "spectrum:pedestal/tier1/compacting/stratine_fragment_block",
-      "text": "$(italic)Heavy Metal"
+      "text": "$(italic)Важкий метал"
     }
   ]
 }
