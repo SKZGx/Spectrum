@@ -1,0 +1,41 @@
+{
+  "name": "Стратин",
+  "advancement": "spectrum:midgame/collect_stratine",
+  "icon": "spectrum:stratine_fragments",
+  "category": "spectrum:resources_category",
+  "extra_recipe_mappings": {
+    "spectrum:stratine_ore": 0,
+    "spectrum:stratine_fragments": 0,
+    "spectrum:stratine_gem": 0,
+    "spectrum:stratine_fragment_block": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Стратин",
+      "item": "spectrum:stratine_fragments",
+      "text": "Ця дуже важка руда розкидана по всій глибині Незеру.$(br)Напевно, не найкраща ідея нести велику кількість матеріалу за один раз."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Самоцвіт стратину",
+      "advancement": "spectrum:hidden/collect_stratine_gem",
+      "recipe": "spectrum:pedestal/tier3/stratine_gem",
+      "text": "Рідко вдається вирізати цілий самоцвіт і використати його, але для деяких рецептів фрагменти занадто малі. Доклавши певних зусиль, ці дрібні фрагменти можна знову зробити цілісними."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Стратиновий поплавок",
+      "advancement": "spectrum:midgame/carry_too_many_heavy_gravity_blocks",
+      "item": "spectrum:stratine_fragment_block",
+      "text": "Стратин — як ви вже могли помітити, надзвичайно важкий матеріал. А ще його важко формувати. Навіть пекло Незеру не змогло нашкодити йому.$(br2)Однак, формування за допомогою $(l:general/pedestal)п'єдесталу$() не повинно бути проблемою."
+    },
+    {
+      "type": "spectrum:pedestal_crafting",
+      "title": "Рецепт п'єдесталу",
+      "advancement": "spectrum:midgame/carry_too_many_heavy_gravity_blocks",
+      "recipe": "spectrum:pedestal/tier1/compacting/stratine_fragment_block",
+      "text": "$(italic)Важкий метал"
+    }
+  ]
+}
